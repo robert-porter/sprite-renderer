@@ -1,0 +1,95 @@
+{
+  "signature": "4e42d4fe30aaf7f4c0f19d6d8db7a678b79c3f668e979f9e098a37b21727a105",
+  "sheetSha256": "af7ee1fa4bffadf0f45c3adc15f466d36795a5609bf1eadc0d40967e934963a7",
+  "clip": {
+    "image": "punch_jab_edited.png",
+    "frameCount": 10,
+    "fps": 11.538461538461538,
+    "duration": 0.8666666666666667,
+    "loop": false,
+    "label": "Punch Jab \u00b7 tailored edit (candidate)",
+    "category": "Candidates",
+    "sheetSize": [
+      4096,
+      1024
+    ],
+    "sourceAction": "Punch_Jab_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.888888888888889,
+      5.777777777777778,
+      8.666666666666666,
+      11.555555555555555,
+      14.444444444444445,
+      17.333333333333332,
+      20.22222222222222,
+      23.11111111111111,
+      26.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "variantOf": "punch_jab",
+    "reviewStatus": "candidate",
+    "reviewNote": "35\u00b0 ready pose; torso correction eases out during the strike to preserve the authored punch, then returns. Head offset 35\u00b0."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "character": "Universal Base \u00b7 Superhero Male",
+  "sourceUrl": "https://quaternius.com/packs/universalbasecharacters.html",
+  "frameSize": [
+    256,
+    256
+  ],
+  "facing": "right",
+  "cameraSide": "-X",
+  "projection": "orthographic",
+  "pivot": {
+    "x": 0.5498563647270203,
+    "y": 0.9103941544890404
+  },
+  "source": "assets/quaternius/universal/prepared.blend",
+  "animations": {
+    "idle": {
+      "image": "idle.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 2.5,
+      "loop": true,
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Idle_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "walk": {
+      "image": "walk.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Walk_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "jog": {
+      "image": "jog.png",
+      "frameCount": 1,
+      "fps": 11.785714285714285,
+      "duration": 0.9333333333333333,
+      "loop": true,
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Jog_Fwd_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "sprint": {
+      "image": "sprint.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 0.6666666666666666,
+      "loop": true,
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Sprint_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    }
+  }
+}

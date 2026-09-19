@@ -1,0 +1,47 @@
+{
+  "baseline_output": "output/universal",
+  "asset": "assets/quaternius/universal/teeter.blend",
+  "prepare_script": "scripts/prepare_teeter.py",
+  "render_script": "scripts/render_review_candidates.py",
+  "output": "output/universal/teeter",
+  "armature": "UniversalCharacter",
+  "size": 512,
+  "source_fps": 30,
+  "fps": 4,
+  "columns": 8,
+  "recipe": {
+    "source": "assets/quaternius/universal/idle-variants.blend",
+    "reference_action": "Idle_Open35_Head35",
+    "lean_degrees": 13,
+    "lean_sway_degrees": 0.6,
+    "hip_forward": -0.045,
+    "hip_lower": -0.035,
+    "arm_lift_degrees": 8,
+    "arm_sway_degrees": 0.1,
+    "hip_sway": 0.0015,
+    "hip_bob": 0.0005,
+    "neck_sway_degrees": 0.2
+  },
+  "animations": [
+    {
+      "name": "teeter",
+      "action": "Teeter_Forward_Loop",
+      "start": 0,
+      "end": 30,
+      "loop": true,
+      "label": "Teeter \u00b7 forward edge",
+      "category": "Custom animations",
+      "authored": true,
+      "note": "Quiet 4-frame loop over 1 second. Tiny body and shoulder sway; heels stay fixed with approximately 4 sprite pixels of support at 512px.",
+      "platform_edge": {
+        "x": 0.5594403743743896,
+        "y": 0.5650382936000824,
+        "supportPixels": 4.0
+      }
+    }
+  ],
+  "supersample": 2,
+  "samples": 32,
+  "render_device": "OPTIX",
+  "denoising_gpu": true
+}

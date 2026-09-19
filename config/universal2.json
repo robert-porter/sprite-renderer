@@ -1,0 +1,438 @@
+{
+  "baseline_output": "output/universal",
+  "asset": "assets/quaternius/universal/with-library2.blend",
+  "prepare_script": "scripts/prepare_universal2.py",
+  "render_script": "scripts/render_review_candidates.py",
+  "output": "output/universal/library2",
+  "armature": "UniversalCharacter",
+  "size": 512,
+  "source_fps": 30,
+  "fps": 12,
+  "columns": 8,
+  "animations": [
+    {
+      "name": "ual2_ninjajump_start",
+      "action": "UAL2_NinjaJump_Start",
+      "start": 0.0,
+      "end": 29.0,
+      "loop": false,
+      "label": "UAL2 NinjaJump Start",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_ninjajump_idle_loop",
+      "action": "UAL2_NinjaJump_Idle_Loop",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": true,
+      "label": "UAL2 NinjaJump Idle",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_ninjajump_land",
+      "action": "UAL2_NinjaJump_Land",
+      "start": 0.0,
+      "end": 38.0,
+      "loop": false,
+      "label": "UAL2 NinjaJump Land",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_slide_start",
+      "action": "UAL2_Slide_Start",
+      "start": 0.0,
+      "end": 25.0,
+      "loop": false,
+      "label": "UAL2 Slide Start",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_slide_loop",
+      "action": "UAL2_Slide_Loop",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": true,
+      "label": "UAL2 Slide",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_slide_exit",
+      "action": "UAL2_Slide_Exit",
+      "start": 0.0,
+      "end": 15.0,
+      "loop": false,
+      "label": "UAL2 Slide Exit",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_sword_regular_combo",
+      "action": "UAL2_Sword_Regular_Combo",
+      "start": 0.0,
+      "end": 90.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular Combo",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_sword_block",
+      "action": "UAL2_Sword_Block",
+      "start": 0.0,
+      "end": 37.0,
+      "loop": false,
+      "label": "UAL2 Sword Block",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_melee_hook",
+      "action": "UAL2_Melee_Hook",
+      "start": 0.0,
+      "end": 14.0,
+      "loop": false,
+      "label": "UAL2 Melee Hook",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_melee_hook_rec",
+      "action": "UAL2_Melee_Hook_Rec",
+      "start": 0.0,
+      "end": 18.0,
+      "loop": false,
+      "label": "UAL2 Melee Hook Rec",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_zombie_walk_fwd_loop",
+      "action": "UAL2_Zombie_Walk_Fwd_Loop",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": true,
+      "label": "UAL2 Zombie Walk Fwd",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_treechopping_loop",
+      "action": "UAL2_TreeChopping_Loop",
+      "start": 0.0,
+      "end": 29.0,
+      "loop": true,
+      "label": "UAL2 TreeChopping",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_chest_open",
+      "action": "UAL2_Chest_Open",
+      "start": 0.0,
+      "end": 41.0,
+      "loop": false,
+      "label": "UAL2 Chest Open",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_climbup_1m",
+      "action": "UAL2_ClimbUp_1m",
+      "start": 0.0,
+      "end": 20.0,
+      "loop": false,
+      "label": "UAL2 ClimbUp 1m",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_consume",
+      "action": "UAL2_Consume",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": false,
+      "label": "UAL2 Consume",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_farm_harvest",
+      "action": "UAL2_Farm_Harvest",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": false,
+      "label": "UAL2 Farm Harvest",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_farm_plantseed",
+      "action": "UAL2_Farm_PlantSeed",
+      "start": 0.0,
+      "end": 83.0,
+      "loop": false,
+      "label": "UAL2 Farm PlantSeed",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_farm_watering",
+      "action": "UAL2_Farm_Watering",
+      "start": 0.0,
+      "end": 114.0,
+      "loop": false,
+      "label": "UAL2 Farm Watering",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_hit_knockback",
+      "action": "UAL2_Hit_Knockback",
+      "start": 0.0,
+      "end": 25.0,
+      "loop": false,
+      "label": "UAL2 Hit Knockback",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_idle_foldarms_loop",
+      "action": "UAL2_Idle_FoldArms_Loop",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle FoldArms",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_idle_lantern_loop",
+      "action": "UAL2_Idle_Lantern_Loop",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle Lantern",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_idle_no_loop",
+      "action": "UAL2_Idle_No_Loop",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle No",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_idle_rail_call",
+      "action": "UAL2_Idle_Rail_Call",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": false,
+      "label": "UAL2 Idle Rail Call",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_idle_rail_loop",
+      "action": "UAL2_Idle_Rail_Loop",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle Rail",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_idle_shield_break",
+      "action": "UAL2_Idle_Shield_Break",
+      "start": 0.0,
+      "end": 32.0,
+      "loop": false,
+      "label": "UAL2 Idle Shield Break",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_idle_shield_loop",
+      "action": "UAL2_Idle_Shield_Loop",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle Shield",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_idle_talkingphone_loop",
+      "action": "UAL2_Idle_TalkingPhone_Loop",
+      "start": 0.0,
+      "end": 88.0,
+      "loop": true,
+      "label": "UAL2 Idle TalkingPhone",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_laytoidle",
+      "action": "UAL2_LayToIdle",
+      "start": 0.0,
+      "end": 46.0,
+      "loop": false,
+      "label": "UAL2 LayToIdle",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_overhandthrow",
+      "action": "UAL2_OverhandThrow",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": false,
+      "label": "UAL2 OverhandThrow",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_shield_dash",
+      "action": "UAL2_Shield_Dash",
+      "start": 0.0,
+      "end": 33.0,
+      "loop": false,
+      "label": "UAL2 Shield Dash",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_shield_oneshot",
+      "action": "UAL2_Shield_OneShot",
+      "start": 0.0,
+      "end": 25.0,
+      "loop": false,
+      "label": "UAL2 Shield OneShot",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_sword_dash",
+      "action": "UAL2_Sword_Dash",
+      "start": 0.0,
+      "end": 47.0,
+      "loop": false,
+      "label": "UAL2 Sword Dash",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_sword_heavy_combo",
+      "action": "UAL2_Sword_Heavy_Combo",
+      "start": 0.0,
+      "end": 130.0,
+      "loop": false,
+      "label": "UAL2 Sword Heavy Combo",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_sword_regular_a",
+      "action": "UAL2_Sword_Regular_A",
+      "start": 0.0,
+      "end": 13.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular A",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_sword_regular_a_rec",
+      "action": "UAL2_Sword_Regular_A_Rec",
+      "start": 0.0,
+      "end": 29.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular A Rec",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_sword_regular_b",
+      "action": "UAL2_Sword_Regular_B",
+      "start": 0.0,
+      "end": 16.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular B",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_sword_regular_b_rec",
+      "action": "UAL2_Sword_Regular_B_Rec",
+      "start": 0.0,
+      "end": 31.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular B Rec",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_sword_regular_c",
+      "action": "UAL2_Sword_Regular_C",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular C",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_walk_carry_loop",
+      "action": "UAL2_Walk_Carry_Loop",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": true,
+      "label": "UAL2 Walk Carry",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_yes",
+      "action": "UAL2_Yes",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": false,
+      "label": "UAL2 Yes",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_zombie_idle_loop",
+      "action": "UAL2_Zombie_Idle_Loop",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": true,
+      "label": "UAL2 Zombie Idle",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    },
+    {
+      "name": "ual2_zombie_scratch",
+      "action": "UAL2_Zombie_Scratch",
+      "start": 0.0,
+      "end": 54.0,
+      "loop": false,
+      "label": "UAL2 Zombie Scratch",
+      "category": "Library 2",
+      "note": "Library 2 source pose; no torso or head correction applied."
+    }
+  ],
+  "supersample": 2,
+  "samples": 32,
+  "render_device": "OPTIX",
+  "denoising_gpu": true
+}

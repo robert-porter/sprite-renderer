@@ -1,0 +1,81 @@
+{
+  "signature": "aa4079997bf4a0c6488bde7521be0ed4bcb4c075bcdd841474041d8d34f0521b",
+  "sheetSha256": "45cd7b9cef89e187d7a4a9dbb09e0bb85b60a34ae21bac87f9bc627215ce4241",
+  "clip": {
+    "image": "pistol_shoot_edited.png",
+    "frameCount": 8,
+    "fps": 12.631578947368421,
+    "duration": 0.6333333333333333,
+    "loop": false,
+    "label": "Pistol Shoot \u00b7 head +25\u00b0 (candidate)",
+    "category": "Candidates",
+    "sheetSize": [
+      4096,
+      512
+    ],
+    "sourceAction": "Pistol_Shoot_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.7142857142857144,
+      5.428571428571429,
+      8.142857142857142,
+      10.857142857142858,
+      13.571428571428571,
+      16.285714285714285,
+      19.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "variantOf": "pistol_shoot",
+    "reviewStatus": "candidate",
+    "reviewNote": "Original aim and hand motion; head turns an additional 25\u00b0 while retaining source pitch."
+  }
+}

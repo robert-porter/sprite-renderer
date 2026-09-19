@@ -1,0 +1,94 @@
+{
+  "signature": "4fe08d80fbffccef117422f118f46c77307c1e7d7a9eb2ee73e94dc5d194dbd8",
+  "sheetSha256": "a60cef44e128923d90f2a31db5d4290d14bae115b6ae215ac66af8da753bc208",
+  "clip": {
+    "image": "ual2_hit_knockback.png",
+    "frameCount": 10,
+    "fps": 12.0,
+    "duration": 0.8333333333333334,
+    "loop": false,
+    "label": "UAL2 Hit Knockback",
+    "category": "Library 2",
+    "sheetSize": [
+      4096,
+      1024
+    ],
+    "sourceAction": "UAL2_Hit_Knockback",
+    "sourceFrames": [
+      0.0,
+      2.7777777777777777,
+      5.555555555555555,
+      8.333333333333334,
+      11.11111111111111,
+      13.88888888888889,
+      16.666666666666668,
+      19.444444444444443,
+      22.22222222222222,
+      25.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Library 2 source pose; no torso or head correction applied."
+  }
+}

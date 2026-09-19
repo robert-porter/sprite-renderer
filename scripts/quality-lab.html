@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Walk · render quality lab</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#141a23;color:#edf4ff;font:15px system-ui,sans-serif}main{max-width:1160px;margin:32px auto;padding:0 24px}h1{font-size:30px;margin:8px 0}p{color:#b1c0d3;line-height:1.6}.eyebrow{font-size:11px;letter-spacing:2px;color:#86e0b5}.toolbar{display:flex;gap:16px;align-items:end;flex-wrap:wrap;margin:24px 0}label{display:block;font-size:13px;color:#b1c0d3;margin-bottom:7px}select,button{font:inherit;color:inherit;background:#263345;border:1px solid #46566c;border-radius:6px;padding:10px 14px}button{cursor:pointer}button.primary{background:#86e0b5;color:#183a2c}.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:#1e2835;border:1px solid #354255;border-radius:12px;overflow:hidden}.heading{padding:16px}.heading select{width:100%}.stage{background:conic-gradient(#293443 25%,#25303e 0 50%,#293443 0 75%,#25303e 0) 0 0/24px 24px}canvas{display:block;width:100%;height:370px}.info{padding:14px 16px;color:#b1c0d3;font-size:13px;min-height:86px;line-height:1.6}.timeline{display:flex;gap:16px;align-items:center;margin:22px 0}.timeline input{flex:1;accent-color:#86e0b5}.small{font-size:13px;color:#b1c0d3;line-height:1.6}table{border-collapse:collapse;width:100%;margin:24px 0;font-size:13px}td,th{text-align:left;padding:12px;border-bottom:1px solid #354255}th{color:#b1c0d3}a{color:#86e0b5}.error{color:#ffb0a9}@media(max-width:720px){.pair{grid-template-columns:1fr}main{padding:0 12px}canvas{height:320px}}
+</style>
+<main><div class="eyebrow">RENDER QUALITY / WALK STUDY</div><h1>Edges first. One cycle.</h1>
+<p>Same walk, pose, camera, lighting and timing. Compare the export resolution and display filtering before rebuilding the library.</p>
+<div class="toolbar"><button id="play" class="primary">Pause</button><button id="restart">Restart</button>
+<div><label for="scale">Display scale relative to a 256px frame</label><select id="scale"><option value="1">1× · game-size check</option><option value="2" selected>2× · enlarged</option><option value="3">3× · close inspection</option></select></div>
+<div><label for="background">Background</label><select id="background"><option value="checker">Checker</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div>
+<div class="pair"><section class="card"><div class="heading"><label for="left">Left version</label><select id="left"></select></div><div class="stage"><canvas id="canvas-left" aria-label="Left synchronized walk preview"></canvas></div><div id="info-left" class="info"></div></section>
+<section class="card"><div class="heading"><label for="right">Right version</label><select id="right"></select></div><div class="stage"><canvas id="canvas-right" aria-label="Right synchronized walk preview"></canvas></div><div id="info-right" class="info"></div></section></div>
+<div class="timeline"><label for="frame">Frame</label><input id="frame" type="range" min="0" value="0" step="1"><span id="frame-label"></span></div>
+<div id="status" class="small" aria-live="polite">Loading…</div>
+<p class="small">Start with <b>current / smooth</b> on the right to isolate the browser filtering. Then compare <b>256 supersampled</b> against <b>512 supersampled</b> at the same display scale. Use Light and Dark to inspect transparent edges. Supersampling improves edge coverage; a larger export also retains more face and hand detail.</p>
+<table><thead><tr><th>Export</th><th>Frame size</th><th>PNG sheet</th><th>RGBA texture memory*</th></tr></thead><tbody id="costs"></tbody></table>
+<p id="render-cost" class="small"></p><p class="small">*Base-level RGBA8 atlas memory; excludes mipmaps and engine overhead. PNG download size is separate. The camera and normalized ground pivot are unchanged; compare physical size, not raw pixel dimensions.</p>
+<a href="../preview.html">Back to animation browser</a></main>
+<script>
+const data=__COMPARISON__;
+const $=id=>document.getElementById(id);
+const variants=Object.fromEntries(data.variants.map(v=>[v.id,v]));
+const options=[['current-nearest','Current 256 · nearest (old preview)','current',false],['current-smooth','Current 256 · smooth','current',true],['aa256','256 · supersampled + smooth','aa256',true],['aa512','512 · supersampled + smooth','aa512',true],['ref1024','1024 · reference + smooth','ref1024',true]];
+for(const side of ['left','right'])for(const [id,title] of options){const o=document.createElement('option');o.value=id;o.textContent=title;$(side).append(o);}
+$('left').value='current-nearest';$('right').value='aa512';
+const images={};let loaded=0,failed=0,playing=true,time=0,last=null;
+for(const v of data.variants){const im=new Image();im.onload=()=>{loaded++;status()};im.onerror=()=>{failed++;status()};im.src=v.image;images[v.id]=im;}
+function status(){$('status').textContent=`${loaded}/${data.variants.length} sheets loaded${failed?' · '+failed+' failed':''} · ${data.frameCount} synchronized frames · ${data.fps.toFixed(1)} fps · ${data.duration.toFixed(2)} s`;$('status').className=failed?'small error':'small';}
+$('frame').max=data.frameCount-1;
+$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'Pause':'Play'};
+$('restart').onclick=()=>{time=0;playing=true;$('play').textContent='Pause'};
+$('frame').oninput=()=>{time=Number($('frame').value)/data.fps;playing=false;$('play').textContent='Play'};
+$('background').onchange=()=>{for(const stage of document.querySelectorAll('.stage'))stage.style.background=$('background').value==='light'?'#f2f3f5':$('background').value==='dark'?'#101319':'';};
+$('scale').onchange=()=>{for(const canvas of document.querySelectorAll('canvas'))canvas.style.height=Number($('scale').value)===3?'460px':'370px';};
+const contexts={};
+for(const side of ['left','right']){const canvas=$('canvas-'+side);contexts[side]=canvas.getContext('2d');new ResizeObserver(()=>{const r=canvas.getBoundingClientRect(),dpr=window.devicePixelRatio||1;canvas.width=Math.round(r.width*dpr);canvas.height=Math.round(r.height*dpr);}).observe(canvas);}
+function draw(side,index){
+ const option=options.find(o=>o[0]===$(side).value),v=variants[option[2]],im=images[v.id],c=$('canvas-'+side),ctx=contexts[side];
+ const dpr=window.devicePixelRatio||1;ctx.setTransform(dpr,0,0,dpr,0,0);const cw=c.width/dpr,ch=c.height/dpr;ctx.clearRect(0,0,cw,ch);
+ const width=256*Number($('scale').value),dx=cw/2-data.pivot.x*width,dy=ch-32-data.pivot.y*width;
+ ctx.strokeStyle='#86e0b560';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(0,ch-32);ctx.lineTo(cw,ch-32);ctx.stroke();
+ if(im.complete&&im.naturalWidth){const f=v.frames[index];ctx.imageSmoothingEnabled=option[3];ctx.imageSmoothingQuality='high';ctx.drawImage(im,f.x,f.y,f.w,f.h,dx,dy,width,width);}
+ $('info-'+side).textContent=v.detail+' '+(option[3]?'Smooth display filtering.':'Nearest-neighbor display filtering.');
+}
+function tick(now){const dt=last===null?0:Math.min(.1,(now-last)/1000);last=now;if(playing&&loaded===data.variants.length)time=(time+dt)%data.duration;const index=Math.min(data.frameCount-1,Math.floor(time*data.fps));$('frame').value=index;$('frame-label').textContent=(index+1)+' / '+data.frameCount;draw('left',index);draw('right',index);requestAnimationFrame(tick);}
+for(const v of data.variants){const row=document.createElement('tr');for(const text of [v.title,v.size+' × '+v.size,(v.pngBytes/1024).toFixed(0)+' KiB',(v.textureBytes/1048576).toFixed(1)+' MiB']){const cell=document.createElement('td');cell.textContent=text;row.append(cell);}$('costs').append(row);}
+$('render-cost').textContent=`Study cost: ${data.frameCount} new 1024px renders at ${data.samples} samples. Rendering: ${data.renderSeconds.toFixed(1)} s; downsampling: ${data.postSeconds.toFixed(1)} s. The 256px and 512px candidates come from the same high-resolution frames.`;
+requestAnimationFrame(tick);
+</script></html>

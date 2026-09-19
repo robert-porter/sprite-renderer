@@ -1,0 +1,64 @@
+{
+  "signature": "c2ed585492251e6792a2b109a12d1cd8774db7d18e3b60f4576a6589ec16fa73",
+  "sheetSha256": "ba3eb7e21751ac00d33a60b1c737043c780e3234957b3e928d6603a7e258316e",
+  "clip": {
+    "image": "spell_simple_shoot.png",
+    "frameCount": 6,
+    "fps": 12.0,
+    "duration": 0.5,
+    "loop": false,
+    "label": "Spell Simple Shoot",
+    "category": "Magic",
+    "sheetSize": [
+      3072,
+      512
+    ],
+    "sourceAction": "Spell_Simple_Shoot",
+    "sourceFrames": [
+      0.0,
+      3.0,
+      6.0,
+      9.0,
+      12.0,
+      15.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ]
+  }
+}

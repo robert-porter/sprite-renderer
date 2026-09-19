@@ -1,0 +1,74 @@
+{
+  "signature": "f045a7b48a65d8aef87efea7f584be89cf825bde77183026f8724fb80dd24742",
+  "sheetSha256": "a87ecd7d62f3dd2d4e01ec15a67922161b9443090bbe354f025a41ebeaa2e8a6",
+  "clip": {
+    "image": "ual2_melee_hook_rec_edited.png",
+    "frameCount": 7,
+    "fps": 11.666666666666668,
+    "duration": 0.6,
+    "loop": false,
+    "label": "UAL2 Melee Hook Rec \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      3584,
+      512
+    ],
+    "sourceAction": "UAL2_Melee_Hook_Rec_SideScroller",
+    "sourceFrames": [
+      0.0,
+      3.0,
+      6.0,
+      9.0,
+      12.0,
+      15.0,
+      18.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Match hook endpoint and restore edited idle through recovery.",
+    "variantOf": "ual2_melee_hook_rec"
+  }
+}

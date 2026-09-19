@@ -1,0 +1,637 @@
+{
+  "baseline_output": "output/universal",
+  "asset": "assets/quaternius/universal/idle-variants.blend",
+  "output": "output/universal/review-candidates",
+  "armature": "UniversalCharacter",
+  "size": 512,
+  "source_fps": 30,
+  "fps": 6,
+  "columns": 8,
+  "animations": [
+    {
+      "name": "idle_open35_head35",
+      "action": "Idle_Open35_Head35",
+      "start": 0,
+      "end": 75,
+      "loop": true,
+      "label": "Idle \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "idle",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "walk_open35_head35",
+      "action": "Walk_Open35_Head35",
+      "start": 0,
+      "end": 40,
+      "fps": 12,
+      "loop": true,
+      "label": "Walk \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "walk",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 28.0,
+      "loop": true,
+      "name": "jog_open35_head35",
+      "action": "Jog_Fwd_Loop_Open35_Head35",
+      "fps": 12,
+      "label": "Jog Fwd \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "jog",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "loop": true,
+      "name": "sprint_open35_head35",
+      "action": "Sprint_Loop_Open35_Head35",
+      "fps": 12,
+      "label": "Sprint \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "sprint",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 60.0,
+      "loop": true,
+      "name": "crouch_fwd_open35_head35",
+      "action": "Crouch_Fwd_Loop_Open35_Head35",
+      "fps": 12,
+      "label": "Crouch Fwd \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "crouch_fwd",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 88.0,
+      "loop": true,
+      "name": "crouch_idle_open35_head35",
+      "action": "Crouch_Idle_Loop_Open35_Head35",
+      "fps": 12,
+      "label": "Crouch Idle \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "crouch_idle",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 88.0,
+      "loop": true,
+      "name": "idle_talking_open35_head35",
+      "action": "Idle_Talking_Loop_Open35_Head35",
+      "fps": 12,
+      "label": "Idle Talking \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "idle_talking",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 38.0,
+      "loop": true,
+      "name": "idle_torch_open35_head35",
+      "action": "Idle_Torch_Loop_Open35_Head35",
+      "fps": 12,
+      "label": "Idle Torch \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "idle_torch",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "name": "jump_open35_head35",
+      "action": "Jump_Loop_Open35_Head35",
+      "fps": 12,
+      "label": "Jump \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "jump",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 38.0,
+      "loop": false,
+      "name": "jump_land_open35_head35",
+      "action": "Jump_Land_Open35_Head35",
+      "fps": 12,
+      "label": "Jump Land \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "jump_land",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 40.0,
+      "loop": false,
+      "name": "jump_start_open35_head35",
+      "action": "Jump_Start_Open35_Head35",
+      "fps": 12,
+      "label": "Jump Start \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "jump_start",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 44.0,
+      "loop": false,
+      "name": "roll_open35_head35",
+      "action": "Roll_Open35_Head35",
+      "fps": 12,
+      "label": "Roll \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "roll",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "pelvis"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 40.0,
+      "loop": true,
+      "name": "walk_formal_open35_head35",
+      "action": "Walk_Formal_Loop_Open35_Head35",
+      "fps": 12,
+      "label": "Walk Formal \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "walk_formal",
+      "pose": {
+        "turn": 35,
+        "head_compensation": 0,
+        "axis": "world"
+      }
+    },
+    {
+      "start": 0.0,
+      "end": 72.0,
+      "loop": false,
+      "name": "death01_edited",
+      "action": "Death01_SideScroller",
+      "fps": 12,
+      "label": "Death01 \u00b7 tailored edit (candidate)",
+      "category": "Candidates",
+      "variant_of": "death01",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "pelvis"
+      },
+      "note": "35\u00b0 torso/head correction preserving the source reaction; death twist follows the body through the fall."
+    },
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "loop": false,
+      "name": "hit_chest_edited",
+      "action": "Hit_Chest_SideScroller",
+      "fps": 12,
+      "label": "Hit Chest \u00b7 tailored edit (candidate)",
+      "category": "Candidates",
+      "variant_of": "hit_chest",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      },
+      "note": "35\u00b0 torso/head correction preserving the original hit reaction."
+    },
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "loop": false,
+      "name": "hit_head_edited",
+      "action": "Hit_Head_SideScroller",
+      "fps": 12,
+      "label": "Hit Head \u00b7 tailored edit (candidate)",
+      "category": "Candidates",
+      "variant_of": "hit_head",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      },
+      "note": "35\u00b0 torso/head correction preserving the original hit reaction."
+    },
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "loop": false,
+      "name": "pistol_aim_down_edited",
+      "action": "Pistol_Aim_Down_SideScroller",
+      "fps": 12,
+      "label": "Pistol Aim Down \u00b7 head +25\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "pistol_aim_down",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      },
+      "note": "Original aim and hand motion; head turns an additional 25\u00b0 while retaining source pitch."
+    },
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "loop": false,
+      "name": "pistol_aim_neutral_edited",
+      "action": "Pistol_Aim_Neutral_SideScroller",
+      "fps": 12,
+      "label": "Pistol Aim Neutral \u00b7 head +25\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "pistol_aim_neutral",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      },
+      "note": "Original aim and hand motion; head turns an additional 25\u00b0 while retaining source pitch."
+    },
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "loop": false,
+      "name": "pistol_aim_up_edited",
+      "action": "Pistol_Aim_Up_SideScroller",
+      "fps": 12,
+      "label": "Pistol Aim Up \u00b7 head +25\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "pistol_aim_up",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      },
+      "note": "Original aim and hand motion; head turns an additional 25\u00b0 while retaining source pitch."
+    },
+    {
+      "start": 0.0,
+      "end": 50.0,
+      "loop": true,
+      "name": "pistol_idle_edited",
+      "action": "Pistol_Idle_Loop_SideScroller",
+      "fps": 12,
+      "label": "Pistol Idle \u00b7 head +25\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "pistol_idle",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      },
+      "note": "Original aim and hand motion; head turns an additional 25\u00b0 while retaining source pitch."
+    },
+    {
+      "start": 0.0,
+      "end": 50.0,
+      "loop": false,
+      "name": "pistol_reload_edited",
+      "action": "Pistol_Reload_SideScroller",
+      "fps": 12,
+      "label": "Pistol Reload \u00b7 tailored edit (candidate)",
+      "category": "Candidates",
+      "variant_of": "pistol_reload",
+      "pose": {
+        "turn": 0,
+        "head_turn": [
+          [
+            0,
+            25
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.7,
+            0
+          ],
+          [
+            1,
+            25
+          ]
+        ],
+        "axis": "world"
+      },
+      "note": "Original reload body motion; head correction eases out while looking at the hands, then returns to 25\u00b0."
+    },
+    {
+      "start": 0.0,
+      "end": 19.0,
+      "loop": false,
+      "name": "pistol_shoot_edited",
+      "action": "Pistol_Shoot_SideScroller",
+      "fps": 12,
+      "label": "Pistol Shoot \u00b7 head +25\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "pistol_shoot",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      },
+      "note": "Original aim and hand motion; head turns an additional 25\u00b0 while retaining source pitch."
+    },
+    {
+      "start": 0.0,
+      "end": 30.0,
+      "loop": false,
+      "name": "punch_cross_edited",
+      "action": "Punch_Cross_SideScroller",
+      "fps": 12,
+      "label": "Punch Cross \u00b7 tailored edit (candidate)",
+      "category": "Candidates",
+      "variant_of": "punch_cross",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.2,
+            0
+          ],
+          [
+            0.7,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": 35,
+        "axis": "world"
+      },
+      "note": "35\u00b0 ready pose; torso correction eases out during the strike to preserve the authored punch, then returns. Head offset 35\u00b0."
+    },
+    {
+      "start": 0.0,
+      "end": 26.0,
+      "loop": false,
+      "name": "punch_jab_edited",
+      "action": "Punch_Jab_SideScroller",
+      "fps": 12,
+      "label": "Punch Jab \u00b7 tailored edit (candidate)",
+      "category": "Candidates",
+      "variant_of": "punch_jab",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.2,
+            0
+          ],
+          [
+            0.7,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": 35,
+        "axis": "world"
+      },
+      "note": "35\u00b0 ready pose; torso correction eases out during the strike to preserve the authored punch, then returns. Head offset 35\u00b0."
+    },
+    {
+      "start": 0.0,
+      "end": 46.0,
+      "loop": false,
+      "name": "sword_attack_edited",
+      "action": "Sword_Attack_SideScroller",
+      "fps": 12,
+      "label": "Sword Attack \u00b7 head +25\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "sword_attack",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      },
+      "note": "Original torso and sword swing; head turns an additional 25\u00b0."
+    },
+    {
+      "start": 0.0,
+      "end": 50.0,
+      "loop": true,
+      "name": "sword_idle_edited",
+      "action": "Sword_Idle_SideScroller",
+      "fps": 12,
+      "label": "Sword Idle \u00b7 head +25\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "sword_idle",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      },
+      "note": "Original torso and sword swing; head turns an additional 25\u00b0."
+    },
+    {
+      "start": 0.0,
+      "end": 16.0,
+      "loop": false,
+      "name": "spell_simple_enter_edited",
+      "action": "Spell_Simple_Enter_SideScroller",
+      "fps": 12,
+      "label": "Spell Simple Enter \u00b7 tailored edit (candidate)",
+      "category": "Candidates",
+      "variant_of": "spell_simple_enter",
+      "pose": {
+        "turn": [
+          [
+            0.0,
+            35
+          ],
+          [
+            0.125,
+            29.491
+          ],
+          [
+            0.25,
+            19.022
+          ],
+          [
+            0.375,
+            11.279
+          ],
+          [
+            0.5,
+            5.35
+          ],
+          [
+            0.625,
+            1.021
+          ],
+          [
+            0.75,
+            -0.922
+          ],
+          [
+            0.875,
+            -0.391
+          ],
+          [
+            1.0,
+            0
+          ]
+        ],
+        "head_turn": 35,
+        "axis": "world"
+      },
+      "note": "Torso offset blends between edited movement idle and the original spell stance; head offset stays 35\u00b0."
+    },
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "loop": false,
+      "name": "spell_simple_exit_edited",
+      "action": "Spell_Simple_Exit_SideScroller",
+      "fps": 12,
+      "label": "Spell Simple Exit \u00b7 tailored edit (candidate)",
+      "category": "Candidates",
+      "variant_of": "spell_simple_exit",
+      "pose": {
+        "turn": [
+          [
+            0.0,
+            0
+          ],
+          [
+            0.125,
+            -0.391
+          ],
+          [
+            0.25,
+            -1.322
+          ],
+          [
+            0.375,
+            -0.179
+          ],
+          [
+            0.5,
+            3.85
+          ],
+          [
+            0.625,
+            10.079
+          ],
+          [
+            0.75,
+            18.222
+          ],
+          [
+            0.875,
+            29.291
+          ],
+          [
+            1.0,
+            35
+          ]
+        ],
+        "head_turn": 35,
+        "axis": "world"
+      },
+      "note": "Torso offset blends between edited movement idle and the original spell stance; head offset stays 35\u00b0."
+    },
+    {
+      "start": 0.0,
+      "end": 62.999996185302734,
+      "loop": true,
+      "name": "spell_simple_idle_edited",
+      "action": "Spell_Simple_Idle_Loop_SideScroller",
+      "fps": 12,
+      "label": "Spell Simple Idle \u00b7 head +35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "spell_simple_idle",
+      "pose": {
+        "turn": 0,
+        "head_turn": 35,
+        "axis": "world"
+      },
+      "note": "Original body and hand motion; head turns 35\u00b0 toward viewer."
+    },
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "loop": false,
+      "name": "spell_simple_shoot_edited",
+      "action": "Spell_Simple_Shoot_SideScroller",
+      "fps": 12,
+      "label": "Spell Simple Shoot \u00b7 head +35\u00b0 (candidate)",
+      "category": "Candidates",
+      "variant_of": "spell_simple_shoot",
+      "pose": {
+        "turn": 0,
+        "head_turn": 35,
+        "axis": "world"
+      },
+      "note": "Original body and hand motion; head turns 35\u00b0 toward viewer."
+    }
+  ],
+  "supersample": 2,
+  "samples": 32,
+  "render_device": "OPTIX",
+  "denoising_gpu": true
+}

@@ -1,0 +1,389 @@
+[
+  {
+    "action": "UAL2_A_TPose",
+    "source_action": "A_TPose",
+    "start": 0.0,
+    "end": 75.0,
+    "duration": 2.5,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Chest_Open",
+    "source_action": "Chest_Open",
+    "start": 0.0,
+    "end": 41.0,
+    "duration": 1.3666666666666667,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_ClimbUp_1m",
+    "source_action": "ClimbUp_1m",
+    "start": 0.0,
+    "end": 20.0,
+    "duration": 0.6666666666666666,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Consume",
+    "source_action": "Consume",
+    "start": 0.0,
+    "end": 40.0,
+    "duration": 1.3333333333333333,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Farm_Harvest",
+    "source_action": "Farm_Harvest",
+    "start": 0.0,
+    "end": 75.0,
+    "duration": 2.5,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Farm_PlantSeed",
+    "source_action": "Farm_PlantSeed",
+    "start": 0.0,
+    "end": 83.0,
+    "duration": 2.7666666666666666,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Farm_Watering",
+    "source_action": "Farm_Watering",
+    "start": 0.0,
+    "end": 114.0,
+    "duration": 3.8,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Hit_Knockback",
+    "source_action": "Hit_Knockback",
+    "start": 0.0,
+    "end": 25.0,
+    "duration": 0.8333333333333334,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Idle_FoldArms_Loop",
+    "source_action": "Idle_FoldArms_Loop",
+    "start": 0.0,
+    "end": 75.0,
+    "duration": 2.5,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Idle_Lantern_Loop",
+    "source_action": "Idle_Lantern_Loop",
+    "start": 0.0,
+    "end": 75.0,
+    "duration": 2.5,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Idle_No_Loop",
+    "source_action": "Idle_No_Loop",
+    "start": 0.0,
+    "end": 75.0,
+    "duration": 2.5,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Idle_Rail_Call",
+    "source_action": "Idle_Rail_Call",
+    "start": 0.0,
+    "end": 75.0,
+    "duration": 2.5,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Idle_Rail_Loop",
+    "source_action": "Idle_Rail_Loop",
+    "start": 0.0,
+    "end": 75.0,
+    "duration": 2.5,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Idle_Shield_Break",
+    "source_action": "Idle_Shield_Break",
+    "start": 0.0,
+    "end": 32.0,
+    "duration": 1.0666666666666667,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Idle_Shield_Loop",
+    "source_action": "Idle_Shield_Loop",
+    "start": 0.0,
+    "end": 75.0,
+    "duration": 2.5,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Idle_TalkingPhone_Loop",
+    "source_action": "Idle_TalkingPhone_Loop",
+    "start": 0.0,
+    "end": 88.0,
+    "duration": 2.933333333333333,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_LayToIdle",
+    "source_action": "LayToIdle",
+    "start": 0.0,
+    "end": 46.0,
+    "duration": 1.5333333333333334,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Melee_Hook",
+    "source_action": "Melee_Hook",
+    "start": 0.0,
+    "end": 14.0,
+    "duration": 0.4666666666666667,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Melee_Hook_Rec",
+    "source_action": "Melee_Hook_Rec",
+    "start": 0.0,
+    "end": 18.0,
+    "duration": 0.6,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_NinjaJump_Idle_Loop",
+    "source_action": "NinjaJump_Idle_Loop",
+    "start": 0.0,
+    "end": 60.0,
+    "duration": 2.0,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_NinjaJump_Land",
+    "source_action": "NinjaJump_Land",
+    "start": 0.0,
+    "end": 38.0,
+    "duration": 1.2666666666666666,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_NinjaJump_Start",
+    "source_action": "NinjaJump_Start",
+    "start": 0.0,
+    "end": 29.0,
+    "duration": 0.9666666666666667,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_OverhandThrow",
+    "source_action": "OverhandThrow",
+    "start": 0.0,
+    "end": 40.0,
+    "duration": 1.3333333333333333,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Shield_Dash",
+    "source_action": "Shield_Dash",
+    "start": 0.0,
+    "end": 33.0,
+    "duration": 1.1,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Shield_OneShot",
+    "source_action": "Shield_OneShot",
+    "start": 0.0,
+    "end": 25.0,
+    "duration": 0.8333333333333334,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Slide_Exit",
+    "source_action": "Slide_Exit",
+    "start": 0.0,
+    "end": 15.0,
+    "duration": 0.5,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Slide_Loop",
+    "source_action": "Slide_Loop",
+    "start": 0.0,
+    "end": 60.0,
+    "duration": 2.0,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Slide_Start",
+    "source_action": "Slide_Start",
+    "start": 0.0,
+    "end": 25.0,
+    "duration": 0.8333333333333334,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Sword_Block",
+    "source_action": "Sword_Block",
+    "start": 0.0,
+    "end": 37.0,
+    "duration": 1.2333333333333334,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Sword_Dash",
+    "source_action": "Sword_Dash",
+    "start": 0.0,
+    "end": 47.0,
+    "duration": 1.5666666666666667,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Sword_Heavy_Combo",
+    "source_action": "Sword_Heavy_Combo",
+    "start": 0.0,
+    "end": 130.0,
+    "duration": 4.333333333333333,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Sword_Regular_A",
+    "source_action": "Sword_Regular_A",
+    "start": 0.0,
+    "end": 13.0,
+    "duration": 0.43333333333333335,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Sword_Regular_A_Rec",
+    "source_action": "Sword_Regular_A_Rec",
+    "start": 0.0,
+    "end": 29.0,
+    "duration": 0.9666666666666667,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Sword_Regular_B",
+    "source_action": "Sword_Regular_B",
+    "start": 0.0,
+    "end": 16.0,
+    "duration": 0.5333333333333333,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Sword_Regular_B_Rec",
+    "source_action": "Sword_Regular_B_Rec",
+    "start": 0.0,
+    "end": 31.0,
+    "duration": 1.0333333333333334,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Sword_Regular_C",
+    "source_action": "Sword_Regular_C",
+    "start": 0.0,
+    "end": 60.0,
+    "duration": 2.0,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Sword_Regular_Combo",
+    "source_action": "Sword_Regular_Combo",
+    "start": 0.0,
+    "end": 90.0,
+    "duration": 3.0,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_TreeChopping_Loop",
+    "source_action": "TreeChopping_Loop",
+    "start": 0.0,
+    "end": 29.0,
+    "duration": 0.9666666666666667,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Walk_Carry_Loop",
+    "source_action": "Walk_Carry_Loop",
+    "start": 0.0,
+    "end": 60.0,
+    "duration": 2.0,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Yes",
+    "source_action": "Yes",
+    "start": 0.0,
+    "end": 75.0,
+    "duration": 2.5,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Zombie_Idle_Loop",
+    "source_action": "Zombie_Idle_Loop",
+    "start": 0.0,
+    "end": 40.0,
+    "duration": 1.3333333333333333,
+    "loop": true,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Zombie_Scratch",
+    "source_action": "Zombie_Scratch",
+    "start": 0.0,
+    "end": 54.0,
+    "duration": 1.8,
+    "loop": false,
+    "source_fps": 30
+  },
+  {
+    "action": "UAL2_Zombie_Walk_Fwd_Loop",
+    "source_action": "Zombie_Walk_Fwd_Loop",
+    "start": 0.0,
+    "end": 40.0,
+    "duration": 1.3333333333333333,
+    "loop": true,
+    "source_fps": 30
+  }
+]

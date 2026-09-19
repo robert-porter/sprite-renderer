@@ -1,0 +1,86 @@
+{
+  "character": "Universal Base \u00b7 Superhero Male",
+  "sourceUrl": "https://quaternius.com/packs/universalbasecharacters.html",
+  "frameSize": [
+    512,
+    512
+  ],
+  "facing": "right",
+  "cameraSide": "-X",
+  "projection": "orthographic",
+  "pivot": {
+    "x": 0.5742657780647278,
+    "y": 0.5650382936000824
+  },
+  "source": "assets/quaternius/universal/teeter.blend",
+  "animations": {
+    "teeter": {
+      "image": "teeter.png",
+      "frameCount": 4,
+      "fps": 4.0,
+      "duration": 1.0,
+      "loop": true,
+      "label": "Teeter \u00b7 forward edge",
+      "category": "Custom animations",
+      "sheetSize": [
+        2048,
+        512
+      ],
+      "sourceAction": "Teeter_Forward_Loop",
+      "sourceFrames": [
+        0.0,
+        7.5,
+        15.0,
+        22.5
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 512,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1024,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        },
+        {
+          "x": 1536,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        }
+      ],
+      "reviewStatus": "candidate",
+      "reviewNote": "Quiet 4-frame loop over 1 second. Tiny body and shoulder sway; heels stay fixed with approximately 4 sprite pixels of support at 512px.",
+      "platformEdge": {
+        "x": 0.5594403743743896,
+        "y": 0.5650382936000824,
+        "supportPixels": 4.0
+      },
+      "authored": true
+    }
+  },
+  "reviewProvenance": {
+    "baselineManifestSha256": "599c27a83e8d9b94bfd256e719cf0a323e3b2da8567470731e9484ee44a25f07",
+    "baselineSceneSha256": "c0176fb624f2e5dddc0b2e3f8fcbe9897727b6e0caaac51b96ae6ab3f1cb6eac",
+    "candidateAssetSha256": "311aec64220985f1b4e6115cec2e656e06878c007dca180faec3d8a1c1313a7a",
+    "config": "config/teeter.json"
+  },
+  "renderQuality": {
+    "size": 512,
+    "supersample": 2,
+    "samples": 32,
+    "backend": "OPTIX",
+    "denoiser": "OPENIMAGEDENOISE",
+    "denoisingGPU": true
+  }
+}

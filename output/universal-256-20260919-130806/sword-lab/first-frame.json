@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "frameSize": [
+    512,
+    512
+  ],
+  "pivot": {
+    "x": 0.5742657780647278,
+    "y": 0.5650382936000824
+  },
+  "depth": {
+    "encoding": "rg16",
+    "near": 10.531595400240803,
+    "far": 16.531595400240803,
+    "empty": 65535,
+    "description": "Camera distance; smaller is nearer. R*256+G; 0..65534 map to near..far. Nearest sampling."
+  },
+  "attachment": {
+    "bone": "hand_r",
+    "matrix": [
+      [
+        -0.026171818375587463,
+        -0.9988574981689453,
+        -0.03997127711772919,
+        -0.035033583641052246
+      ],
+      [
+        0.9580562710762024,
+        -0.036477670073509216,
+        0.28424695134162903,
+        0.09913761913776398
+      ],
+      [
+        -0.2853809893131256,
+        -0.03085528314113617,
+        0.9579178690910339,
+        0.01745237410068512
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "weapons": [
+    {
+      "id": "steel",
+      "label": "Steel sword"
+    },
+    {
+      "id": "copper",
+      "label": "Copper broadsword"
+    }
+  ],
+  "animations": {
+    "sword_idle": {
+      "sourceAction": "Sword_Idle",
+      "sourceFrames": [
+        0.0
+      ],
+      "frameCount": 1,
+      "duration": 1.6666666666666667,
+      "fps": 12.0,
+      "layers": {
+        "character": {
+          "color": "sword-lab/sword_idle-character.png",
+          "depth": "sword-lab/sword_idle-character-depth.png"
+        },
+        "steel": {
+          "color": "sword-lab/sword_idle-steel.png",
+          "depth": "sword-lab/sword_idle-steel-depth.png"
+        },
+        "copper": {
+          "color": "sword-lab/sword_idle-copper.png",
+          "depth": "sword-lab/sword_idle-copper-depth.png"
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 512,
+          "h": 512
+        }
+      ],
+      "sheetSize": [
+        512,
+        512
+      ]
+    }
+  }
+}

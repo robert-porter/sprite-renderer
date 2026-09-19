@@ -1,0 +1,73 @@
+{
+  "signature": "b6bcfa72458bb5c393c10453f7b4122b447fb7e04e92a6869dcc4764027547eb",
+  "sheetSha256": "79255321e98d6173be643946c3a6f176edf3c5db623e73a01068ea5fcf07057f",
+  "clip": {
+    "image": "ual2_melee_hook_rec.png",
+    "frameCount": 7,
+    "fps": 11.666666666666668,
+    "duration": 0.6,
+    "loop": false,
+    "label": "UAL2 Melee Hook Rec",
+    "category": "Library 2",
+    "sheetSize": [
+      3584,
+      512
+    ],
+    "sourceAction": "UAL2_Melee_Hook_Rec",
+    "sourceFrames": [
+      0.0,
+      3.0,
+      6.0,
+      9.0,
+      12.0,
+      15.0,
+      18.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Library 2 source pose; no torso or head correction applied."
+  }
+}

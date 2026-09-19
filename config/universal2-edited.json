@@ -1,0 +1,1610 @@
+{
+  "baseline_output": "output/universal",
+  "asset": "assets/quaternius/universal/library2-variants.blend",
+  "prepare_script": "scripts/prepare_universal2_variants.py",
+  "render_script": "scripts/render_review_candidates.py",
+  "output": "output/universal/library2-edited",
+  "armature": "UniversalCharacter",
+  "size": 512,
+  "source_fps": 30,
+  "fps": 12,
+  "columns": 8,
+  "animations": [
+    {
+      "name": "ual2_ninjajump_start_edited",
+      "action": "UAL2_NinjaJump_Start_SideScroller",
+      "start": 0.0,
+      "end": 29.0,
+      "loop": false,
+      "label": "UAL2 NinjaJump Start \u00b7 edited",
+      "category": "Candidates",
+      "note": "Ease torso from +20 to original airborne pose; head +25 degrees.",
+      "source_action": "UAL2_NinjaJump_Start",
+      "variant_of": "ual2_ninjajump_start",
+      "pose": {
+        "turn": [
+          [
+            0,
+            20
+          ],
+          [
+            0.25,
+            20
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "head_turn": 25,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_ninjajump_idle_loop_edited",
+      "action": "UAL2_NinjaJump_Idle_Loop_SideScroller",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": true,
+      "label": "UAL2 NinjaJump Idle \u00b7 edited",
+      "category": "Candidates",
+      "note": "Source torso is already open; preserve airborne silhouette, head +25 degrees.",
+      "source_action": "UAL2_NinjaJump_Idle_Loop",
+      "variant_of": "ual2_ninjajump_idle_loop",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_ninjajump_land_edited",
+      "action": "UAL2_NinjaJump_Land_SideScroller",
+      "start": 0.0,
+      "end": 38.0,
+      "loop": false,
+      "label": "UAL2 NinjaJump Land \u00b7 edited",
+      "category": "Candidates",
+      "note": "Match airborne correction on entry and ease into +35 degree standing pose.",
+      "source_action": "UAL2_NinjaJump_Land",
+      "variant_of": "ual2_ninjajump_land",
+      "pose": {
+        "turn": [
+          [
+            0,
+            0
+          ],
+          [
+            0.25,
+            0
+          ],
+          [
+            0.75,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            25
+          ],
+          [
+            0.25,
+            25
+          ],
+          [
+            0.75,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_slide_start_edited",
+      "action": "UAL2_Slide_Start_SideScroller",
+      "start": 0.0,
+      "end": 25.0,
+      "loop": false,
+      "label": "UAL2 Slide Start \u00b7 edited",
+      "category": "Candidates",
+      "note": "Matching +35 degree torso/head correction across all slide phases.",
+      "source_action": "UAL2_Slide_Start",
+      "variant_of": "ual2_slide_start",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_slide_loop_edited",
+      "action": "UAL2_Slide_Loop_SideScroller",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": true,
+      "label": "UAL2 Slide \u00b7 edited",
+      "category": "Candidates",
+      "note": "Matching +35 degree torso/head correction across all slide phases.",
+      "source_action": "UAL2_Slide_Loop",
+      "variant_of": "ual2_slide_loop",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_slide_exit_edited",
+      "action": "UAL2_Slide_Exit_SideScroller",
+      "start": 0.0,
+      "end": 15.0,
+      "loop": false,
+      "label": "UAL2 Slide Exit \u00b7 edited",
+      "category": "Candidates",
+      "note": "Matching +35 degree torso/head correction across all slide phases.",
+      "source_action": "UAL2_Slide_Exit",
+      "variant_of": "ual2_slide_exit",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_sword_regular_combo_edited",
+      "action": "UAL2_Sword_Regular_Combo_SideScroller",
+      "start": 0.0,
+      "end": 90.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular Combo \u00b7 edited",
+      "category": "Candidates",
+      "note": "Torso/head open +35 degrees at neutral idle; smaller offsets through the hits and no added twist at large turns. Uses Idle before/after.",
+      "source_action": "UAL2_Sword_Regular_Combo",
+      "variant_of": "ual2_sword_regular_combo",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.05,
+            25
+          ],
+          [
+            0.14444444444444443,
+            0
+          ],
+          [
+            0.15555555555555556,
+            0
+          ],
+          [
+            0.3333333333333333,
+            10
+          ],
+          [
+            0.34444444444444444,
+            10
+          ],
+          [
+            0.5,
+            0
+          ],
+          [
+            0.65,
+            10
+          ],
+          [
+            0.85,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.05,
+            25
+          ],
+          [
+            0.14444444444444443,
+            0
+          ],
+          [
+            0.15555555555555556,
+            0
+          ],
+          [
+            0.3333333333333333,
+            25
+          ],
+          [
+            0.34444444444444444,
+            25
+          ],
+          [
+            0.5,
+            0
+          ],
+          [
+            0.65,
+            0
+          ],
+          [
+            0.875,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_sword_block_edited",
+      "action": "UAL2_Sword_Block_SideScroller",
+      "start": 0.0,
+      "end": 37.0,
+      "loop": false,
+      "label": "UAL2 Sword Block \u00b7 edited",
+      "category": "Candidates",
+      "note": "Open neutral entry/exit +35 degrees; reduce torso opening to +15 during the block, head +35. Uses Idle before/after.",
+      "source_action": "UAL2_Sword_Block",
+      "variant_of": "ual2_sword_block",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.3,
+            15
+          ],
+          [
+            0.7,
+            15
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_melee_hook_edited",
+      "action": "UAL2_Melee_Hook_SideScroller",
+      "start": 0.0,
+      "end": 14.0,
+      "loop": false,
+      "label": "UAL2 Melee Hook \u00b7 edited",
+      "category": "Candidates",
+      "note": "Reduce torso twist through the hook to retain the strike direction; head offset also eases down.",
+      "source_action": "UAL2_Melee_Hook",
+      "variant_of": "ual2_melee_hook",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.35,
+            15
+          ],
+          [
+            0.7,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.35,
+            25
+          ],
+          [
+            0.7,
+            15
+          ],
+          [
+            1,
+            15
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_melee_hook_rec_edited",
+      "action": "UAL2_Melee_Hook_Rec_SideScroller",
+      "start": 0.0,
+      "end": 18.0,
+      "loop": false,
+      "label": "UAL2 Melee Hook Rec \u00b7 edited",
+      "category": "Candidates",
+      "note": "Match hook endpoint and restore edited idle through recovery.",
+      "source_action": "UAL2_Melee_Hook_Rec",
+      "variant_of": "ual2_melee_hook_rec",
+      "pose": {
+        "turn": [
+          [
+            0,
+            0
+          ],
+          [
+            0.25,
+            0
+          ],
+          [
+            0.75,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            15
+          ],
+          [
+            0.25,
+            15
+          ],
+          [
+            0.75,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_zombie_walk_fwd_loop_edited",
+      "action": "UAL2_Zombie_Walk_Fwd_Loop_SideScroller",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": true,
+      "label": "UAL2 Zombie Walk Fwd \u00b7 edited",
+      "category": "Candidates",
+      "note": "Open zombie walk torso/head +35 degrees while retaining the hunched gait.",
+      "source_action": "UAL2_Zombie_Walk_Fwd_Loop",
+      "variant_of": "ual2_zombie_walk_fwd_loop",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_treechopping_loop_edited",
+      "action": "UAL2_TreeChopping_Loop_SideScroller",
+      "start": 0.0,
+      "end": 29.0,
+      "loop": true,
+      "label": "UAL2 TreeChopping \u00b7 edited",
+      "category": "Candidates",
+      "note": "Torso already opens in the windup; preserve chopping arc and fade head offset at the strike.",
+      "source_action": "UAL2_TreeChopping_Loop",
+      "variant_of": "ual2_treechopping_loop",
+      "pose": {
+        "turn": 0,
+        "head_turn": [
+          [
+            0,
+            15
+          ],
+          [
+            0.2,
+            15
+          ],
+          [
+            0.4,
+            0
+          ],
+          [
+            0.65,
+            0
+          ],
+          [
+            0.85,
+            15
+          ],
+          [
+            1,
+            15
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_chest_open_edited",
+      "action": "UAL2_Chest_Open_SideScroller",
+      "start": 0.0,
+      "end": 41.0,
+      "loop": false,
+      "label": "UAL2 Chest Open \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve the original hand/gaze relationship during contact; blend to +35 degree idle at both ends.",
+      "source_action": "UAL2_Chest_Open",
+      "variant_of": "ual2_chest_open",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_climbup_1m_edited",
+      "action": "UAL2_ClimbUp_1m_SideScroller",
+      "start": 0.0,
+      "end": 20.0,
+      "loop": false,
+      "label": "UAL2 ClimbUp 1m \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve all climbing hand/body trajectories; reduce head correction to zero during the climb.",
+      "source_action": "UAL2_ClimbUp_1m",
+      "variant_of": "ual2_climbup_1m",
+      "pose": {
+        "turn": 0,
+        "head_turn": [
+          [
+            0,
+            20
+          ],
+          [
+            0.2,
+            0
+          ],
+          [
+            0.8,
+            0
+          ],
+          [
+            1,
+            20
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_consume_edited",
+      "action": "UAL2_Consume_SideScroller",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": false,
+      "label": "UAL2 Consume \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve the original hand/gaze relationship during contact; blend to +35 degree idle at both ends.",
+      "source_action": "UAL2_Consume",
+      "variant_of": "ual2_consume",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_farm_harvest_edited",
+      "action": "UAL2_Farm_Harvest_SideScroller",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": false,
+      "label": "UAL2 Farm Harvest \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve the original hand/gaze relationship during contact; blend to +35 degree idle at both ends.",
+      "source_action": "UAL2_Farm_Harvest",
+      "variant_of": "ual2_farm_harvest",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_farm_plantseed_edited",
+      "action": "UAL2_Farm_PlantSeed_SideScroller",
+      "start": 0.0,
+      "end": 83.0,
+      "loop": false,
+      "label": "UAL2 Farm PlantSeed \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve the original hand/gaze relationship during contact; blend to +35 degree idle at both ends.",
+      "source_action": "UAL2_Farm_PlantSeed",
+      "variant_of": "ual2_farm_plantseed",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.18,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_farm_watering_edited",
+      "action": "UAL2_Farm_Watering_SideScroller",
+      "start": 0.0,
+      "end": 114.0,
+      "loop": false,
+      "label": "UAL2 Farm Watering \u00b7 edited",
+      "category": "Candidates",
+      "note": "Use a smaller torso/head opening during watering, restoring edited idle at both ends.",
+      "source_action": "UAL2_Farm_Watering",
+      "variant_of": "ual2_farm_watering",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.2,
+            15
+          ],
+          [
+            0.8,
+            15
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.2,
+            20
+          ],
+          [
+            0.8,
+            20
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_hit_knockback_edited",
+      "action": "UAL2_Hit_Knockback_SideScroller",
+      "start": 0.0,
+      "end": 25.0,
+      "loop": false,
+      "label": "UAL2 Hit Knockback \u00b7 edited",
+      "category": "Candidates",
+      "note": "Small opening in the upright part of knockback; no extra twist on the horizontal entry/end poses.",
+      "source_action": "UAL2_Hit_Knockback",
+      "variant_of": "ual2_hit_knockback",
+      "pose": {
+        "turn": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            15
+          ],
+          [
+            0.6,
+            15
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            0
+          ],
+          [
+            0.3,
+            20
+          ],
+          [
+            0.6,
+            20
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_idle_foldarms_loop_edited",
+      "action": "UAL2_Idle_FoldArms_Loop_SideScroller",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle FoldArms \u00b7 edited",
+      "category": "Candidates",
+      "note": "Torso and head +35 degrees; retain source gesture, gait and timing.",
+      "source_action": "UAL2_Idle_FoldArms_Loop",
+      "variant_of": "ual2_idle_foldarms_loop",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_idle_lantern_loop_edited",
+      "action": "UAL2_Idle_Lantern_Loop_SideScroller",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle Lantern \u00b7 edited",
+      "category": "Candidates",
+      "note": "Torso and head +35 degrees; retain source gesture, gait and timing.",
+      "source_action": "UAL2_Idle_Lantern_Loop",
+      "variant_of": "ual2_idle_lantern_loop",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_idle_no_loop_edited",
+      "action": "UAL2_Idle_No_Loop_SideScroller",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle No \u00b7 edited",
+      "category": "Candidates",
+      "note": "Torso and head +35 degrees; retain source gesture, gait and timing.",
+      "source_action": "UAL2_Idle_No_Loop",
+      "variant_of": "ual2_idle_no_loop",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_idle_rail_call_edited",
+      "action": "UAL2_Idle_Rail_Call_SideScroller",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": false,
+      "label": "UAL2 Idle Rail Call \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve leaning body and rail contact; head +35 degrees.",
+      "source_action": "UAL2_Idle_Rail_Call",
+      "variant_of": "ual2_idle_rail_call",
+      "pose": {
+        "turn": 0,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_idle_rail_loop_edited",
+      "action": "UAL2_Idle_Rail_Loop_SideScroller",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle Rail \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve leaning body and rail contact; head +35 degrees.",
+      "source_action": "UAL2_Idle_Rail_Loop",
+      "variant_of": "ual2_idle_rail_loop",
+      "pose": {
+        "turn": 0,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_idle_shield_break_edited",
+      "action": "UAL2_Idle_Shield_Break_SideScroller",
+      "start": 0.0,
+      "end": 32.0,
+      "loop": false,
+      "label": "UAL2 Idle Shield Break \u00b7 edited",
+      "category": "Candidates",
+      "note": "Source shield guard is already open; preserve body and hands, head +25 degrees.",
+      "source_action": "UAL2_Idle_Shield_Break",
+      "variant_of": "ual2_idle_shield_break",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_idle_shield_loop_edited",
+      "action": "UAL2_Idle_Shield_Loop_SideScroller",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "UAL2 Idle Shield \u00b7 edited",
+      "category": "Candidates",
+      "note": "Source shield guard is already open; preserve body and hands, head +25 degrees.",
+      "source_action": "UAL2_Idle_Shield_Loop",
+      "variant_of": "ual2_idle_shield_loop",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_idle_talkingphone_loop_edited",
+      "action": "UAL2_Idle_TalkingPhone_Loop_SideScroller",
+      "start": 0.0,
+      "end": 88.0,
+      "loop": true,
+      "label": "UAL2 Idle TalkingPhone \u00b7 edited",
+      "category": "Candidates",
+      "note": "Torso and head +35 degrees; retain source gesture, gait and timing.",
+      "source_action": "UAL2_Idle_TalkingPhone_Loop",
+      "variant_of": "ual2_idle_talkingphone_loop",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_laytoidle_edited",
+      "action": "UAL2_LayToIdle_SideScroller",
+      "start": 0.0,
+      "end": 46.0,
+      "loop": false,
+      "label": "UAL2 LayToIdle \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve lying/get-up contact poses; introduce +35 degree opening once upright.",
+      "source_action": "UAL2_LayToIdle",
+      "variant_of": "ual2_laytoidle",
+      "pose": {
+        "turn": [
+          [
+            0,
+            0
+          ],
+          [
+            0.4,
+            0
+          ],
+          [
+            0.85,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            0
+          ],
+          [
+            0.4,
+            0
+          ],
+          [
+            0.85,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_overhandthrow_edited",
+      "action": "UAL2_OverhandThrow_SideScroller",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": false,
+      "label": "UAL2 OverhandThrow \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve throw windup/release, easing back to the edited idle.",
+      "source_action": "UAL2_OverhandThrow",
+      "variant_of": "ual2_overhandthrow",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.2,
+            0
+          ],
+          [
+            0.7,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.2,
+            0
+          ],
+          [
+            0.7,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_shield_dash_edited",
+      "action": "UAL2_Shield_Dash_SideScroller",
+      "start": 0.0,
+      "end": 33.0,
+      "loop": false,
+      "label": "UAL2 Shield Dash \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve shoulder-first shield dash; ease head toward viewer after launch.",
+      "source_action": "UAL2_Shield_Dash",
+      "variant_of": "ual2_shield_dash",
+      "pose": {
+        "turn": 0,
+        "head_turn": [
+          [
+            0,
+            0
+          ],
+          [
+            0.15,
+            15
+          ],
+          [
+            0.5,
+            15
+          ],
+          [
+            0.85,
+            25
+          ],
+          [
+            1,
+            25
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_shield_oneshot_edited",
+      "action": "UAL2_Shield_OneShot_SideScroller",
+      "start": 0.0,
+      "end": 25.0,
+      "loop": false,
+      "label": "UAL2 Shield OneShot \u00b7 edited",
+      "category": "Candidates",
+      "note": "Retain original shield raise at full guard; blend from and back to edited idle.",
+      "source_action": "UAL2_Shield_OneShot",
+      "variant_of": "ual2_shield_oneshot",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.7,
+            0
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.3,
+            25
+          ],
+          [
+            0.7,
+            25
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_sword_dash_edited",
+      "action": "UAL2_Sword_Dash_SideScroller",
+      "start": 0.0,
+      "end": 47.0,
+      "loop": false,
+      "label": "UAL2 Sword Dash \u00b7 edited",
+      "category": "Candidates",
+      "note": "Open neutral entry/recovery +35 degrees; preserve the shoulder-first launch and dash torso, with smaller head offset during travel. Uses Idle before/after.",
+      "source_action": "UAL2_Sword_Dash",
+      "variant_of": "ual2_sword_dash",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.125,
+            0
+          ],
+          [
+            0.6,
+            0
+          ],
+          [
+            0.85,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.125,
+            0
+          ],
+          [
+            0.3,
+            15
+          ],
+          [
+            0.6,
+            15
+          ],
+          [
+            0.85,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_sword_heavy_combo_edited",
+      "action": "UAL2_Sword_Heavy_Combo_SideScroller",
+      "start": 0.0,
+      "end": 130.0,
+      "loop": false,
+      "label": "UAL2 Sword Heavy Combo \u00b7 edited",
+      "category": "Candidates",
+      "note": "Open torso through neutral windups/recovery; preserve large spins. Final head offset is smaller because source head already turns toward viewer. Uses Idle before/after; source recovery is not an exact idle pose.",
+      "source_action": "UAL2_Sword_Heavy_Combo",
+      "variant_of": "ual2_sword_heavy_combo",
+      "pose": {
+        "turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.1,
+            0
+          ],
+          [
+            0.17,
+            0
+          ],
+          [
+            0.25,
+            25
+          ],
+          [
+            0.35,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            0.9,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            35
+          ],
+          [
+            0.1,
+            0
+          ],
+          [
+            0.17,
+            0
+          ],
+          [
+            0.25,
+            30
+          ],
+          [
+            0.35,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            0.9,
+            30
+          ],
+          [
+            1,
+            15
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_sword_regular_a_edited",
+      "action": "UAL2_Sword_Regular_A_SideScroller",
+      "start": 0.0,
+      "end": 13.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular A \u00b7 edited",
+      "category": "Candidates",
+      "note": "Match edited neutral idle, then ease torso/head opening out through hit A; matches the regular combo recipe.",
+      "source_action": "UAL2_Sword_Regular_A",
+      "variant_of": "ual2_sword_regular_a",
+      "pose": {
+        "turn": [
+          [
+            0.0,
+            35
+          ],
+          [
+            0.3461538462,
+            25
+          ],
+          [
+            1.0,
+            0
+          ]
+        ],
+        "head_turn": [
+          [
+            0.0,
+            35
+          ],
+          [
+            0.3461538462,
+            25
+          ],
+          [
+            1.0,
+            0
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_sword_regular_a_rec_edited",
+      "action": "UAL2_Sword_Regular_A_Rec_SideScroller",
+      "start": 0.0,
+      "end": 29.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular A Rec \u00b7 edited",
+      "category": "Candidates",
+      "note": "Match hit A endpoint and open torso/head back to +35 degree neutral idle.",
+      "source_action": "UAL2_Sword_Regular_A_Rec",
+      "variant_of": "ual2_sword_regular_a_rec",
+      "pose": {
+        "turn": [
+          [
+            0,
+            0
+          ],
+          [
+            0.2,
+            0
+          ],
+          [
+            0.75,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            0
+          ],
+          [
+            0.2,
+            0
+          ],
+          [
+            0.75,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_sword_regular_b_edited",
+      "action": "UAL2_Sword_Regular_B_SideScroller",
+      "start": 0.0,
+      "end": 16.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular B \u00b7 edited",
+      "category": "Candidates",
+      "note": "Preserve the turning entry and add a small opening toward hit B completion; matches the regular combo recipe.",
+      "source_action": "UAL2_Sword_Regular_B",
+      "variant_of": "ual2_sword_regular_b",
+      "pose": {
+        "turn": [
+          [
+            0.0,
+            0
+          ],
+          [
+            1.0,
+            10
+          ]
+        ],
+        "head_turn": [
+          [
+            0.0,
+            0
+          ],
+          [
+            1.0,
+            25
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_sword_regular_b_rec_edited",
+      "action": "UAL2_Sword_Regular_B_Rec_SideScroller",
+      "start": 0.0,
+      "end": 31.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular B Rec \u00b7 edited",
+      "category": "Candidates",
+      "note": "Match hit B endpoint and open torso/head back to +35 degree neutral idle.",
+      "source_action": "UAL2_Sword_Regular_B_Rec",
+      "variant_of": "ual2_sword_regular_b_rec",
+      "pose": {
+        "turn": [
+          [
+            0,
+            10
+          ],
+          [
+            0.2,
+            10
+          ],
+          [
+            0.75,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0,
+            25
+          ],
+          [
+            0.2,
+            25
+          ],
+          [
+            0.75,
+            35
+          ],
+          [
+            1,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_sword_regular_c_edited",
+      "action": "UAL2_Sword_Regular_C_SideScroller",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": false,
+      "label": "UAL2 Sword Regular C \u00b7 edited",
+      "category": "Candidates",
+      "note": "Match hit B, preserve the large finishing turn, and restore +35 degree neutral idle through recovery.",
+      "source_action": "UAL2_Sword_Regular_C",
+      "variant_of": "ual2_sword_regular_c",
+      "pose": {
+        "turn": [
+          [
+            0.0,
+            10
+          ],
+          [
+            0.2372881356,
+            0
+          ],
+          [
+            0.4661016949,
+            10
+          ],
+          [
+            0.7711864407,
+            35
+          ],
+          [
+            1.0,
+            35
+          ]
+        ],
+        "head_turn": [
+          [
+            0.0,
+            25
+          ],
+          [
+            0.2372881356,
+            0
+          ],
+          [
+            0.4661016949,
+            0
+          ],
+          [
+            0.8093220339,
+            35
+          ],
+          [
+            1.0,
+            35
+          ]
+        ],
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_walk_carry_loop_edited",
+      "action": "UAL2_Walk_Carry_Loop_SideScroller",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": true,
+      "label": "UAL2 Walk Carry \u00b7 edited",
+      "category": "Candidates",
+      "note": "Torso and head +35 degrees; retain source gesture, gait and timing.",
+      "source_action": "UAL2_Walk_Carry_Loop",
+      "variant_of": "ual2_walk_carry_loop",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_yes_edited",
+      "action": "UAL2_Yes_SideScroller",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": false,
+      "label": "UAL2 Yes \u00b7 edited",
+      "category": "Candidates",
+      "note": "Torso and head +35 degrees; retain source gesture, gait and timing.",
+      "source_action": "UAL2_Yes",
+      "variant_of": "ual2_yes",
+      "pose": {
+        "turn": 35,
+        "head_turn": 35,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_zombie_idle_loop_edited",
+      "action": "UAL2_Zombie_Idle_Loop_SideScroller",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": true,
+      "label": "UAL2 Zombie Idle \u00b7 edited",
+      "category": "Candidates",
+      "note": "Source hunch already opens toward viewer; preserve torso and add +25 degree head offset.",
+      "source_action": "UAL2_Zombie_Idle_Loop",
+      "variant_of": "ual2_zombie_idle_loop",
+      "pose": {
+        "turn": 0,
+        "head_turn": 25,
+        "axis": "world"
+      }
+    },
+    {
+      "name": "ual2_zombie_scratch_edited",
+      "action": "UAL2_Zombie_Scratch_SideScroller",
+      "start": 0.0,
+      "end": 54.0,
+      "loop": false,
+      "label": "UAL2 Zombie Scratch \u00b7 edited",
+      "category": "Candidates",
+      "note": "Match edited zombie idle, retaining the original scratch/reach during the action.",
+      "source_action": "UAL2_Zombie_Scratch",
+      "variant_of": "ual2_zombie_scratch",
+      "pose": {
+        "turn": 0,
+        "head_turn": [
+          [
+            0,
+            25
+          ],
+          [
+            0.18,
+            15
+          ],
+          [
+            0.3,
+            0
+          ],
+          [
+            0.75,
+            0
+          ],
+          [
+            0.95,
+            25
+          ],
+          [
+            1,
+            25
+          ]
+        ],
+        "axis": "world"
+      }
+    }
+  ],
+  "supersample": 2,
+  "samples": 32,
+  "render_device": "OPTIX",
+  "denoising_gpu": true
+}

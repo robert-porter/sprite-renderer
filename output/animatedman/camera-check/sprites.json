@@ -1,0 +1,64 @@
+{
+  "character": "Animated Man",
+  "sourceUrl": "https://quaternius.com/packs/animatedman.html",
+  "frameSize": [
+    256,
+    256
+  ],
+  "facing": "right",
+  "cameraSide": "-X",
+  "projection": "orthographic",
+  "pivot": {
+    "x": 0.490264892578125,
+    "y": 0.9153013601899147
+  },
+  "source": "assets/quaternius/animatedman/ClothedMan.blend",
+  "animations": {
+    "idle": {
+      "image": "idle.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 10.0,
+      "loop": true,
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Idle",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "walk": {
+      "image": "walk.png",
+      "frameCount": 1,
+      "fps": 11.61290715562078,
+      "duration": 1.0333329836527507,
+      "loop": true,
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Walk",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    }
+  }
+}

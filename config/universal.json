@@ -1,0 +1,404 @@
+{
+  "asset": "assets/quaternius/universal/prepared.blend",
+  "prepare_script": "scripts/prepare_universal.py",
+  "output": "output/universal",
+  "display_name": "Universal Base \u00b7 Superhero Male",
+  "source_url": "https://quaternius.com/packs/universalbasecharacters.html",
+  "armature": "UniversalCharacter",
+  "mesh_objects": [
+    "SuperHero_Male",
+    "Eyes",
+    "Eyebrows"
+  ],
+  "camera_side": "-X",
+  "size": 512,
+  "fps": 12,
+  "source_fps": 30,
+  "padding": 0.1,
+  "samples": 32,
+  "columns": 8,
+  "animations": [
+    {
+      "name": "idle",
+      "action": "Idle_Loop",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "Idle",
+      "category": "Movement",
+      "fps": 6
+    },
+    {
+      "name": "walk",
+      "action": "Walk_Loop",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": true,
+      "label": "Walk",
+      "category": "Movement"
+    },
+    {
+      "name": "jog",
+      "action": "Jog_Fwd_Loop",
+      "start": 0.0,
+      "end": 28.0,
+      "loop": true,
+      "label": "Jog Fwd",
+      "category": "Movement"
+    },
+    {
+      "name": "sprint",
+      "action": "Sprint_Loop",
+      "start": 0.0,
+      "end": 20.0,
+      "loop": true,
+      "label": "Sprint",
+      "category": "Movement"
+    },
+    {
+      "name": "dance",
+      "action": "Dance_Loop",
+      "start": 0.0,
+      "end": 30.0,
+      "loop": true,
+      "label": "Dance",
+      "category": "Activities"
+    },
+    {
+      "name": "driving",
+      "action": "Driving_Loop",
+      "start": 0.0,
+      "end": 50.0,
+      "loop": true,
+      "label": "Driving",
+      "category": "Activities"
+    },
+    {
+      "name": "fixing_kneeling",
+      "action": "Fixing_Kneeling",
+      "start": 0.0,
+      "end": 156.0,
+      "loop": false,
+      "label": "Fixing Kneeling",
+      "category": "Activities"
+    },
+    {
+      "name": "interact",
+      "action": "Interact",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": false,
+      "label": "Interact",
+      "category": "Activities"
+    },
+    {
+      "name": "pickup_table",
+      "action": "PickUp_Table",
+      "start": 0.0,
+      "end": 25.0,
+      "loop": false,
+      "label": "PickUp Table",
+      "category": "Activities"
+    },
+    {
+      "name": "push",
+      "action": "Push_Loop",
+      "start": 0.0,
+      "end": 80.0,
+      "loop": true,
+      "label": "Push",
+      "category": "Activities"
+    },
+    {
+      "name": "sitting_enter",
+      "action": "Sitting_Enter",
+      "start": 0.0,
+      "end": 39.0,
+      "loop": false,
+      "label": "Sitting Enter",
+      "category": "Activities"
+    },
+    {
+      "name": "sitting_exit",
+      "action": "Sitting_Exit",
+      "start": 0.0,
+      "end": 31.0,
+      "loop": false,
+      "label": "Sitting Exit",
+      "category": "Activities"
+    },
+    {
+      "name": "sitting_idle",
+      "action": "Sitting_Idle_Loop",
+      "start": 0.0,
+      "end": 50.0,
+      "loop": true,
+      "label": "Sitting Idle",
+      "category": "Activities"
+    },
+    {
+      "name": "sitting_talking",
+      "action": "Sitting_Talking_Loop",
+      "start": 0.0,
+      "end": 88.0,
+      "loop": true,
+      "label": "Sitting Talking",
+      "category": "Activities"
+    },
+    {
+      "name": "death01",
+      "action": "Death01",
+      "start": 0.0,
+      "end": 72.0,
+      "loop": false,
+      "label": "Death01",
+      "category": "Combat"
+    },
+    {
+      "name": "hit_chest",
+      "action": "Hit_Chest",
+      "start": 0.0,
+      "end": 10.0,
+      "loop": false,
+      "label": "Hit Chest",
+      "category": "Combat"
+    },
+    {
+      "name": "hit_head",
+      "action": "Hit_Head",
+      "start": 0.0,
+      "end": 13.0,
+      "loop": false,
+      "label": "Hit Head",
+      "category": "Combat"
+    },
+    {
+      "name": "pistol_aim_down",
+      "action": "Pistol_Aim_Down",
+      "start": 0.0,
+      "end": 5.0,
+      "loop": false,
+      "label": "Pistol Aim Down",
+      "category": "Combat"
+    },
+    {
+      "name": "pistol_aim_neutral",
+      "action": "Pistol_Aim_Neutral",
+      "start": 0.0,
+      "end": 5.0,
+      "loop": false,
+      "label": "Pistol Aim Neutral",
+      "category": "Combat"
+    },
+    {
+      "name": "pistol_aim_up",
+      "action": "Pistol_Aim_Up",
+      "start": 0.0,
+      "end": 5.0,
+      "loop": false,
+      "label": "Pistol Aim Up",
+      "category": "Combat"
+    },
+    {
+      "name": "pistol_idle",
+      "action": "Pistol_Idle_Loop",
+      "start": 0.0,
+      "end": 50.0,
+      "loop": true,
+      "label": "Pistol Idle",
+      "category": "Combat"
+    },
+    {
+      "name": "pistol_reload",
+      "action": "Pistol_Reload",
+      "start": 0.0,
+      "end": 50.0,
+      "loop": false,
+      "label": "Pistol Reload",
+      "category": "Combat"
+    },
+    {
+      "name": "pistol_shoot",
+      "action": "Pistol_Shoot",
+      "start": 0.0,
+      "end": 19.0,
+      "loop": false,
+      "label": "Pistol Shoot",
+      "category": "Combat"
+    },
+    {
+      "name": "punch_cross",
+      "action": "Punch_Cross",
+      "start": 0.0,
+      "end": 30.0,
+      "loop": false,
+      "label": "Punch Cross",
+      "category": "Combat"
+    },
+    {
+      "name": "punch_jab",
+      "action": "Punch_Jab",
+      "start": 0.0,
+      "end": 26.0,
+      "loop": false,
+      "label": "Punch Jab",
+      "category": "Combat"
+    },
+    {
+      "name": "sword_attack",
+      "action": "Sword_Attack",
+      "start": 0.0,
+      "end": 46.0,
+      "loop": false,
+      "label": "Sword Attack",
+      "category": "Combat"
+    },
+    {
+      "name": "sword_idle",
+      "action": "Sword_Idle",
+      "start": 0.0,
+      "end": 50.0,
+      "loop": true,
+      "label": "Sword Idle",
+      "category": "Combat"
+    },
+    {
+      "name": "spell_simple_enter",
+      "action": "Spell_Simple_Enter",
+      "start": 0.0,
+      "end": 16.0,
+      "loop": false,
+      "label": "Spell Simple Enter",
+      "category": "Magic"
+    },
+    {
+      "name": "spell_simple_exit",
+      "action": "Spell_Simple_Exit",
+      "start": 0.0,
+      "end": 13.0,
+      "loop": false,
+      "label": "Spell Simple Exit",
+      "category": "Magic"
+    },
+    {
+      "name": "spell_simple_idle",
+      "action": "Spell_Simple_Idle_Loop",
+      "start": 0.0,
+      "end": 62.999996185302734,
+      "loop": true,
+      "label": "Spell Simple Idle",
+      "category": "Magic"
+    },
+    {
+      "name": "spell_simple_shoot",
+      "action": "Spell_Simple_Shoot",
+      "start": 0.0,
+      "end": 15.0,
+      "loop": false,
+      "label": "Spell Simple Shoot",
+      "category": "Magic"
+    },
+    {
+      "name": "crouch_fwd",
+      "action": "Crouch_Fwd_Loop",
+      "start": 0.0,
+      "end": 60.0,
+      "loop": true,
+      "label": "Crouch Fwd",
+      "category": "Movement"
+    },
+    {
+      "name": "crouch_idle",
+      "action": "Crouch_Idle_Loop",
+      "start": 0.0,
+      "end": 88.0,
+      "loop": true,
+      "label": "Crouch Idle",
+      "category": "Movement"
+    },
+    {
+      "name": "idle_talking",
+      "action": "Idle_Talking_Loop",
+      "start": 0.0,
+      "end": 88.0,
+      "loop": true,
+      "label": "Idle Talking",
+      "category": "Movement"
+    },
+    {
+      "name": "idle_torch",
+      "action": "Idle_Torch_Loop",
+      "start": 0.0,
+      "end": 38.0,
+      "loop": true,
+      "label": "Idle Torch",
+      "category": "Movement"
+    },
+    {
+      "name": "jump",
+      "action": "Jump_Loop",
+      "start": 0.0,
+      "end": 75.0,
+      "loop": true,
+      "label": "Jump",
+      "category": "Movement"
+    },
+    {
+      "name": "jump_land",
+      "action": "Jump_Land",
+      "start": 0.0,
+      "end": 38.0,
+      "loop": false,
+      "label": "Jump Land",
+      "category": "Movement"
+    },
+    {
+      "name": "jump_start",
+      "action": "Jump_Start",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": false,
+      "label": "Jump Start",
+      "category": "Movement"
+    },
+    {
+      "name": "roll",
+      "action": "Roll",
+      "start": 0.0,
+      "end": 44.0,
+      "loop": false,
+      "label": "Roll",
+      "category": "Movement"
+    },
+    {
+      "name": "walk_formal",
+      "action": "Walk_Formal_Loop",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": true,
+      "label": "Walk Formal",
+      "category": "Movement"
+    },
+    {
+      "name": "swim_fwd",
+      "action": "Swim_Fwd_Loop",
+      "start": 0.0,
+      "end": 40.0,
+      "loop": true,
+      "label": "Swim Fwd",
+      "category": "Swimming"
+    },
+    {
+      "name": "swim_idle",
+      "action": "Swim_Idle_Loop",
+      "start": 0.0,
+      "end": 100.0,
+      "loop": true,
+      "label": "Swim Idle",
+      "category": "Swimming"
+    }
+  ],
+  "supersample": 2,
+  "render_device": "OPTIX",
+  "denoising_gpu": true
+}

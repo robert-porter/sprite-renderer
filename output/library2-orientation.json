@@ -1,0 +1,4244 @@
+{
+  "ual2_ninjajump_start": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.1,
+        "pitch": -63.8
+      },
+      "Head": {
+        "yaw": 4.0,
+        "pitch": -19.4
+      }
+    },
+    {
+      "frame": 3.625,
+      "spine_03": {
+        "yaw": 20.2,
+        "pitch": -36.8
+      },
+      "Head": {
+        "yaw": 4.6,
+        "pitch": -4.8
+      }
+    },
+    {
+      "frame": 7.25,
+      "spine_03": {
+        "yaw": 24.3,
+        "pitch": -41.7
+      },
+      "Head": {
+        "yaw": 6.7,
+        "pitch": -24.0
+      }
+    },
+    {
+      "frame": 10.875,
+      "spine_03": {
+        "yaw": 29.2,
+        "pitch": -50.4
+      },
+      "Head": {
+        "yaw": 6.7,
+        "pitch": -25.1
+      }
+    },
+    {
+      "frame": 14.5,
+      "spine_03": {
+        "yaw": 33.4,
+        "pitch": -55.8
+      },
+      "Head": {
+        "yaw": 6.7,
+        "pitch": -26.5
+      }
+    },
+    {
+      "frame": 18.125,
+      "spine_03": {
+        "yaw": 34.7,
+        "pitch": -57.1
+      },
+      "Head": {
+        "yaw": 6.6,
+        "pitch": -28.0
+      }
+    },
+    {
+      "frame": 21.75,
+      "spine_03": {
+        "yaw": 35.8,
+        "pitch": -58.4
+      },
+      "Head": {
+        "yaw": 6.6,
+        "pitch": -29.3
+      }
+    },
+    {
+      "frame": 25.375,
+      "spine_03": {
+        "yaw": 36.5,
+        "pitch": -59.5
+      },
+      "Head": {
+        "yaw": 6.5,
+        "pitch": -30.3
+      }
+    },
+    {
+      "frame": 29.0,
+      "spine_03": {
+        "yaw": 37.0,
+        "pitch": -60.1
+      },
+      "Head": {
+        "yaw": 6.4,
+        "pitch": -30.7
+      }
+    }
+  ],
+  "ual2_ninjajump_idle_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 37.0,
+        "pitch": -60.1
+      },
+      "Head": {
+        "yaw": 6.4,
+        "pitch": -30.7
+      }
+    },
+    {
+      "frame": 7.5,
+      "spine_03": {
+        "yaw": 38.7,
+        "pitch": -58.1
+      },
+      "Head": {
+        "yaw": 5.9,
+        "pitch": -31.6
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": 39.2,
+        "pitch": -56.8
+      },
+      "Head": {
+        "yaw": 4.5,
+        "pitch": -33.7
+      }
+    },
+    {
+      "frame": 22.5,
+      "spine_03": {
+        "yaw": 38.5,
+        "pitch": -56.6
+      },
+      "Head": {
+        "yaw": 2.9,
+        "pitch": -35.9
+      }
+    },
+    {
+      "frame": 30.0,
+      "spine_03": {
+        "yaw": 36.3,
+        "pitch": -58.2
+      },
+      "Head": {
+        "yaw": 1.8,
+        "pitch": -37.4
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": 33.2,
+        "pitch": -60.8
+      },
+      "Head": {
+        "yaw": 1.6,
+        "pitch": -37.4
+      }
+    },
+    {
+      "frame": 45.0,
+      "spine_03": {
+        "yaw": 31.5,
+        "pitch": -62.6
+      },
+      "Head": {
+        "yaw": 2.9,
+        "pitch": -35.2
+      }
+    },
+    {
+      "frame": 52.5,
+      "spine_03": {
+        "yaw": 33.8,
+        "pitch": -62.0
+      },
+      "Head": {
+        "yaw": 5.2,
+        "pitch": -32.2
+      }
+    },
+    {
+      "frame": 60.0,
+      "spine_03": {
+        "yaw": 37.0,
+        "pitch": -60.1
+      },
+      "Head": {
+        "yaw": 6.4,
+        "pitch": -30.7
+      }
+    }
+  ],
+  "ual2_ninjajump_land": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 37.0,
+        "pitch": -60.1
+      },
+      "Head": {
+        "yaw": 6.4,
+        "pitch": -30.7
+      }
+    },
+    {
+      "frame": 4.75,
+      "spine_03": {
+        "yaw": 13.2,
+        "pitch": -61.5
+      },
+      "Head": {
+        "yaw": 2.9,
+        "pitch": -41.4
+      }
+    },
+    {
+      "frame": 9.5,
+      "spine_03": {
+        "yaw": 13.1,
+        "pitch": -70.5
+      },
+      "Head": {
+        "yaw": 1.5,
+        "pitch": -47.1
+      }
+    },
+    {
+      "frame": 14.25,
+      "spine_03": {
+        "yaw": 12.9,
+        "pitch": -78.7
+      },
+      "Head": {
+        "yaw": 0.3,
+        "pitch": -52.1
+      }
+    },
+    {
+      "frame": 19.0,
+      "spine_03": {
+        "yaw": 13.1,
+        "pitch": -69.0
+      },
+      "Head": {
+        "yaw": -0.4,
+        "pitch": -53.7
+      }
+    },
+    {
+      "frame": 23.75,
+      "spine_03": {
+        "yaw": 13.2,
+        "pitch": -52.2
+      },
+      "Head": {
+        "yaw": -0.1,
+        "pitch": -49.3
+      }
+    },
+    {
+      "frame": 28.5,
+      "spine_03": {
+        "yaw": 13.2,
+        "pitch": -34.0
+      },
+      "Head": {
+        "yaw": 1.0,
+        "pitch": -35.6
+      }
+    },
+    {
+      "frame": 33.25,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -19.5
+      },
+      "Head": {
+        "yaw": 1.8,
+        "pitch": -19.3
+      }
+    },
+    {
+      "frame": 38.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -13.7
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -11.4
+      }
+    }
+  ],
+  "ual2_slide_start": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -54.9,
+        "pitch": -37.8
+      },
+      "Head": {
+        "yaw": 0.0,
+        "pitch": -20.7
+      }
+    },
+    {
+      "frame": 3.125,
+      "spine_03": {
+        "yaw": -51.0,
+        "pitch": -39.6
+      },
+      "Head": {
+        "yaw": -2.6,
+        "pitch": -25.2
+      }
+    },
+    {
+      "frame": 6.25,
+      "spine_03": {
+        "yaw": -37.2,
+        "pitch": -28.7
+      },
+      "Head": {
+        "yaw": -7.3,
+        "pitch": -26.5
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": -31.8,
+        "pitch": -5.6
+      },
+      "Head": {
+        "yaw": -7.5,
+        "pitch": -10.3
+      }
+    },
+    {
+      "frame": 12.5,
+      "spine_03": {
+        "yaw": -44.3,
+        "pitch": 23.5
+      },
+      "Head": {
+        "yaw": -5.4,
+        "pitch": 0.6
+      }
+    },
+    {
+      "frame": 15.625,
+      "spine_03": {
+        "yaw": -42.5,
+        "pitch": 17.1
+      },
+      "Head": {
+        "yaw": -18.8,
+        "pitch": 22.0
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": -34.7,
+        "pitch": 4.5
+      },
+      "Head": {
+        "yaw": -13.1,
+        "pitch": 11.6
+      }
+    },
+    {
+      "frame": 21.875,
+      "spine_03": {
+        "yaw": -31.6,
+        "pitch": 0.1
+      },
+      "Head": {
+        "yaw": -3.6,
+        "pitch": -8.2
+      }
+    },
+    {
+      "frame": 25.0,
+      "spine_03": {
+        "yaw": -31.3,
+        "pitch": -0.3
+      },
+      "Head": {
+        "yaw": -1.4,
+        "pitch": -13.0
+      }
+    }
+  ],
+  "ual2_slide_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -31.3,
+        "pitch": -0.3
+      },
+      "Head": {
+        "yaw": 2.8,
+        "pitch": -15.1
+      }
+    },
+    {
+      "frame": 7.5,
+      "spine_03": {
+        "yaw": -26.1,
+        "pitch": 3.6
+      },
+      "Head": {
+        "yaw": -1.3,
+        "pitch": -13.0
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": -20.2,
+        "pitch": 6.1
+      },
+      "Head": {
+        "yaw": 3.8,
+        "pitch": -15.5
+      }
+    },
+    {
+      "frame": 22.5,
+      "spine_03": {
+        "yaw": -25.9,
+        "pitch": 3.0
+      },
+      "Head": {
+        "yaw": 8.2,
+        "pitch": -17.4
+      }
+    },
+    {
+      "frame": 30.0,
+      "spine_03": {
+        "yaw": -31.3,
+        "pitch": -0.3
+      },
+      "Head": {
+        "yaw": 2.8,
+        "pitch": -15.1
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": -26.1,
+        "pitch": 3.6
+      },
+      "Head": {
+        "yaw": -1.3,
+        "pitch": -13.0
+      }
+    },
+    {
+      "frame": 45.0,
+      "spine_03": {
+        "yaw": -20.2,
+        "pitch": 6.1
+      },
+      "Head": {
+        "yaw": 3.8,
+        "pitch": -15.5
+      }
+    },
+    {
+      "frame": 52.5,
+      "spine_03": {
+        "yaw": -25.9,
+        "pitch": 3.0
+      },
+      "Head": {
+        "yaw": 8.2,
+        "pitch": -17.4
+      }
+    },
+    {
+      "frame": 60.0,
+      "spine_03": {
+        "yaw": -31.3,
+        "pitch": -0.3
+      },
+      "Head": {
+        "yaw": 2.8,
+        "pitch": -15.1
+      }
+    }
+  ],
+  "ual2_slide_exit": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -31.3,
+        "pitch": -0.3
+      },
+      "Head": {
+        "yaw": -1.4,
+        "pitch": -13.0
+      }
+    },
+    {
+      "frame": 1.875,
+      "spine_03": {
+        "yaw": -31.9,
+        "pitch": 7.9
+      },
+      "Head": {
+        "yaw": -4.8,
+        "pitch": -1.6
+      }
+    },
+    {
+      "frame": 3.75,
+      "spine_03": {
+        "yaw": -30.2,
+        "pitch": 4.7
+      },
+      "Head": {
+        "yaw": -13.0,
+        "pitch": 8.3
+      }
+    },
+    {
+      "frame": 5.625,
+      "spine_03": {
+        "yaw": -37.5,
+        "pitch": -15.7
+      },
+      "Head": {
+        "yaw": -17.5,
+        "pitch": 5.4
+      }
+    },
+    {
+      "frame": 7.5,
+      "spine_03": {
+        "yaw": -61.4,
+        "pitch": -29.2
+      },
+      "Head": {
+        "yaw": -13.4,
+        "pitch": -7.1
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": -76.7,
+        "pitch": -31.9
+      },
+      "Head": {
+        "yaw": -7.3,
+        "pitch": -20.4
+      }
+    },
+    {
+      "frame": 11.25,
+      "spine_03": {
+        "yaw": -72.5,
+        "pitch": -34.9
+      },
+      "Head": {
+        "yaw": -4.0,
+        "pitch": -24.8
+      }
+    },
+    {
+      "frame": 13.125,
+      "spine_03": {
+        "yaw": -61.3,
+        "pitch": -37.4
+      },
+      "Head": {
+        "yaw": -0.9,
+        "pitch": -22.8
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": -54.9,
+        "pitch": -37.8
+      },
+      "Head": {
+        "yaw": 0.0,
+        "pitch": -20.7
+      }
+    }
+  ],
+  "ual2_sword_regular_combo": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -15.2
+      }
+    },
+    {
+      "frame": 11.25,
+      "spine_03": {
+        "yaw": -156.4,
+        "pitch": 9.8
+      },
+      "Head": {
+        "yaw": -80.8,
+        "pitch": -10.6
+      }
+    },
+    {
+      "frame": 22.5,
+      "spine_03": {
+        "yaw": 84.6,
+        "pitch": -47.7
+      },
+      "Head": {
+        "yaw": 11.1,
+        "pitch": -38.6
+      }
+    },
+    {
+      "frame": 33.75,
+      "spine_03": {
+        "yaw": 38.4,
+        "pitch": -59.3
+      },
+      "Head": {
+        "yaw": -2.4,
+        "pitch": -29.8
+      }
+    },
+    {
+      "frame": 45.0,
+      "spine_03": {
+        "yaw": 74.9,
+        "pitch": -2.2
+      },
+      "Head": {
+        "yaw": 51.6,
+        "pitch": -16.0
+      }
+    },
+    {
+      "frame": 56.25,
+      "spine_03": {
+        "yaw": -91.3,
+        "pitch": -36.6
+      },
+      "Head": {
+        "yaw": -53.9,
+        "pitch": -43.5
+      }
+    },
+    {
+      "frame": 67.5,
+      "spine_03": {
+        "yaw": -50.6,
+        "pitch": -37.5
+      },
+      "Head": {
+        "yaw": -23.0,
+        "pitch": -39.9
+      }
+    },
+    {
+      "frame": 78.75,
+      "spine_03": {
+        "yaw": 2.5,
+        "pitch": -16.8
+      },
+      "Head": {
+        "yaw": -3.0,
+        "pitch": -16.7
+      }
+    },
+    {
+      "frame": 90.0,
+      "spine_03": {
+        "yaw": 11.9,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 0.6,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_sword_block": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -15.2
+      }
+    },
+    {
+      "frame": 4.625,
+      "spine_03": {
+        "yaw": -33.0,
+        "pitch": -38.8
+      },
+      "Head": {
+        "yaw": -4.1,
+        "pitch": -19.8
+      }
+    },
+    {
+      "frame": 9.25,
+      "spine_03": {
+        "yaw": -36.8,
+        "pitch": -38.8
+      },
+      "Head": {
+        "yaw": -1.6,
+        "pitch": -21.6
+      }
+    },
+    {
+      "frame": 13.875,
+      "spine_03": {
+        "yaw": -36.8,
+        "pitch": -36.0
+      },
+      "Head": {
+        "yaw": -1.5,
+        "pitch": -21.6
+      }
+    },
+    {
+      "frame": 18.5,
+      "spine_03": {
+        "yaw": -31.6,
+        "pitch": -32.1
+      },
+      "Head": {
+        "yaw": -1.4,
+        "pitch": -21.2
+      }
+    },
+    {
+      "frame": 23.125,
+      "spine_03": {
+        "yaw": -14.7,
+        "pitch": -26.0
+      },
+      "Head": {
+        "yaw": -0.3,
+        "pitch": -19.0
+      }
+    },
+    {
+      "frame": 27.75,
+      "spine_03": {
+        "yaw": 6.1,
+        "pitch": -19.3
+      },
+      "Head": {
+        "yaw": 1.4,
+        "pitch": -16.0
+      }
+    },
+    {
+      "frame": 32.375,
+      "spine_03": {
+        "yaw": 12.4,
+        "pitch": -17.5
+      },
+      "Head": {
+        "yaw": 1.8,
+        "pitch": -15.3
+      }
+    },
+    {
+      "frame": 37.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -15.2
+      }
+    }
+  ],
+  "ual2_melee_hook": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -2.2,
+        "pitch": -26.6
+      },
+      "Head": {
+        "yaw": -13.7,
+        "pitch": -32.2
+      }
+    },
+    {
+      "frame": 1.75,
+      "spine_03": {
+        "yaw": 41.5,
+        "pitch": -10.8
+      },
+      "Head": {
+        "yaw": 23.5,
+        "pitch": -6.9
+      }
+    },
+    {
+      "frame": 3.5,
+      "spine_03": {
+        "yaw": 71.9,
+        "pitch": -1.3
+      },
+      "Head": {
+        "yaw": 48.8,
+        "pitch": 6.5
+      }
+    },
+    {
+      "frame": 5.25,
+      "spine_03": {
+        "yaw": 59.4,
+        "pitch": -8.2
+      },
+      "Head": {
+        "yaw": 39.7,
+        "pitch": 8.2
+      }
+    },
+    {
+      "frame": 7.0,
+      "spine_03": {
+        "yaw": -1.1,
+        "pitch": -58.3
+      },
+      "Head": {
+        "yaw": 18.6,
+        "pitch": -35.9
+      }
+    },
+    {
+      "frame": 8.75,
+      "spine_03": {
+        "yaw": -103.0,
+        "pitch": -69.0
+      },
+      "Head": {
+        "yaw": -10.3,
+        "pitch": -68.1
+      }
+    },
+    {
+      "frame": 10.5,
+      "spine_03": {
+        "yaw": -86.6,
+        "pitch": -67.8
+      },
+      "Head": {
+        "yaw": 3.7,
+        "pitch": -64.0
+      }
+    },
+    {
+      "frame": 12.25,
+      "spine_03": {
+        "yaw": -66.9,
+        "pitch": -64.4
+      },
+      "Head": {
+        "yaw": 14.7,
+        "pitch": -57.8
+      }
+    },
+    {
+      "frame": 14.0,
+      "spine_03": {
+        "yaw": -58.3,
+        "pitch": -61.9
+      },
+      "Head": {
+        "yaw": 18.4,
+        "pitch": -54.4
+      }
+    }
+  ],
+  "ual2_melee_hook_rec": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -58.3,
+        "pitch": -61.9
+      },
+      "Head": {
+        "yaw": 18.4,
+        "pitch": -54.4
+      }
+    },
+    {
+      "frame": 2.25,
+      "spine_03": {
+        "yaw": -52.8,
+        "pitch": -61.3
+      },
+      "Head": {
+        "yaw": 17.1,
+        "pitch": -53.4
+      }
+    },
+    {
+      "frame": 4.5,
+      "spine_03": {
+        "yaw": -39.6,
+        "pitch": -58.7
+      },
+      "Head": {
+        "yaw": 13.9,
+        "pitch": -50.6
+      }
+    },
+    {
+      "frame": 6.75,
+      "spine_03": {
+        "yaw": -24.9,
+        "pitch": -52.9
+      },
+      "Head": {
+        "yaw": 10.1,
+        "pitch": -46.3
+      }
+    },
+    {
+      "frame": 9.0,
+      "spine_03": {
+        "yaw": -12.5,
+        "pitch": -44.7
+      },
+      "Head": {
+        "yaw": 6.4,
+        "pitch": -41.2
+      }
+    },
+    {
+      "frame": 11.25,
+      "spine_03": {
+        "yaw": -3.1,
+        "pitch": -35.7
+      },
+      "Head": {
+        "yaw": 3.4,
+        "pitch": -35.8
+      }
+    },
+    {
+      "frame": 13.5,
+      "spine_03": {
+        "yaw": 3.8,
+        "pitch": -27.8
+      },
+      "Head": {
+        "yaw": 1.1,
+        "pitch": -30.9
+      }
+    },
+    {
+      "frame": 15.75,
+      "spine_03": {
+        "yaw": 8.3,
+        "pitch": -22.3
+      },
+      "Head": {
+        "yaw": -0.4,
+        "pitch": -27.3
+      }
+    },
+    {
+      "frame": 18.0,
+      "spine_03": {
+        "yaw": 10.0,
+        "pitch": -20.2
+      },
+      "Head": {
+        "yaw": -0.9,
+        "pitch": -26.0
+      }
+    }
+  ],
+  "ual2_zombie_walk_fwd_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -6.2,
+        "pitch": -58.4
+      },
+      "Head": {
+        "yaw": -22.6,
+        "pitch": -46.1
+      }
+    },
+    {
+      "frame": 5.0,
+      "spine_03": {
+        "yaw": -10.1,
+        "pitch": -66.6
+      },
+      "Head": {
+        "yaw": -27.7,
+        "pitch": -54.2
+      }
+    },
+    {
+      "frame": 10.0,
+      "spine_03": {
+        "yaw": -14.7,
+        "pitch": -69.9
+      },
+      "Head": {
+        "yaw": -28.9,
+        "pitch": -57.3
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": -14.5,
+        "pitch": -64.2
+      },
+      "Head": {
+        "yaw": -23.7,
+        "pitch": -53.5
+      }
+    },
+    {
+      "frame": 20.0,
+      "spine_03": {
+        "yaw": -11.8,
+        "pitch": -57.9
+      },
+      "Head": {
+        "yaw": -18.5,
+        "pitch": -46.6
+      }
+    },
+    {
+      "frame": 25.0,
+      "spine_03": {
+        "yaw": -1.4,
+        "pitch": -66.9
+      },
+      "Head": {
+        "yaw": -22.0,
+        "pitch": -52.7
+      }
+    },
+    {
+      "frame": 30.0,
+      "spine_03": {
+        "yaw": 1.9,
+        "pitch": -70.5
+      },
+      "Head": {
+        "yaw": -30.3,
+        "pitch": -58.5
+      }
+    },
+    {
+      "frame": 35.0,
+      "spine_03": {
+        "yaw": -1.5,
+        "pitch": -65.2
+      },
+      "Head": {
+        "yaw": -27.2,
+        "pitch": -53.8
+      }
+    },
+    {
+      "frame": 40.0,
+      "spine_03": {
+        "yaw": -6.2,
+        "pitch": -58.4
+      },
+      "Head": {
+        "yaw": -22.6,
+        "pitch": -46.1
+      }
+    }
+  ],
+  "ual2_treechopping_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 57.4,
+        "pitch": 0.0
+      },
+      "Head": {
+        "yaw": 18.9,
+        "pitch": -12.5
+      }
+    },
+    {
+      "frame": 3.625,
+      "spine_03": {
+        "yaw": 0.6,
+        "pitch": -34.2
+      },
+      "Head": {
+        "yaw": 7.2,
+        "pitch": -15.8
+      }
+    },
+    {
+      "frame": 7.25,
+      "spine_03": {
+        "yaw": -15.7,
+        "pitch": -43.4
+      },
+      "Head": {
+        "yaw": -0.3,
+        "pitch": -16.3
+      }
+    },
+    {
+      "frame": 10.875,
+      "spine_03": {
+        "yaw": -9.2,
+        "pitch": -42.5
+      },
+      "Head": {
+        "yaw": 3.3,
+        "pitch": -15.6
+      }
+    },
+    {
+      "frame": 14.5,
+      "spine_03": {
+        "yaw": 9.3,
+        "pitch": -30.2
+      },
+      "Head": {
+        "yaw": 9.3,
+        "pitch": -14.8
+      }
+    },
+    {
+      "frame": 18.125,
+      "spine_03": {
+        "yaw": 32.7,
+        "pitch": -13.9
+      },
+      "Head": {
+        "yaw": 13.5,
+        "pitch": -13.8
+      }
+    },
+    {
+      "frame": 21.75,
+      "spine_03": {
+        "yaw": 49.4,
+        "pitch": -4.0
+      },
+      "Head": {
+        "yaw": 16.7,
+        "pitch": -13.0
+      }
+    },
+    {
+      "frame": 25.375,
+      "spine_03": {
+        "yaw": 56.1,
+        "pitch": -0.5
+      },
+      "Head": {
+        "yaw": 18.4,
+        "pitch": -12.6
+      }
+    },
+    {
+      "frame": 29.0,
+      "spine_03": {
+        "yaw": 57.4,
+        "pitch": 0.0
+      },
+      "Head": {
+        "yaw": 18.9,
+        "pitch": -12.5
+      }
+    }
+  ],
+  "ual2_chest_open": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 5.125,
+      "spine_03": {
+        "yaw": 13.8,
+        "pitch": -26.9
+      },
+      "Head": {
+        "yaw": 0.1,
+        "pitch": -37.0
+      }
+    },
+    {
+      "frame": 10.25,
+      "spine_03": {
+        "yaw": 18.7,
+        "pitch": -48.6
+      },
+      "Head": {
+        "yaw": -0.0,
+        "pitch": -50.9
+      }
+    },
+    {
+      "frame": 15.375,
+      "spine_03": {
+        "yaw": 30.0,
+        "pitch": -63.7
+      },
+      "Head": {
+        "yaw": 0.7,
+        "pitch": -61.2
+      }
+    },
+    {
+      "frame": 20.5,
+      "spine_03": {
+        "yaw": 25.5,
+        "pitch": -59.5
+      },
+      "Head": {
+        "yaw": 0.3,
+        "pitch": -57.1
+      }
+    },
+    {
+      "frame": 25.625,
+      "spine_03": {
+        "yaw": 16.0,
+        "pitch": -39.7
+      },
+      "Head": {
+        "yaw": -0.0,
+        "pitch": -40.6
+      }
+    },
+    {
+      "frame": 30.75,
+      "spine_03": {
+        "yaw": 13.7,
+        "pitch": -23.5
+      },
+      "Head": {
+        "yaw": 0.7,
+        "pitch": -26.7
+      }
+    },
+    {
+      "frame": 35.875,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -18.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 41.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_climbup_1m": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -26.2,
+        "pitch": -40.9
+      },
+      "Head": {
+        "yaw": 0.0,
+        "pitch": -20.7
+      }
+    },
+    {
+      "frame": 2.5,
+      "spine_03": {
+        "yaw": -10.2,
+        "pitch": -51.2
+      },
+      "Head": {
+        "yaw": -1.1,
+        "pitch": -20.8
+      }
+    },
+    {
+      "frame": 5.0,
+      "spine_03": {
+        "yaw": 34.9,
+        "pitch": -64.0
+      },
+      "Head": {
+        "yaw": -1.2,
+        "pitch": -30.6
+      }
+    },
+    {
+      "frame": 7.5,
+      "spine_03": {
+        "yaw": 91.9,
+        "pitch": -64.9
+      },
+      "Head": {
+        "yaw": 3.9,
+        "pitch": -44.7
+      }
+    },
+    {
+      "frame": 10.0,
+      "spine_03": {
+        "yaw": 120.9,
+        "pitch": -58.5
+      },
+      "Head": {
+        "yaw": 13.6,
+        "pitch": -57.7
+      }
+    },
+    {
+      "frame": 12.5,
+      "spine_03": {
+        "yaw": 116.0,
+        "pitch": -65.9
+      },
+      "Head": {
+        "yaw": 28.7,
+        "pitch": -70.1
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": 58.7,
+        "pitch": -79.0
+      },
+      "Head": {
+        "yaw": 15.9,
+        "pitch": -67.2
+      }
+    },
+    {
+      "frame": 17.5,
+      "spine_03": {
+        "yaw": -19.3,
+        "pitch": -59.1
+      },
+      "Head": {
+        "yaw": 0.5,
+        "pitch": -39.8
+      }
+    },
+    {
+      "frame": 20.0,
+      "spine_03": {
+        "yaw": -26.2,
+        "pitch": -40.9
+      },
+      "Head": {
+        "yaw": 0.0,
+        "pitch": -20.7
+      }
+    }
+  ],
+  "ual2_consume": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 5.0,
+      "spine_03": {
+        "yaw": 22.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": -7.0,
+        "pitch": -5.8
+      }
+    },
+    {
+      "frame": 10.0,
+      "spine_03": {
+        "yaw": 33.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": -13.0,
+        "pitch": -5.4
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": 34.6,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": -15.5,
+        "pitch": -5.8
+      }
+    },
+    {
+      "frame": 20.0,
+      "spine_03": {
+        "yaw": 34.6,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": -15.5,
+        "pitch": -5.8
+      }
+    },
+    {
+      "frame": 25.0,
+      "spine_03": {
+        "yaw": 34.1,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": -15.9,
+        "pitch": -5.8
+      }
+    },
+    {
+      "frame": 30.0,
+      "spine_03": {
+        "yaw": 28.4,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": -14.0,
+        "pitch": -7.5
+      }
+    },
+    {
+      "frame": 35.0,
+      "spine_03": {
+        "yaw": 18.5,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": -4.2,
+        "pitch": -11.7
+      }
+    },
+    {
+      "frame": 40.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_farm_harvest": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 2.9,
+        "pitch": 5.9
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": 7.4,
+        "pitch": -51.7
+      },
+      "Head": {
+        "yaw": 34.8,
+        "pitch": -54.5
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": -162.8,
+        "pitch": -73.9
+      },
+      "Head": {
+        "yaw": 121.3,
+        "pitch": -75.0
+      }
+    },
+    {
+      "frame": 28.125,
+      "spine_03": {
+        "yaw": -160.2,
+        "pitch": -73.7
+      },
+      "Head": {
+        "yaw": 134.4,
+        "pitch": -75.1
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": -164.8,
+        "pitch": -68.8
+      },
+      "Head": {
+        "yaw": 81.1,
+        "pitch": -84.2
+      }
+    },
+    {
+      "frame": 46.875,
+      "spine_03": {
+        "yaw": -107.3,
+        "pitch": -84.3
+      },
+      "Head": {
+        "yaw": -1.9,
+        "pitch": -61.5
+      }
+    },
+    {
+      "frame": 56.25,
+      "spine_03": {
+        "yaw": 0.0,
+        "pitch": -44.1
+      },
+      "Head": {
+        "yaw": -0.7,
+        "pitch": -11.2
+      }
+    },
+    {
+      "frame": 65.625,
+      "spine_03": {
+        "yaw": 11.3,
+        "pitch": -19.1
+      },
+      "Head": {
+        "yaw": 2.3,
+        "pitch": 5.2
+      }
+    },
+    {
+      "frame": 75.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 2.9,
+        "pitch": 5.9
+      }
+    }
+  ],
+  "ual2_farm_plantseed": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 10.375,
+      "spine_03": {
+        "yaw": -2.2,
+        "pitch": -24.8
+      },
+      "Head": {
+        "yaw": -2.0,
+        "pitch": -24.4
+      }
+    },
+    {
+      "frame": 20.75,
+      "spine_03": {
+        "yaw": -10.7,
+        "pitch": -56.1
+      },
+      "Head": {
+        "yaw": 10.9,
+        "pitch": -56.2
+      }
+    },
+    {
+      "frame": 31.125,
+      "spine_03": {
+        "yaw": -14.5,
+        "pitch": -66.4
+      },
+      "Head": {
+        "yaw": 36.8,
+        "pitch": -64.6
+      }
+    },
+    {
+      "frame": 41.5,
+      "spine_03": {
+        "yaw": -14.6,
+        "pitch": -66.4
+      },
+      "Head": {
+        "yaw": 36.8,
+        "pitch": -64.6
+      }
+    },
+    {
+      "frame": 51.875,
+      "spine_03": {
+        "yaw": -14.5,
+        "pitch": -66.4
+      },
+      "Head": {
+        "yaw": 36.9,
+        "pitch": -64.6
+      }
+    },
+    {
+      "frame": 62.25,
+      "spine_03": {
+        "yaw": -3.2,
+        "pitch": -51.6
+      },
+      "Head": {
+        "yaw": 4.3,
+        "pitch": -31.5
+      }
+    },
+    {
+      "frame": 72.625,
+      "spine_03": {
+        "yaw": 9.8,
+        "pitch": -22.9
+      },
+      "Head": {
+        "yaw": 8.8,
+        "pitch": -14.7
+      }
+    },
+    {
+      "frame": 83.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_farm_watering": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.7,
+        "pitch": -17.4
+      }
+    },
+    {
+      "frame": 14.25,
+      "spine_03": {
+        "yaw": 10.8,
+        "pitch": -26.2
+      },
+      "Head": {
+        "yaw": 11.4,
+        "pitch": -32.8
+      }
+    },
+    {
+      "frame": 28.5,
+      "spine_03": {
+        "yaw": 6.0,
+        "pitch": -30.0
+      },
+      "Head": {
+        "yaw": 11.4,
+        "pitch": -36.9
+      }
+    },
+    {
+      "frame": 42.75,
+      "spine_03": {
+        "yaw": 2.3,
+        "pitch": -28.7
+      },
+      "Head": {
+        "yaw": -1.2,
+        "pitch": -36.1
+      }
+    },
+    {
+      "frame": 57.0,
+      "spine_03": {
+        "yaw": 5.7,
+        "pitch": -29.7
+      },
+      "Head": {
+        "yaw": 8.2,
+        "pitch": -36.6
+      }
+    },
+    {
+      "frame": 71.25,
+      "spine_03": {
+        "yaw": 14.6,
+        "pitch": -30.2
+      },
+      "Head": {
+        "yaw": 12.8,
+        "pitch": -37.2
+      }
+    },
+    {
+      "frame": 85.5,
+      "spine_03": {
+        "yaw": 4.0,
+        "pitch": -29.2
+      },
+      "Head": {
+        "yaw": -1.4,
+        "pitch": -36.4
+      }
+    },
+    {
+      "frame": 99.75,
+      "spine_03": {
+        "yaw": 5.8,
+        "pitch": -21.1
+      },
+      "Head": {
+        "yaw": 0.5,
+        "pitch": -21.2
+      }
+    },
+    {
+      "frame": 114.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.7,
+        "pitch": -17.4
+      }
+    }
+  ],
+  "ual2_hit_knockback": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -173.7,
+        "pitch": -62.3
+      },
+      "Head": {
+        "yaw": 173.8,
+        "pitch": -72.3
+      }
+    },
+    {
+      "frame": 3.125,
+      "spine_03": {
+        "yaw": -3.6,
+        "pitch": -26.9
+      },
+      "Head": {
+        "yaw": 4.3,
+        "pitch": -62.2
+      }
+    },
+    {
+      "frame": 6.25,
+      "spine_03": {
+        "yaw": -3.5,
+        "pitch": 28.6
+      },
+      "Head": {
+        "yaw": 2.0,
+        "pitch": -7.3
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": -24.4,
+        "pitch": 60.2
+      },
+      "Head": {
+        "yaw": 139.7,
+        "pitch": 86.6
+      }
+    },
+    {
+      "frame": 12.5,
+      "spine_03": {
+        "yaw": -13.8,
+        "pitch": 35.4
+      },
+      "Head": {
+        "yaw": 8.5,
+        "pitch": 45.8
+      }
+    },
+    {
+      "frame": 15.625,
+      "spine_03": {
+        "yaw": -10.9,
+        "pitch": 63.0
+      },
+      "Head": {
+        "yaw": 2.8,
+        "pitch": 66.0
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": 4.7,
+        "pitch": 83.4
+      },
+      "Head": {
+        "yaw": 178.3,
+        "pitch": 82.2
+      }
+    },
+    {
+      "frame": 21.875,
+      "spine_03": {
+        "yaw": 3.9,
+        "pitch": 84.3
+      },
+      "Head": {
+        "yaw": 178.2,
+        "pitch": 77.8
+      }
+    },
+    {
+      "frame": 25.0,
+      "spine_03": {
+        "yaw": 3.9,
+        "pitch": 84.3
+      },
+      "Head": {
+        "yaw": 178.2,
+        "pitch": 77.8
+      }
+    }
+  ],
+  "ual2_idle_foldarms_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 2.2,
+        "pitch": -9.3
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -14.0
+      },
+      "Head": {
+        "yaw": 2.2,
+        "pitch": -9.4
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.4
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -10.7
+      }
+    },
+    {
+      "frame": 28.125,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -19.0
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -10.4
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.8
+      },
+      "Head": {
+        "yaw": 2.2,
+        "pitch": -9.3
+      }
+    },
+    {
+      "frame": 46.875,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -13.9
+      },
+      "Head": {
+        "yaw": -0.7,
+        "pitch": -9.6
+      }
+    },
+    {
+      "frame": 56.25,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.5
+      },
+      "Head": {
+        "yaw": 1.3,
+        "pitch": -10.9
+      }
+    },
+    {
+      "frame": 65.625,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -19.0
+      },
+      "Head": {
+        "yaw": 0.9,
+        "pitch": -10.7
+      }
+    },
+    {
+      "frame": 75.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.7
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -9.8
+      }
+    }
+  ],
+  "ual2_idle_lantern_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -14.0
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -10.8
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.4
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -11.5
+      }
+    },
+    {
+      "frame": 28.125,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -19.0
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.4
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.8
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.1
+      }
+    },
+    {
+      "frame": 46.875,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -13.9
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -10.9
+      }
+    },
+    {
+      "frame": 56.25,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.5
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -11.4
+      }
+    },
+    {
+      "frame": 65.625,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -19.0
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.3
+      }
+    },
+    {
+      "frame": 75.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -16.4
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.1
+      }
+    }
+  ],
+  "ual2_idle_no_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -14.0
+      },
+      "Head": {
+        "yaw": -7.4,
+        "pitch": -32.1
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.4
+      },
+      "Head": {
+        "yaw": 8.9,
+        "pitch": -32.5
+      }
+    },
+    {
+      "frame": 28.125,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -19.0
+      },
+      "Head": {
+        "yaw": -0.4,
+        "pitch": -32.1
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.8
+      },
+      "Head": {
+        "yaw": -2.6,
+        "pitch": -30.9
+      }
+    },
+    {
+      "frame": 46.875,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -13.9
+      },
+      "Head": {
+        "yaw": -2.1,
+        "pitch": -28.4
+      }
+    },
+    {
+      "frame": 56.25,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.5
+      },
+      "Head": {
+        "yaw": 1.4,
+        "pitch": -16.6
+      }
+    },
+    {
+      "frame": 65.625,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -19.0
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -15.0
+      }
+    },
+    {
+      "frame": 75.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -16.0
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.0
+      }
+    }
+  ],
+  "ual2_idle_rail_call": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 7.1,
+        "pitch": -55.0
+      },
+      "Head": {
+        "yaw": -8.7,
+        "pitch": -26.9
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": 7.0,
+        "pitch": -54.5
+      },
+      "Head": {
+        "yaw": -9.4,
+        "pitch": -24.4
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": 6.8,
+        "pitch": -53.4
+      },
+      "Head": {
+        "yaw": -9.8,
+        "pitch": -23.1
+      }
+    },
+    {
+      "frame": 28.125,
+      "spine_03": {
+        "yaw": 6.6,
+        "pitch": -52.2
+      },
+      "Head": {
+        "yaw": -10.1,
+        "pitch": -26.9
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": 6.5,
+        "pitch": -51.5
+      },
+      "Head": {
+        "yaw": -9.9,
+        "pitch": -21.7
+      }
+    },
+    {
+      "frame": 46.875,
+      "spine_03": {
+        "yaw": 6.6,
+        "pitch": -52.0
+      },
+      "Head": {
+        "yaw": -9.9,
+        "pitch": -21.8
+      }
+    },
+    {
+      "frame": 56.25,
+      "spine_03": {
+        "yaw": 6.7,
+        "pitch": -53.2
+      },
+      "Head": {
+        "yaw": -9.8,
+        "pitch": -22.1
+      }
+    },
+    {
+      "frame": 65.625,
+      "spine_03": {
+        "yaw": 7.0,
+        "pitch": -54.4
+      },
+      "Head": {
+        "yaw": -9.7,
+        "pitch": -22.4
+      }
+    },
+    {
+      "frame": 75.0,
+      "spine_03": {
+        "yaw": 7.1,
+        "pitch": -55.0
+      },
+      "Head": {
+        "yaw": -9.4,
+        "pitch": -27.0
+      }
+    }
+  ],
+  "ual2_idle_rail_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 7.1,
+        "pitch": -55.0
+      },
+      "Head": {
+        "yaw": -8.7,
+        "pitch": -26.9
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": 7.0,
+        "pitch": -54.5
+      },
+      "Head": {
+        "yaw": -8.7,
+        "pitch": -26.4
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": 6.8,
+        "pitch": -53.4
+      },
+      "Head": {
+        "yaw": -8.6,
+        "pitch": -25.2
+      }
+    },
+    {
+      "frame": 28.125,
+      "spine_03": {
+        "yaw": 6.6,
+        "pitch": -52.2
+      },
+      "Head": {
+        "yaw": -8.5,
+        "pitch": -23.7
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": 6.5,
+        "pitch": -51.5
+      },
+      "Head": {
+        "yaw": -8.4,
+        "pitch": -22.4
+      }
+    },
+    {
+      "frame": 46.875,
+      "spine_03": {
+        "yaw": 6.6,
+        "pitch": -52.0
+      },
+      "Head": {
+        "yaw": -8.4,
+        "pitch": -21.7
+      }
+    },
+    {
+      "frame": 56.25,
+      "spine_03": {
+        "yaw": 6.7,
+        "pitch": -53.2
+      },
+      "Head": {
+        "yaw": -8.4,
+        "pitch": -22.3
+      }
+    },
+    {
+      "frame": 65.625,
+      "spine_03": {
+        "yaw": 7.0,
+        "pitch": -54.4
+      },
+      "Head": {
+        "yaw": -8.6,
+        "pitch": -25.1
+      }
+    },
+    {
+      "frame": 75.0,
+      "spine_03": {
+        "yaw": 7.1,
+        "pitch": -55.0
+      },
+      "Head": {
+        "yaw": -8.7,
+        "pitch": -26.9
+      }
+    }
+  ],
+  "ual2_idle_shield_break": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 32.3,
+        "pitch": -16.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 4.0,
+      "spine_03": {
+        "yaw": -40.2,
+        "pitch": 15.9
+      },
+      "Head": {
+        "yaw": -44.1,
+        "pitch": 13.3
+      }
+    },
+    {
+      "frame": 8.0,
+      "spine_03": {
+        "yaw": -34.2,
+        "pitch": 13.3
+      },
+      "Head": {
+        "yaw": -25.6,
+        "pitch": 20.3
+      }
+    },
+    {
+      "frame": 12.0,
+      "spine_03": {
+        "yaw": -21.4,
+        "pitch": 7.2
+      },
+      "Head": {
+        "yaw": 2.5,
+        "pitch": 20.4
+      }
+    },
+    {
+      "frame": 16.0,
+      "spine_03": {
+        "yaw": -6.3,
+        "pitch": -1.3
+      },
+      "Head": {
+        "yaw": 4.5,
+        "pitch": 9.0
+      }
+    },
+    {
+      "frame": 20.0,
+      "spine_03": {
+        "yaw": 8.3,
+        "pitch": -8.6
+      },
+      "Head": {
+        "yaw": 4.7,
+        "pitch": -6.7
+      }
+    },
+    {
+      "frame": 24.0,
+      "spine_03": {
+        "yaw": 20.4,
+        "pitch": -12.4
+      },
+      "Head": {
+        "yaw": 4.9,
+        "pitch": -12.9
+      }
+    },
+    {
+      "frame": 28.0,
+      "spine_03": {
+        "yaw": 29.0,
+        "pitch": -15.1
+      },
+      "Head": {
+        "yaw": 3.1,
+        "pitch": -14.2
+      }
+    },
+    {
+      "frame": 32.0,
+      "spine_03": {
+        "yaw": 32.3,
+        "pitch": -16.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_idle_shield_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 32.3,
+        "pitch": -16.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": 32.4,
+        "pitch": -14.3
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -10.8
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": 32.4,
+        "pitch": -17.6
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -11.5
+      }
+    },
+    {
+      "frame": 28.125,
+      "spine_03": {
+        "yaw": 32.3,
+        "pitch": -19.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.4
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": 32.3,
+        "pitch": -16.1
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.1
+      }
+    },
+    {
+      "frame": 46.875,
+      "spine_03": {
+        "yaw": 32.4,
+        "pitch": -14.2
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -10.9
+      }
+    },
+    {
+      "frame": 56.25,
+      "spine_03": {
+        "yaw": 32.4,
+        "pitch": -17.7
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -11.4
+      }
+    },
+    {
+      "frame": 65.625,
+      "spine_03": {
+        "yaw": 32.3,
+        "pitch": -19.3
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.3
+      }
+    },
+    {
+      "frame": 75.0,
+      "spine_03": {
+        "yaw": 32.3,
+        "pitch": -16.0
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.2
+      }
+    }
+  ],
+  "ual2_idle_talkingphone_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -18.2
+      },
+      "Head": {
+        "yaw": 1.6,
+        "pitch": -12.1
+      }
+    },
+    {
+      "frame": 11.0,
+      "spine_03": {
+        "yaw": 13.0,
+        "pitch": -12.0
+      },
+      "Head": {
+        "yaw": 1.6,
+        "pitch": -11.0
+      }
+    },
+    {
+      "frame": 22.0,
+      "spine_03": {
+        "yaw": 13.1,
+        "pitch": -17.5
+      },
+      "Head": {
+        "yaw": 1.6,
+        "pitch": -13.4
+      }
+    },
+    {
+      "frame": 33.0,
+      "spine_03": {
+        "yaw": 13.2,
+        "pitch": -17.9
+      },
+      "Head": {
+        "yaw": 1.6,
+        "pitch": -12.1
+      }
+    },
+    {
+      "frame": 44.0,
+      "spine_03": {
+        "yaw": 13.2,
+        "pitch": -14.4
+      },
+      "Head": {
+        "yaw": 1.6,
+        "pitch": -12.5
+      }
+    },
+    {
+      "frame": 55.0,
+      "spine_03": {
+        "yaw": 13.0,
+        "pitch": -13.5
+      },
+      "Head": {
+        "yaw": 1.6,
+        "pitch": -10.4
+      }
+    },
+    {
+      "frame": 66.0,
+      "spine_03": {
+        "yaw": 12.9,
+        "pitch": -14.1
+      },
+      "Head": {
+        "yaw": 1.3,
+        "pitch": -12.3
+      }
+    },
+    {
+      "frame": 77.0,
+      "spine_03": {
+        "yaw": 13.1,
+        "pitch": -16.3
+      },
+      "Head": {
+        "yaw": 1.5,
+        "pitch": -11.6
+      }
+    },
+    {
+      "frame": 88.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -18.2
+      },
+      "Head": {
+        "yaw": 1.6,
+        "pitch": -12.1
+      }
+    }
+  ],
+  "ual2_laytoidle": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -0.2,
+        "pitch": 74.2
+      },
+      "Head": {
+        "yaw": -95.2,
+        "pitch": 87.8
+      }
+    },
+    {
+      "frame": 5.75,
+      "spine_03": {
+        "yaw": -14.4,
+        "pitch": 50.7
+      },
+      "Head": {
+        "yaw": -11.5,
+        "pitch": 59.6
+      }
+    },
+    {
+      "frame": 11.5,
+      "spine_03": {
+        "yaw": -13.9,
+        "pitch": 7.9
+      },
+      "Head": {
+        "yaw": -8.6,
+        "pitch": 22.8
+      }
+    },
+    {
+      "frame": 17.25,
+      "spine_03": {
+        "yaw": -8.8,
+        "pitch": -11.3
+      },
+      "Head": {
+        "yaw": -4.1,
+        "pitch": 1.4
+      }
+    },
+    {
+      "frame": 23.0,
+      "spine_03": {
+        "yaw": -13.3,
+        "pitch": -22.2
+      },
+      "Head": {
+        "yaw": 2.0,
+        "pitch": -22.3
+      }
+    },
+    {
+      "frame": 28.75,
+      "spine_03": {
+        "yaw": -37.9,
+        "pitch": -40.1
+      },
+      "Head": {
+        "yaw": -15.1,
+        "pitch": -36.3
+      }
+    },
+    {
+      "frame": 34.5,
+      "spine_03": {
+        "yaw": -32.8,
+        "pitch": -32.2
+      },
+      "Head": {
+        "yaw": -20.6,
+        "pitch": -30.4
+      }
+    },
+    {
+      "frame": 40.25,
+      "spine_03": {
+        "yaw": -4.5,
+        "pitch": -20.7
+      },
+      "Head": {
+        "yaw": -7.8,
+        "pitch": -19.5
+      }
+    },
+    {
+      "frame": 46.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_overhandthrow": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 5.0,
+      "spine_03": {
+        "yaw": 53.1,
+        "pitch": 7.1
+      },
+      "Head": {
+        "yaw": 15.4,
+        "pitch": 0.4
+      }
+    },
+    {
+      "frame": 10.0,
+      "spine_03": {
+        "yaw": -6.0,
+        "pitch": -41.5
+      },
+      "Head": {
+        "yaw": 2.8,
+        "pitch": -8.4
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": -132.3,
+        "pitch": -53.9
+      },
+      "Head": {
+        "yaw": -24.1,
+        "pitch": -50.2
+      }
+    },
+    {
+      "frame": 20.0,
+      "spine_03": {
+        "yaw": -132.7,
+        "pitch": -55.4
+      },
+      "Head": {
+        "yaw": -24.3,
+        "pitch": -50.5
+      }
+    },
+    {
+      "frame": 25.0,
+      "spine_03": {
+        "yaw": -124.7,
+        "pitch": -58.1
+      },
+      "Head": {
+        "yaw": -13.4,
+        "pitch": -46.6
+      }
+    },
+    {
+      "frame": 30.0,
+      "spine_03": {
+        "yaw": -57.3,
+        "pitch": -71.6
+      },
+      "Head": {
+        "yaw": -1.9,
+        "pitch": -37.9
+      }
+    },
+    {
+      "frame": 35.0,
+      "spine_03": {
+        "yaw": -0.0,
+        "pitch": -34.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -18.9
+      }
+    },
+    {
+      "frame": 40.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_shield_dash": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 133.8,
+        "pitch": -56.2
+      },
+      "Head": {
+        "yaw": 82.8,
+        "pitch": -41.2
+      }
+    },
+    {
+      "frame": 4.125,
+      "spine_03": {
+        "yaw": 84.7,
+        "pitch": -52.4
+      },
+      "Head": {
+        "yaw": 20.0,
+        "pitch": -30.4
+      }
+    },
+    {
+      "frame": 8.25,
+      "spine_03": {
+        "yaw": 85.0,
+        "pitch": -55.9
+      },
+      "Head": {
+        "yaw": 19.6,
+        "pitch": -28.3
+      }
+    },
+    {
+      "frame": 12.375,
+      "spine_03": {
+        "yaw": 80.6,
+        "pitch": -58.9
+      },
+      "Head": {
+        "yaw": 18.7,
+        "pitch": -22.9
+      }
+    },
+    {
+      "frame": 16.5,
+      "spine_03": {
+        "yaw": 62.0,
+        "pitch": -53.9
+      },
+      "Head": {
+        "yaw": 17.7,
+        "pitch": -20.4
+      }
+    },
+    {
+      "frame": 20.625,
+      "spine_03": {
+        "yaw": 23.2,
+        "pitch": -40.3
+      },
+      "Head": {
+        "yaw": -5.3,
+        "pitch": -27.1
+      }
+    },
+    {
+      "frame": 24.75,
+      "spine_03": {
+        "yaw": 10.4,
+        "pitch": -27.4
+      },
+      "Head": {
+        "yaw": -7.3,
+        "pitch": -22.8
+      }
+    },
+    {
+      "frame": 28.875,
+      "spine_03": {
+        "yaw": 11.5,
+        "pitch": -18.4
+      },
+      "Head": {
+        "yaw": -0.7,
+        "pitch": -16.4
+      }
+    },
+    {
+      "frame": 33.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_shield_oneshot": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 3.125,
+      "spine_03": {
+        "yaw": 40.9,
+        "pitch": -15.1
+      },
+      "Head": {
+        "yaw": -4.1,
+        "pitch": -8.4
+      }
+    },
+    {
+      "frame": 6.25,
+      "spine_03": {
+        "yaw": 39.1,
+        "pitch": -15.2
+      },
+      "Head": {
+        "yaw": -6.9,
+        "pitch": -5.7
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": 34.7,
+        "pitch": -15.1
+      },
+      "Head": {
+        "yaw": -5.0,
+        "pitch": -5.7
+      }
+    },
+    {
+      "frame": 12.5,
+      "spine_03": {
+        "yaw": 29.2,
+        "pitch": -15.1
+      },
+      "Head": {
+        "yaw": -1.1,
+        "pitch": -5.7
+      }
+    },
+    {
+      "frame": 15.625,
+      "spine_03": {
+        "yaw": 23.5,
+        "pitch": -15.2
+      },
+      "Head": {
+        "yaw": 3.6,
+        "pitch": -5.7
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": 18.4,
+        "pitch": -15.5
+      },
+      "Head": {
+        "yaw": 6.9,
+        "pitch": -6.8
+      }
+    },
+    {
+      "frame": 21.875,
+      "spine_03": {
+        "yaw": 14.7,
+        "pitch": -15.8
+      },
+      "Head": {
+        "yaw": 4.4,
+        "pitch": -11.2
+      }
+    },
+    {
+      "frame": 25.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_sword_dash": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 5.875,
+      "spine_03": {
+        "yaw": -171.8,
+        "pitch": -60.6
+      },
+      "Head": {
+        "yaw": -63.8,
+        "pitch": -51.4
+      }
+    },
+    {
+      "frame": 11.75,
+      "spine_03": {
+        "yaw": 95.3,
+        "pitch": -36.3
+      },
+      "Head": {
+        "yaw": 25.1,
+        "pitch": -50.4
+      }
+    },
+    {
+      "frame": 17.625,
+      "spine_03": {
+        "yaw": 93.0,
+        "pitch": -40.0
+      },
+      "Head": {
+        "yaw": 16.7,
+        "pitch": -49.6
+      }
+    },
+    {
+      "frame": 23.5,
+      "spine_03": {
+        "yaw": 92.1,
+        "pitch": -47.2
+      },
+      "Head": {
+        "yaw": 17.5,
+        "pitch": -48.3
+      }
+    },
+    {
+      "frame": 29.375,
+      "spine_03": {
+        "yaw": 89.5,
+        "pitch": -49.4
+      },
+      "Head": {
+        "yaw": 17.0,
+        "pitch": -47.2
+      }
+    },
+    {
+      "frame": 35.25,
+      "spine_03": {
+        "yaw": 39.7,
+        "pitch": -55.6
+      },
+      "Head": {
+        "yaw": 3.4,
+        "pitch": -30.6
+      }
+    },
+    {
+      "frame": 41.125,
+      "spine_03": {
+        "yaw": 17.2,
+        "pitch": -30.9
+      },
+      "Head": {
+        "yaw": 2.4,
+        "pitch": -16.0
+      }
+    },
+    {
+      "frame": 47.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_sword_heavy_combo": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 16.25,
+      "spine_03": {
+        "yaw": -168.5,
+        "pitch": -24.2
+      },
+      "Head": {
+        "yaw": -111.9,
+        "pitch": -29.5
+      }
+    },
+    {
+      "frame": 32.5,
+      "spine_03": {
+        "yaw": 25.3,
+        "pitch": -13.8
+      },
+      "Head": {
+        "yaw": 0.3,
+        "pitch": -8.9
+      }
+    },
+    {
+      "frame": 48.75,
+      "spine_03": {
+        "yaw": -113.9,
+        "pitch": -49.1
+      },
+      "Head": {
+        "yaw": -90.0,
+        "pitch": -37.2
+      }
+    },
+    {
+      "frame": 65.0,
+      "spine_03": {
+        "yaw": 112.0,
+        "pitch": -47.7
+      },
+      "Head": {
+        "yaw": 70.8,
+        "pitch": -16.7
+      }
+    },
+    {
+      "frame": 81.25,
+      "spine_03": {
+        "yaw": -123.7,
+        "pitch": -45.0
+      },
+      "Head": {
+        "yaw": -64.5,
+        "pitch": -64.3
+      }
+    },
+    {
+      "frame": 97.5,
+      "spine_03": {
+        "yaw": -108.3,
+        "pitch": -39.6
+      },
+      "Head": {
+        "yaw": -47.0,
+        "pitch": -60.0
+      }
+    },
+    {
+      "frame": 113.75,
+      "spine_03": {
+        "yaw": -9.9,
+        "pitch": -46.4
+      },
+      "Head": {
+        "yaw": 8.6,
+        "pitch": -40.2
+      }
+    },
+    {
+      "frame": 130.0,
+      "spine_03": {
+        "yaw": 15.4,
+        "pitch": -16.0
+      },
+      "Head": {
+        "yaw": 23.0,
+        "pitch": -23.6
+      }
+    }
+  ],
+  "ual2_sword_regular_a": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -15.2
+      }
+    },
+    {
+      "frame": 1.625,
+      "spine_03": {
+        "yaw": 22.0,
+        "pitch": -31.2
+      },
+      "Head": {
+        "yaw": 0.5,
+        "pitch": -21.3
+      }
+    },
+    {
+      "frame": 3.25,
+      "spine_03": {
+        "yaw": 45.2,
+        "pitch": -55.5
+      },
+      "Head": {
+        "yaw": -2.9,
+        "pitch": -33.1
+      }
+    },
+    {
+      "frame": 4.875,
+      "spine_03": {
+        "yaw": 66.2,
+        "pitch": -68.4
+      },
+      "Head": {
+        "yaw": -8.8,
+        "pitch": -41.4
+      }
+    },
+    {
+      "frame": 6.5,
+      "spine_03": {
+        "yaw": -21.8,
+        "pitch": -31.5
+      },
+      "Head": {
+        "yaw": -25.4,
+        "pitch": -29.1
+      }
+    },
+    {
+      "frame": 8.125,
+      "spine_03": {
+        "yaw": -110.8,
+        "pitch": 9.1
+      },
+      "Head": {
+        "yaw": -57.7,
+        "pitch": -8.8
+      }
+    },
+    {
+      "frame": 9.75,
+      "spine_03": {
+        "yaw": -143.2,
+        "pitch": 9.0
+      },
+      "Head": {
+        "yaw": -69.4,
+        "pitch": -11.5
+      }
+    },
+    {
+      "frame": 11.375,
+      "spine_03": {
+        "yaw": -157.4,
+        "pitch": 9.9
+      },
+      "Head": {
+        "yaw": -81.6,
+        "pitch": -10.5
+      }
+    },
+    {
+      "frame": 13.0,
+      "spine_03": {
+        "yaw": -158.9,
+        "pitch": 5.7
+      },
+      "Head": {
+        "yaw": -85.8,
+        "pitch": -11.1
+      }
+    }
+  ],
+  "ual2_sword_regular_a_rec": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -158.9,
+        "pitch": 5.7
+      },
+      "Head": {
+        "yaw": -85.8,
+        "pitch": -11.1
+      }
+    },
+    {
+      "frame": 3.625,
+      "spine_03": {
+        "yaw": -124.3,
+        "pitch": 3.6
+      },
+      "Head": {
+        "yaw": -50.5,
+        "pitch": -13.2
+      }
+    },
+    {
+      "frame": 7.25,
+      "spine_03": {
+        "yaw": -81.2,
+        "pitch": -11.7
+      },
+      "Head": {
+        "yaw": -30.6,
+        "pitch": -16.0
+      }
+    },
+    {
+      "frame": 10.875,
+      "spine_03": {
+        "yaw": -18.4,
+        "pitch": -29.7
+      },
+      "Head": {
+        "yaw": -1.2,
+        "pitch": -22.3
+      }
+    },
+    {
+      "frame": 14.5,
+      "spine_03": {
+        "yaw": 7.7,
+        "pitch": -28.7
+      },
+      "Head": {
+        "yaw": 1.0,
+        "pitch": -21.9
+      }
+    },
+    {
+      "frame": 18.125,
+      "spine_03": {
+        "yaw": 11.4,
+        "pitch": -20.9
+      },
+      "Head": {
+        "yaw": -1.6,
+        "pitch": -17.4
+      }
+    },
+    {
+      "frame": 21.75,
+      "spine_03": {
+        "yaw": 10.7,
+        "pitch": -16.5
+      },
+      "Head": {
+        "yaw": -1.9,
+        "pitch": -14.7
+      }
+    },
+    {
+      "frame": 25.375,
+      "spine_03": {
+        "yaw": 12.2,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 0.5,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 29.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_sword_regular_b": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -151.2,
+        "pitch": -5.9
+      },
+      "Head": {
+        "yaw": -83.6,
+        "pitch": -14.1
+      }
+    },
+    {
+      "frame": 2.0,
+      "spine_03": {
+        "yaw": -132.4,
+        "pitch": -32.2
+      },
+      "Head": {
+        "yaw": -70.6,
+        "pitch": -21.8
+      }
+    },
+    {
+      "frame": 4.0,
+      "spine_03": {
+        "yaw": -117.6,
+        "pitch": -62.8
+      },
+      "Head": {
+        "yaw": -47.0,
+        "pitch": -30.8
+      }
+    },
+    {
+      "frame": 6.0,
+      "spine_03": {
+        "yaw": -78.9,
+        "pitch": -78.2
+      },
+      "Head": {
+        "yaw": 11.8,
+        "pitch": -44.1
+      }
+    },
+    {
+      "frame": 8.0,
+      "spine_03": {
+        "yaw": 76.7,
+        "pitch": -58.1
+      },
+      "Head": {
+        "yaw": 16.2,
+        "pitch": -44.7
+      }
+    },
+    {
+      "frame": 10.0,
+      "spine_03": {
+        "yaw": 97.8,
+        "pitch": -35.0
+      },
+      "Head": {
+        "yaw": 11.0,
+        "pitch": -35.0
+      }
+    },
+    {
+      "frame": 12.0,
+      "spine_03": {
+        "yaw": 102.0,
+        "pitch": -34.1
+      },
+      "Head": {
+        "yaw": 12.0,
+        "pitch": -35.0
+      }
+    },
+    {
+      "frame": 14.0,
+      "spine_03": {
+        "yaw": 100.0,
+        "pitch": -37.1
+      },
+      "Head": {
+        "yaw": 10.7,
+        "pitch": -35.3
+      }
+    },
+    {
+      "frame": 16.0,
+      "spine_03": {
+        "yaw": 96.5,
+        "pitch": -38.6
+      },
+      "Head": {
+        "yaw": 9.6,
+        "pitch": -34.4
+      }
+    }
+  ],
+  "ual2_sword_regular_b_rec": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 96.5,
+        "pitch": -38.6
+      },
+      "Head": {
+        "yaw": 9.6,
+        "pitch": -34.4
+      }
+    },
+    {
+      "frame": 3.875,
+      "spine_03": {
+        "yaw": 88.9,
+        "pitch": -40.5
+      },
+      "Head": {
+        "yaw": 8.0,
+        "pitch": -32.2
+      }
+    },
+    {
+      "frame": 7.75,
+      "spine_03": {
+        "yaw": 76.2,
+        "pitch": -44.4
+      },
+      "Head": {
+        "yaw": 5.5,
+        "pitch": -30.8
+      }
+    },
+    {
+      "frame": 11.625,
+      "spine_03": {
+        "yaw": 59.2,
+        "pitch": -49.4
+      },
+      "Head": {
+        "yaw": 3.2,
+        "pitch": -28.2
+      }
+    },
+    {
+      "frame": 15.5,
+      "spine_03": {
+        "yaw": 39.6,
+        "pitch": -53.4
+      },
+      "Head": {
+        "yaw": 0.5,
+        "pitch": -26.2
+      }
+    },
+    {
+      "frame": 19.375,
+      "spine_03": {
+        "yaw": 24.9,
+        "pitch": -47.9
+      },
+      "Head": {
+        "yaw": 0.5,
+        "pitch": -24.1
+      }
+    },
+    {
+      "frame": 23.25,
+      "spine_03": {
+        "yaw": 16.4,
+        "pitch": -32.5
+      },
+      "Head": {
+        "yaw": 1.5,
+        "pitch": -19.3
+      }
+    },
+    {
+      "frame": 27.125,
+      "spine_03": {
+        "yaw": 13.5,
+        "pitch": -18.2
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -14.7
+      }
+    },
+    {
+      "frame": 31.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_sword_regular_c": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 96.2,
+        "pitch": -35.9
+      },
+      "Head": {
+        "yaw": 5.9,
+        "pitch": -33.6
+      }
+    },
+    {
+      "frame": 7.5,
+      "spine_03": {
+        "yaw": -151.3,
+        "pitch": 6.5
+      },
+      "Head": {
+        "yaw": -155.4,
+        "pitch": 23.0
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": 105.0,
+        "pitch": 16.4
+      },
+      "Head": {
+        "yaw": 66.5,
+        "pitch": 3.1
+      }
+    },
+    {
+      "frame": 22.5,
+      "spine_03": {
+        "yaw": -82.2,
+        "pitch": -34.3
+      },
+      "Head": {
+        "yaw": -38.4,
+        "pitch": -36.0
+      }
+    },
+    {
+      "frame": 30.0,
+      "spine_03": {
+        "yaw": -79.4,
+        "pitch": -32.4
+      },
+      "Head": {
+        "yaw": -45.1,
+        "pitch": -46.4
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": -48.5,
+        "pitch": -39.8
+      },
+      "Head": {
+        "yaw": -28.1,
+        "pitch": -44.7
+      }
+    },
+    {
+      "frame": 45.0,
+      "spine_03": {
+        "yaw": -14.7,
+        "pitch": -27.2
+      },
+      "Head": {
+        "yaw": -5.8,
+        "pitch": -30.2
+      }
+    },
+    {
+      "frame": 52.5,
+      "spine_03": {
+        "yaw": 5.4,
+        "pitch": -16.7
+      },
+      "Head": {
+        "yaw": -0.2,
+        "pitch": -16.0
+      }
+    },
+    {
+      "frame": 60.0,
+      "spine_03": {
+        "yaw": 11.9,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 0.6,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_walk_carry_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": -4.0,
+        "pitch": -1.6
+      },
+      "Head": {
+        "yaw": -2.0,
+        "pitch": 33.9
+      }
+    },
+    {
+      "frame": 7.5,
+      "spine_03": {
+        "yaw": -4.0,
+        "pitch": -10.4
+      },
+      "Head": {
+        "yaw": -1.5,
+        "pitch": 23.7
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": -2.0,
+        "pitch": -12.3
+      },
+      "Head": {
+        "yaw": -0.3,
+        "pitch": 15.3
+      }
+    },
+    {
+      "frame": 22.5,
+      "spine_03": {
+        "yaw": 0.5,
+        "pitch": -3.6
+      },
+      "Head": {
+        "yaw": 0.9,
+        "pitch": 25.4
+      }
+    },
+    {
+      "frame": 30.0,
+      "spine_03": {
+        "yaw": 3.1,
+        "pitch": -2.0
+      },
+      "Head": {
+        "yaw": 1.7,
+        "pitch": 33.9
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": 3.9,
+        "pitch": -10.7
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": 24.8
+      }
+    },
+    {
+      "frame": 45.0,
+      "spine_03": {
+        "yaw": 2.4,
+        "pitch": -12.5
+      },
+      "Head": {
+        "yaw": 0.6,
+        "pitch": 15.7
+      }
+    },
+    {
+      "frame": 52.5,
+      "spine_03": {
+        "yaw": -0.2,
+        "pitch": -4.4
+      },
+      "Head": {
+        "yaw": -1.2,
+        "pitch": 24.8
+      }
+    },
+    {
+      "frame": 60.0,
+      "spine_03": {
+        "yaw": -4.0,
+        "pitch": -1.6
+      },
+      "Head": {
+        "yaw": -2.0,
+        "pitch": 33.9
+      }
+    }
+  ],
+  "ual2_yes": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.9
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    },
+    {
+      "frame": 9.375,
+      "spine_03": {
+        "yaw": 13.0,
+        "pitch": -11.1
+      },
+      "Head": {
+        "yaw": 2.2,
+        "pitch": -8.2
+      }
+    },
+    {
+      "frame": 18.75,
+      "spine_03": {
+        "yaw": 13.0,
+        "pitch": -15.7
+      },
+      "Head": {
+        "yaw": 2.2,
+        "pitch": -13.2
+      }
+    },
+    {
+      "frame": 28.125,
+      "spine_03": {
+        "yaw": 13.2,
+        "pitch": -18.0
+      },
+      "Head": {
+        "yaw": 2.3,
+        "pitch": -15.4
+      }
+    },
+    {
+      "frame": 37.5,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.4
+      },
+      "Head": {
+        "yaw": 2.3,
+        "pitch": -17.5
+      }
+    },
+    {
+      "frame": 46.875,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -12.9
+      },
+      "Head": {
+        "yaw": 2.2,
+        "pitch": -19.4
+      }
+    },
+    {
+      "frame": 56.25,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.3
+      },
+      "Head": {
+        "yaw": 2.1,
+        "pitch": -16.9
+      }
+    },
+    {
+      "frame": 65.625,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -17.6
+      },
+      "Head": {
+        "yaw": 2.0,
+        "pitch": -14.9
+      }
+    },
+    {
+      "frame": 75.0,
+      "spine_03": {
+        "yaw": 13.3,
+        "pitch": -15.6
+      },
+      "Head": {
+        "yaw": 1.9,
+        "pitch": -13.9
+      }
+    }
+  ],
+  "ual2_zombie_idle_loop": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 59.2,
+        "pitch": -72.5
+      },
+      "Head": {
+        "yaw": 11.6,
+        "pitch": -46.8
+      }
+    },
+    {
+      "frame": 5.0,
+      "spine_03": {
+        "yaw": 60.8,
+        "pitch": -72.8
+      },
+      "Head": {
+        "yaw": 11.6,
+        "pitch": -46.4
+      }
+    },
+    {
+      "frame": 10.0,
+      "spine_03": {
+        "yaw": 57.3,
+        "pitch": -72.1
+      },
+      "Head": {
+        "yaw": 11.6,
+        "pitch": -45.6
+      }
+    },
+    {
+      "frame": 15.0,
+      "spine_03": {
+        "yaw": 50.6,
+        "pitch": -70.5
+      },
+      "Head": {
+        "yaw": 11.7,
+        "pitch": -44.8
+      }
+    },
+    {
+      "frame": 20.0,
+      "spine_03": {
+        "yaw": 45.5,
+        "pitch": -68.8
+      },
+      "Head": {
+        "yaw": 11.9,
+        "pitch": -44.6
+      }
+    },
+    {
+      "frame": 25.0,
+      "spine_03": {
+        "yaw": 45.0,
+        "pitch": -68.6
+      },
+      "Head": {
+        "yaw": 11.6,
+        "pitch": -45.0
+      }
+    },
+    {
+      "frame": 30.0,
+      "spine_03": {
+        "yaw": 47.6,
+        "pitch": -69.5
+      },
+      "Head": {
+        "yaw": 11.4,
+        "pitch": -45.8
+      }
+    },
+    {
+      "frame": 35.0,
+      "spine_03": {
+        "yaw": 53.3,
+        "pitch": -71.2
+      },
+      "Head": {
+        "yaw": 11.6,
+        "pitch": -46.5
+      }
+    },
+    {
+      "frame": 40.0,
+      "spine_03": {
+        "yaw": 59.2,
+        "pitch": -72.5
+      },
+      "Head": {
+        "yaw": 11.6,
+        "pitch": -46.8
+      }
+    }
+  ],
+  "ual2_zombie_scratch": [
+    {
+      "frame": 0.0,
+      "spine_03": {
+        "yaw": 59.6,
+        "pitch": -72.6
+      },
+      "Head": {
+        "yaw": 11.6,
+        "pitch": -46.8
+      }
+    },
+    {
+      "frame": 6.75,
+      "spine_03": {
+        "yaw": 21.2,
+        "pitch": -52.4
+      },
+      "Head": {
+        "yaw": 0.8,
+        "pitch": -54.9
+      }
+    },
+    {
+      "frame": 13.5,
+      "spine_03": {
+        "yaw": 57.0,
+        "pitch": -11.1
+      },
+      "Head": {
+        "yaw": 39.8,
+        "pitch": 20.4
+      }
+    },
+    {
+      "frame": 20.25,
+      "spine_03": {
+        "yaw": -114.8,
+        "pitch": -45.2
+      },
+      "Head": {
+        "yaw": -46.3,
+        "pitch": -62.1
+      }
+    },
+    {
+      "frame": 27.0,
+      "spine_03": {
+        "yaw": -148.8,
+        "pitch": -41.3
+      },
+      "Head": {
+        "yaw": -32.5,
+        "pitch": -76.3
+      }
+    },
+    {
+      "frame": 33.75,
+      "spine_03": {
+        "yaw": -140.6,
+        "pitch": -48.1
+      },
+      "Head": {
+        "yaw": 17.5,
+        "pitch": -66.3
+      }
+    },
+    {
+      "frame": 40.5,
+      "spine_03": {
+        "yaw": -77.7,
+        "pitch": -78.5
+      },
+      "Head": {
+        "yaw": 27.6,
+        "pitch": -49.7
+      }
+    },
+    {
+      "frame": 47.25,
+      "spine_03": {
+        "yaw": 46.6,
+        "pitch": -75.2
+      },
+      "Head": {
+        "yaw": 20.6,
+        "pitch": -45.2
+      }
+    },
+    {
+      "frame": 54.0,
+      "spine_03": {
+        "yaw": 59.6,
+        "pitch": -72.6
+      },
+      "Head": {
+        "yaw": 11.6,
+        "pitch": -46.8
+      }
+    }
+  ]
+}

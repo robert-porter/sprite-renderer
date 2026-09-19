@@ -1,0 +1,4908 @@
+{
+  "version": 2,
+  "batch": "5f097f39277d",
+  "frameSize": [
+    640,
+    640
+  ],
+  "pivot": {
+    "x": 0.5742657780647278,
+    "y": 0.5650382936000824
+  },
+  "drawScale": 1.25,
+  "paddingPixels": 64,
+  "layerPivot": {
+    "x": 0.5594126224517822,
+    "y": 0.5520306348800659
+  },
+  "depth": {
+    "encoding": "rg16",
+    "near": 10.531595400240803,
+    "far": 16.531595400240803,
+    "empty": 65535,
+    "description": "Camera distance; smaller is nearer. R*256+G; 0..65534 map to near..far. Nearest sampling.",
+    "edgeExtensionPixels": 2
+  },
+  "attachment": {
+    "bone": "hand_r",
+    "matrix": [
+      [
+        -0.026171818375587463,
+        -0.9988574981689453,
+        -0.03997127711772919,
+        -0.035033583641052246
+      ],
+      [
+        0.9580562710762024,
+        -0.036477670073509216,
+        0.28424695134162903,
+        0.09913761913776398
+      ],
+      [
+        -0.2853809893131256,
+        -0.03085528314113617,
+        0.9579178690910339,
+        0.01745237410068512
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "weapons": [
+    {
+      "id": "steel",
+      "label": "Steel sword"
+    },
+    {
+      "id": "copper",
+      "label": "Copper broadsword"
+    }
+  ],
+  "animations": {
+    "sword_idle": {
+      "sourceAction": "Sword_Idle",
+      "label": "Sword Idle",
+      "baseClip": "sword_idle",
+      "sourceFrames": [
+        0.0,
+        2.5,
+        5.0,
+        7.5,
+        10.0,
+        12.5,
+        15.0,
+        17.5,
+        20.0,
+        22.5,
+        25.0,
+        27.5,
+        30.0,
+        32.5,
+        35.0,
+        37.5,
+        40.0,
+        42.5,
+        45.0,
+        47.5
+      ],
+      "frameCount": 20,
+      "duration": 1.6666666666666667,
+      "fps": 12.0,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle-character-1-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle-steel-1-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle-copper-1-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            640
+          ]
+        }
+      ]
+    },
+    "sword_idle_edited": {
+      "sourceAction": "Sword_Idle_SideScroller",
+      "label": "Sword Idle \u00b7 head +25\u00b0 (candidate)",
+      "baseClip": "sword_idle",
+      "sourceFrames": [
+        0.0,
+        2.5,
+        5.0,
+        7.5,
+        10.0,
+        12.5,
+        15.0,
+        17.5,
+        20.0,
+        22.5,
+        25.0,
+        27.5,
+        30.0,
+        32.5,
+        35.0,
+        37.5,
+        40.0,
+        42.5,
+        45.0,
+        47.5
+      ],
+      "frameCount": 20,
+      "duration": 1.6666666666666667,
+      "fps": 12.0,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle_edited-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle_edited-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle_edited-character-1-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle_edited-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle_edited-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle_edited-steel-1-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle_edited-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_idle_edited-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_idle_edited-copper-1-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            640
+          ]
+        }
+      ]
+    },
+    "sword_attack": {
+      "sourceAction": "Sword_Attack",
+      "label": "Sword Attack",
+      "baseClip": "sword_attack",
+      "sourceFrames": [
+        0.0,
+        2.7058823529411766,
+        5.411764705882353,
+        8.117647058823529,
+        10.823529411764707,
+        13.529411764705882,
+        16.235294117647058,
+        18.941176470588236,
+        21.647058823529413,
+        24.352941176470587,
+        27.058823529411764,
+        29.764705882352942,
+        32.470588235294116,
+        35.1764705882353,
+        37.88235294117647,
+        40.588235294117645,
+        43.294117647058826,
+        46.0
+      ],
+      "frameCount": 18,
+      "duration": 1.5333333333333334,
+      "fps": 11.739130434782608,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack-character-1-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack-steel-1-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack-copper-1-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            1280,
+            640
+          ]
+        }
+      ]
+    },
+    "sword_attack_edited": {
+      "sourceAction": "Sword_Attack_SideScroller",
+      "label": "Sword Attack \u00b7 head +25\u00b0 (candidate)",
+      "baseClip": "sword_attack",
+      "sourceFrames": [
+        0.0,
+        2.7058823529411766,
+        5.411764705882353,
+        8.117647058823529,
+        10.823529411764707,
+        13.529411764705882,
+        16.235294117647058,
+        18.941176470588236,
+        21.647058823529413,
+        24.352941176470587,
+        27.058823529411764,
+        29.764705882352942,
+        32.470588235294116,
+        35.1764705882353,
+        37.88235294117647,
+        40.588235294117645,
+        43.294117647058826,
+        46.0
+      ],
+      "frameCount": 18,
+      "duration": 1.5333333333333334,
+      "fps": 11.739130434782608,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack_edited-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack_edited-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack_edited-character-1-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack_edited-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack_edited-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack_edited-steel-1-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack_edited-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/sword_attack_edited-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/sword_attack_edited-copper-1-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            1280,
+            640
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_combo": {
+      "sourceAction": "UAL2_Sword_Regular_Combo",
+      "label": "UAL2 Sword Regular Combo",
+      "baseClip": "ual2_sword_regular_combo",
+      "sourceFrames": [
+        0.0,
+        2.5714285714285716,
+        5.142857142857143,
+        7.714285714285714,
+        10.285714285714286,
+        12.857142857142858,
+        15.428571428571429,
+        18.0,
+        20.571428571428573,
+        23.142857142857142,
+        25.714285714285715,
+        28.285714285714285,
+        30.857142857142858,
+        33.42857142857143,
+        36.0,
+        38.57142857142857,
+        41.142857142857146,
+        43.714285714285715,
+        46.285714285714285,
+        48.857142857142854,
+        51.42857142857143,
+        54.0,
+        56.57142857142857,
+        59.142857142857146,
+        61.714285714285715,
+        64.28571428571429,
+        66.85714285714286,
+        69.42857142857143,
+        72.0,
+        74.57142857142857,
+        77.14285714285714,
+        79.71428571428571,
+        82.28571428571429,
+        84.85714285714286,
+        87.42857142857143,
+        90.0
+      ],
+      "frameCount": 36,
+      "duration": 3.0,
+      "fps": 12.0,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-character-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-character-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-character-2-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-steel-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-steel-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-steel-2-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-copper-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-copper-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo-copper-2-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            640
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_combo_edited": {
+      "sourceAction": "UAL2_Sword_Regular_Combo_SideScroller",
+      "label": "UAL2 Sword Regular Combo \u00b7 edited",
+      "baseClip": "ual2_sword_regular_combo",
+      "sourceFrames": [
+        0.0,
+        2.5714285714285716,
+        5.142857142857143,
+        7.714285714285714,
+        10.285714285714286,
+        12.857142857142858,
+        15.428571428571429,
+        18.0,
+        20.571428571428573,
+        23.142857142857142,
+        25.714285714285715,
+        28.285714285714285,
+        30.857142857142858,
+        33.42857142857143,
+        36.0,
+        38.57142857142857,
+        41.142857142857146,
+        43.714285714285715,
+        46.285714285714285,
+        48.857142857142854,
+        51.42857142857143,
+        54.0,
+        56.57142857142857,
+        59.142857142857146,
+        61.714285714285715,
+        64.28571428571429,
+        66.85714285714286,
+        69.42857142857143,
+        72.0,
+        74.57142857142857,
+        77.14285714285714,
+        79.71428571428571,
+        82.28571428571429,
+        84.85714285714286,
+        87.42857142857143,
+        90.0
+      ],
+      "frameCount": 36,
+      "duration": 3.0,
+      "fps": 12.0,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-character-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-character-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-character-2-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-steel-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-steel-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-steel-2-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-copper-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-copper-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_combo_edited-copper-2-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            640
+          ]
+        }
+      ]
+    },
+    "ual2_sword_block": {
+      "sourceAction": "UAL2_Sword_Block",
+      "label": "UAL2 Sword Block",
+      "baseClip": "ual2_sword_block",
+      "sourceFrames": [
+        0.0,
+        2.642857142857143,
+        5.285714285714286,
+        7.928571428571429,
+        10.571428571428571,
+        13.214285714285714,
+        15.857142857142858,
+        18.5,
+        21.142857142857142,
+        23.785714285714285,
+        26.428571428571427,
+        29.071428571428573,
+        31.714285714285715,
+        34.357142857142854,
+        37.0
+      ],
+      "frameCount": 15,
+      "duration": 1.2333333333333334,
+      "fps": 12.162162162162161,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_block-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_block-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_block-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_block-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_block-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_block-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        }
+      ]
+    },
+    "ual2_sword_block_edited": {
+      "sourceAction": "UAL2_Sword_Block_SideScroller",
+      "label": "UAL2 Sword Block \u00b7 edited",
+      "baseClip": "ual2_sword_block",
+      "sourceFrames": [
+        0.0,
+        2.642857142857143,
+        5.285714285714286,
+        7.928571428571429,
+        10.571428571428571,
+        13.214285714285714,
+        15.857142857142858,
+        18.5,
+        21.142857142857142,
+        23.785714285714285,
+        26.428571428571427,
+        29.071428571428573,
+        31.714285714285715,
+        34.357142857142854,
+        37.0
+      ],
+      "frameCount": 15,
+      "duration": 1.2333333333333334,
+      "fps": 12.162162162162161,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_block_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_block_edited-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_block_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_block_edited-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_block_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_block_edited-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        }
+      ]
+    },
+    "ual2_sword_dash": {
+      "sourceAction": "UAL2_Sword_Dash",
+      "label": "UAL2 Sword Dash",
+      "baseClip": "ual2_sword_dash",
+      "sourceFrames": [
+        0.0,
+        2.611111111111111,
+        5.222222222222222,
+        7.833333333333333,
+        10.444444444444445,
+        13.055555555555555,
+        15.666666666666666,
+        18.27777777777778,
+        20.88888888888889,
+        23.5,
+        26.11111111111111,
+        28.72222222222222,
+        31.333333333333332,
+        33.94444444444444,
+        36.55555555555556,
+        39.166666666666664,
+        41.77777777777778,
+        44.388888888888886,
+        47.0
+      ],
+      "frameCount": 19,
+      "duration": 1.5666666666666667,
+      "fps": 12.127659574468085,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash-character-1-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash-steel-1-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash-copper-1-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            1920,
+            640
+          ]
+        }
+      ]
+    },
+    "ual2_sword_dash_edited": {
+      "sourceAction": "UAL2_Sword_Dash_SideScroller",
+      "label": "UAL2 Sword Dash \u00b7 edited",
+      "baseClip": "ual2_sword_dash",
+      "sourceFrames": [
+        0.0,
+        2.611111111111111,
+        5.222222222222222,
+        7.833333333333333,
+        10.444444444444445,
+        13.055555555555555,
+        15.666666666666666,
+        18.27777777777778,
+        20.88888888888889,
+        23.5,
+        26.11111111111111,
+        28.72222222222222,
+        31.333333333333332,
+        33.94444444444444,
+        36.55555555555556,
+        39.166666666666664,
+        41.77777777777778,
+        44.388888888888886,
+        47.0
+      ],
+      "frameCount": 19,
+      "duration": 1.5666666666666667,
+      "fps": 12.127659574468085,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-character-1-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-steel-1-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_dash_edited-copper-1-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            1920,
+            640
+          ]
+        }
+      ]
+    },
+    "ual2_sword_heavy_combo": {
+      "sourceAction": "UAL2_Sword_Heavy_Combo",
+      "label": "UAL2 Sword Heavy Combo",
+      "baseClip": "ual2_sword_heavy_combo",
+      "sourceFrames": [
+        0.0,
+        2.549019607843137,
+        5.098039215686274,
+        7.647058823529412,
+        10.196078431372548,
+        12.745098039215685,
+        15.294117647058824,
+        17.84313725490196,
+        20.392156862745097,
+        22.941176470588236,
+        25.49019607843137,
+        28.03921568627451,
+        30.58823529411765,
+        33.13725490196079,
+        35.68627450980392,
+        38.23529411764706,
+        40.78431372549019,
+        43.333333333333336,
+        45.88235294117647,
+        48.431372549019606,
+        50.98039215686274,
+        53.529411764705884,
+        56.07843137254902,
+        58.627450980392155,
+        61.1764705882353,
+        63.72549019607843,
+        66.27450980392157,
+        68.82352941176471,
+        71.37254901960785,
+        73.92156862745098,
+        76.47058823529412,
+        79.01960784313725,
+        81.56862745098039,
+        84.11764705882354,
+        86.66666666666667,
+        89.2156862745098,
+        91.76470588235294,
+        94.31372549019608,
+        96.86274509803921,
+        99.41176470588235,
+        101.96078431372548,
+        104.50980392156863,
+        107.05882352941177,
+        109.6078431372549,
+        112.15686274509804,
+        114.70588235294117,
+        117.25490196078431,
+        119.80392156862744,
+        122.3529411764706,
+        124.90196078431373,
+        127.45098039215686,
+        130.0
+      ],
+      "frameCount": 52,
+      "duration": 4.333333333333333,
+      "fps": 12.0,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-character-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-character-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-character-2-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-character-3.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-character-3-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-steel-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-steel-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-steel-2-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-steel-3.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-steel-3-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-copper-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-copper-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-copper-2-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-copper-3.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo-copper-3-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 3
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 3
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 3
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 3
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            640
+          ]
+        }
+      ]
+    },
+    "ual2_sword_heavy_combo_edited": {
+      "sourceAction": "UAL2_Sword_Heavy_Combo_SideScroller",
+      "label": "UAL2 Sword Heavy Combo \u00b7 edited",
+      "baseClip": "ual2_sword_heavy_combo",
+      "sourceFrames": [
+        0.0,
+        2.549019607843137,
+        5.098039215686274,
+        7.647058823529412,
+        10.196078431372548,
+        12.745098039215685,
+        15.294117647058824,
+        17.84313725490196,
+        20.392156862745097,
+        22.941176470588236,
+        25.49019607843137,
+        28.03921568627451,
+        30.58823529411765,
+        33.13725490196079,
+        35.68627450980392,
+        38.23529411764706,
+        40.78431372549019,
+        43.333333333333336,
+        45.88235294117647,
+        48.431372549019606,
+        50.98039215686274,
+        53.529411764705884,
+        56.07843137254902,
+        58.627450980392155,
+        61.1764705882353,
+        63.72549019607843,
+        66.27450980392157,
+        68.82352941176471,
+        71.37254901960785,
+        73.92156862745098,
+        76.47058823529412,
+        79.01960784313725,
+        81.56862745098039,
+        84.11764705882354,
+        86.66666666666667,
+        89.2156862745098,
+        91.76470588235294,
+        94.31372549019608,
+        96.86274509803921,
+        99.41176470588235,
+        101.96078431372548,
+        104.50980392156863,
+        107.05882352941177,
+        109.6078431372549,
+        112.15686274509804,
+        114.70588235294117,
+        117.25490196078431,
+        119.80392156862744,
+        122.3529411764706,
+        124.90196078431373,
+        127.45098039215686,
+        130.0
+      ],
+      "frameCount": 52,
+      "duration": 4.333333333333333,
+      "fps": 12.0,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-character-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-character-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-character-2-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-character-3.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-character-3-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-steel-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-steel-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-steel-2-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-steel-3.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-steel-3-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-copper-1-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-copper-2.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-copper-2-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-copper-3.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_heavy_combo_edited-copper-3-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 2
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 3
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 3
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 3
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 3
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            640
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_a": {
+      "sourceAction": "UAL2_Sword_Regular_A",
+      "label": "UAL2 Sword Regular A",
+      "baseClip": "ual2_sword_regular_a",
+      "sourceFrames": [
+        0.0,
+        3.25,
+        6.5,
+        9.75,
+        13.0
+      ],
+      "frameCount": 5,
+      "duration": 0.43333333333333335,
+      "fps": 11.538461538461538,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            1280
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_a_edited": {
+      "sourceAction": "UAL2_Sword_Regular_A_SideScroller",
+      "label": "UAL2 Sword Regular A \u00b7 edited",
+      "baseClip": "ual2_sword_regular_a",
+      "sourceFrames": [
+        0.0,
+        3.25,
+        6.5,
+        9.75,
+        13.0
+      ],
+      "frameCount": 5,
+      "duration": 0.43333333333333335,
+      "fps": 11.538461538461538,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_edited-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_edited-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_edited-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            1280
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_a_rec": {
+      "sourceAction": "UAL2_Sword_Regular_A_Rec",
+      "label": "UAL2 Sword Regular A Rec",
+      "baseClip": "ual2_sword_regular_a_rec",
+      "sourceFrames": [
+        0.0,
+        2.6363636363636362,
+        5.2727272727272725,
+        7.909090909090909,
+        10.545454545454545,
+        13.181818181818182,
+        15.818181818181818,
+        18.454545454545453,
+        21.09090909090909,
+        23.727272727272727,
+        26.363636363636363,
+        29.0
+      ],
+      "frameCount": 12,
+      "duration": 0.9666666666666667,
+      "fps": 12.413793103448276,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            1920
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_a_rec_edited": {
+      "sourceAction": "UAL2_Sword_Regular_A_Rec_SideScroller",
+      "label": "UAL2 Sword Regular A Rec \u00b7 edited",
+      "baseClip": "ual2_sword_regular_a_rec",
+      "sourceFrames": [
+        0.0,
+        2.6363636363636362,
+        5.2727272727272725,
+        7.909090909090909,
+        10.545454545454545,
+        13.181818181818182,
+        15.818181818181818,
+        18.454545454545453,
+        21.09090909090909,
+        23.727272727272727,
+        26.363636363636363,
+        29.0
+      ],
+      "frameCount": 12,
+      "duration": 0.9666666666666667,
+      "fps": 12.413793103448276,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec_edited-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec_edited-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_a_rec_edited-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            1920
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_b": {
+      "sourceAction": "UAL2_Sword_Regular_B",
+      "label": "UAL2 Sword Regular B",
+      "baseClip": "ual2_sword_regular_b",
+      "sourceFrames": [
+        0.0,
+        3.2,
+        6.4,
+        9.6,
+        12.8,
+        16.0
+      ],
+      "frameCount": 6,
+      "duration": 0.5333333333333333,
+      "fps": 11.25,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            1280
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_b_edited": {
+      "sourceAction": "UAL2_Sword_Regular_B_SideScroller",
+      "label": "UAL2 Sword Regular B \u00b7 edited",
+      "baseClip": "ual2_sword_regular_b",
+      "sourceFrames": [
+        0.0,
+        3.2,
+        6.4,
+        9.6,
+        12.8,
+        16.0
+      ],
+      "frameCount": 6,
+      "duration": 0.5333333333333333,
+      "fps": 11.25,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_edited-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_edited-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_edited-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            1280
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_b_rec": {
+      "sourceAction": "UAL2_Sword_Regular_B_Rec",
+      "label": "UAL2 Sword Regular B Rec",
+      "baseClip": "ual2_sword_regular_b_rec",
+      "sourceFrames": [
+        0.0,
+        2.8181818181818183,
+        5.636363636363637,
+        8.454545454545455,
+        11.272727272727273,
+        14.090909090909092,
+        16.90909090909091,
+        19.727272727272727,
+        22.545454545454547,
+        25.363636363636363,
+        28.181818181818183,
+        31.0
+      ],
+      "frameCount": 12,
+      "duration": 1.0333333333333334,
+      "fps": 11.61290322580645,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            1920
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_b_rec_edited": {
+      "sourceAction": "UAL2_Sword_Regular_B_Rec_SideScroller",
+      "label": "UAL2 Sword Regular B Rec \u00b7 edited",
+      "baseClip": "ual2_sword_regular_b_rec",
+      "sourceFrames": [
+        0.0,
+        2.8181818181818183,
+        5.636363636363637,
+        8.454545454545455,
+        11.272727272727273,
+        14.090909090909092,
+        16.90909090909091,
+        19.727272727272727,
+        22.545454545454547,
+        25.363636363636363,
+        28.181818181818183,
+        31.0
+      ],
+      "frameCount": 12,
+      "duration": 1.0333333333333334,
+      "fps": 11.61290322580645,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec_edited-character-0-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec_edited-steel-0-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_b_rec_edited-copper-0-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            1920
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_c": {
+      "sourceAction": "UAL2_Sword_Regular_C",
+      "label": "UAL2 Sword Regular C",
+      "baseClip": "ual2_sword_regular_c",
+      "sourceFrames": [
+        0.0,
+        2.608695652173913,
+        5.217391304347826,
+        7.826086956521739,
+        10.434782608695652,
+        13.043478260869565,
+        15.652173913043478,
+        18.26086956521739,
+        20.869565217391305,
+        23.47826086956522,
+        26.08695652173913,
+        28.695652173913043,
+        31.304347826086957,
+        33.91304347826087,
+        36.52173913043478,
+        39.130434782608695,
+        41.73913043478261,
+        44.34782608695652,
+        46.95652173913044,
+        49.56521739130435,
+        52.17391304347826,
+        54.78260869565217,
+        57.391304347826086,
+        60.0
+      ],
+      "frameCount": 24,
+      "duration": 2.0,
+      "fps": 12.0,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-character-1-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-steel-1-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c-copper-1-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            1280
+          ]
+        }
+      ]
+    },
+    "ual2_sword_regular_c_edited": {
+      "sourceAction": "UAL2_Sword_Regular_C_SideScroller",
+      "label": "UAL2 Sword Regular C \u00b7 edited",
+      "baseClip": "ual2_sword_regular_c",
+      "sourceFrames": [
+        0.0,
+        2.608695652173913,
+        5.217391304347826,
+        7.826086956521739,
+        10.434782608695652,
+        13.043478260869565,
+        15.652173913043478,
+        18.26086956521739,
+        20.869565217391305,
+        23.47826086956522,
+        26.08695652173913,
+        28.695652173913043,
+        31.304347826086957,
+        33.91304347826087,
+        36.52173913043478,
+        39.130434782608695,
+        41.73913043478261,
+        44.34782608695652,
+        46.95652173913044,
+        49.56521739130435,
+        52.17391304347826,
+        54.78260869565217,
+        57.391304347826086,
+        60.0
+      ],
+      "frameCount": 24,
+      "duration": 2.0,
+      "fps": 12.0,
+      "layers": {
+        "character": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-character-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-character-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-character-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-character-1-depth.png"
+            }
+          ]
+        },
+        "steel": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-steel-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-steel-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-steel-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-steel-1-depth.png"
+            }
+          ]
+        },
+        "copper": {
+          "pages": [
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-copper-0.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-copper-0-depth.png"
+            },
+            {
+              "color": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-copper-1.png",
+              "depth": "sword-lab/batches/5f097f39277d/ual2_sword_regular_c_edited-copper-1-depth.png"
+            }
+          ]
+        }
+      },
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640,
+          "page": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640,
+          "page": 1
+        }
+      ],
+      "pages": [
+        {
+          "sheetSize": [
+            2560,
+            2560
+          ]
+        },
+        {
+          "sheetSize": [
+            2560,
+            1280
+          ]
+        }
+      ]
+    }
+  },
+  "depthProcessingSha256": "d112b67f07727d47283b5932927f6b4a66ac612649307d2188c06a8f7be45e6c"
+}

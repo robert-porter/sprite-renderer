@@ -1,0 +1,326 @@
+[
+  {
+    "name": "ual2_sword_regular_combo_edited",
+    "action": "UAL2_Sword_Regular_Combo_SideScroller",
+    "start": 0.0,
+    "end": 90.0,
+    "loop": false,
+    "label": "UAL2 Sword Regular Combo \u00b7 edited",
+    "category": "Candidates",
+    "note": "Preserve all authored torso turns; ease head correction out during large turns and back into guard.",
+    "source_action": "UAL2_Sword_Regular_Combo",
+    "variant_of": "ual2_sword_regular_combo",
+    "pose": {
+      "turn": 0,
+      "head_turn": [
+        [
+          0,
+          25
+        ],
+        [
+          0.06,
+          20
+        ],
+        [
+          0.125,
+          0
+        ],
+        [
+          0.25,
+          25
+        ],
+        [
+          0.375,
+          25
+        ],
+        [
+          0.5,
+          0
+        ],
+        [
+          0.625,
+          0
+        ],
+        [
+          0.875,
+          25
+        ],
+        [
+          1,
+          25
+        ]
+      ],
+      "axis": "world"
+    }
+  },
+  {
+    "name": "ual2_sword_block_edited",
+    "action": "UAL2_Sword_Block_SideScroller",
+    "start": 0.0,
+    "end": 37.0,
+    "loop": false,
+    "label": "UAL2 Sword Block \u00b7 edited",
+    "category": "Candidates",
+    "note": "Preserve sword block and arm trajectories; head +25 degrees, matching edited sword idle.",
+    "source_action": "UAL2_Sword_Block",
+    "variant_of": "ual2_sword_block",
+    "pose": {
+      "turn": 0,
+      "head_turn": 25,
+      "axis": "world"
+    }
+  },
+  {
+    "name": "ual2_sword_dash_edited",
+    "action": "UAL2_Sword_Dash_SideScroller",
+    "start": 0.0,
+    "end": 47.0,
+    "loop": false,
+    "label": "UAL2 Sword Dash \u00b7 edited",
+    "category": "Candidates",
+    "note": "Keep sword dash body and reach; reduce head offset during launch, restore guard gaze on recovery.",
+    "source_action": "UAL2_Sword_Dash",
+    "variant_of": "ual2_sword_dash",
+    "pose": {
+      "turn": 0,
+      "head_turn": [
+        [
+          0,
+          25
+        ],
+        [
+          0.125,
+          0
+        ],
+        [
+          0.3,
+          15
+        ],
+        [
+          0.65,
+          15
+        ],
+        [
+          0.9,
+          25
+        ],
+        [
+          1,
+          25
+        ]
+      ],
+      "axis": "world"
+    }
+  },
+  {
+    "name": "ual2_sword_heavy_combo_edited",
+    "action": "UAL2_Sword_Heavy_Combo_SideScroller",
+    "start": 0.0,
+    "end": 130.0,
+    "loop": false,
+    "label": "UAL2 Sword Heavy Combo \u00b7 edited",
+    "category": "Candidates",
+    "note": "Keep heavy combo windups and body rotations; add guard gaze between turns.",
+    "source_action": "UAL2_Sword_Heavy_Combo",
+    "variant_of": "ual2_sword_heavy_combo",
+    "pose": {
+      "turn": 0,
+      "head_turn": [
+        [
+          0,
+          25
+        ],
+        [
+          0.1,
+          0
+        ],
+        [
+          0.17,
+          0
+        ],
+        [
+          0.25,
+          25
+        ],
+        [
+          0.35,
+          0
+        ],
+        [
+          0.75,
+          0
+        ],
+        [
+          0.9,
+          20
+        ],
+        [
+          1,
+          25
+        ]
+      ],
+      "axis": "world"
+    }
+  },
+  {
+    "name": "ual2_sword_regular_a_edited",
+    "action": "UAL2_Sword_Regular_A_SideScroller",
+    "start": 0.0,
+    "end": 13.0,
+    "loop": false,
+    "label": "UAL2 Sword Regular A \u00b7 edited",
+    "category": "Candidates",
+    "note": "Preserve full sword swing; fade head correction out through the turn.",
+    "source_action": "UAL2_Sword_Regular_A",
+    "variant_of": "ual2_sword_regular_a",
+    "pose": {
+      "turn": 0,
+      "head_turn": [
+        [
+          0,
+          25
+        ],
+        [
+          0.35,
+          25
+        ],
+        [
+          0.8,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "axis": "world"
+    }
+  },
+  {
+    "name": "ual2_sword_regular_a_rec_edited",
+    "action": "UAL2_Sword_Regular_A_Rec_SideScroller",
+    "start": 0.0,
+    "end": 29.0,
+    "loop": false,
+    "label": "UAL2 Sword Regular A Rec \u00b7 edited",
+    "category": "Candidates",
+    "note": "Match hit A endpoint, then restore +25 degree guard gaze.",
+    "source_action": "UAL2_Sword_Regular_A_Rec",
+    "variant_of": "ual2_sword_regular_a_rec",
+    "pose": {
+      "turn": 0,
+      "head_turn": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          0
+        ],
+        [
+          0.7,
+          25
+        ],
+        [
+          1,
+          25
+        ]
+      ],
+      "axis": "world"
+    }
+  },
+  {
+    "name": "ual2_sword_regular_b_edited",
+    "action": "UAL2_Sword_Regular_B_SideScroller",
+    "start": 0.0,
+    "end": 16.0,
+    "loop": false,
+    "label": "UAL2 Sword Regular B \u00b7 edited",
+    "category": "Candidates",
+    "note": "Preserve turning entry; head opens to +25 degrees as the hit settles.",
+    "source_action": "UAL2_Sword_Regular_B",
+    "variant_of": "ual2_sword_regular_b",
+    "pose": {
+      "turn": 0,
+      "head_turn": [
+        [
+          0,
+          0
+        ],
+        [
+          0.25,
+          0
+        ],
+        [
+          0.8,
+          25
+        ],
+        [
+          1,
+          25
+        ]
+      ],
+      "axis": "world"
+    }
+  },
+  {
+    "name": "ual2_sword_regular_b_rec_edited",
+    "action": "UAL2_Sword_Regular_B_Rec_SideScroller",
+    "start": 0.0,
+    "end": 31.0,
+    "loop": false,
+    "label": "UAL2 Sword Regular B Rec \u00b7 edited",
+    "category": "Candidates",
+    "note": "Match hit B endpoint and edited guard; body and hands unchanged.",
+    "source_action": "UAL2_Sword_Regular_B_Rec",
+    "variant_of": "ual2_sword_regular_b_rec",
+    "pose": {
+      "turn": 0,
+      "head_turn": 25,
+      "axis": "world"
+    }
+  },
+  {
+    "name": "ual2_sword_regular_c_edited",
+    "action": "UAL2_Sword_Regular_C_SideScroller",
+    "start": 0.0,
+    "end": 60.0,
+    "loop": false,
+    "label": "UAL2 Sword Regular C \u00b7 edited",
+    "category": "Candidates",
+    "note": "Fade head correction through the large finishing swing and recover to +25 degrees.",
+    "source_action": "UAL2_Sword_Regular_C",
+    "variant_of": "ual2_sword_regular_c",
+    "pose": {
+      "turn": 0,
+      "head_turn": [
+        [
+          0,
+          25
+        ],
+        [
+          0.18,
+          25
+        ],
+        [
+          0.35,
+          0
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          0.85,
+          25
+        ],
+        [
+          1,
+          25
+        ]
+      ],
+      "axis": "world"
+    }
+  }
+]

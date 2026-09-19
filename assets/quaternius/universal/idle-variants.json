@@ -1,0 +1,390 @@
+[
+  {
+    "action": "Idle_Open20",
+    "turn": 20,
+    "head_compensation": 15,
+    "arms": {}
+  },
+  {
+    "action": "Idle_Open35",
+    "turn": 35,
+    "head_compensation": 27,
+    "arms": {}
+  },
+  {
+    "action": "Idle_Ready35",
+    "turn": 35,
+    "head_compensation": 27,
+    "arms": {
+      "upperarm_r": -8,
+      "lowerarm_r": -12,
+      "upperarm_l": 5,
+      "lowerarm_l": -8
+    }
+  },
+  {
+    "action": "Idle_Open35_Head35",
+    "source": "Idle_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Walk_Open35_Head35",
+    "source": "Walk_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Jog_Fwd_Loop_Open35_Head35",
+    "source": "Jog_Fwd_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Sprint_Loop_Open35_Head35",
+    "source": "Sprint_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Crouch_Fwd_Loop_Open35_Head35",
+    "source": "Crouch_Fwd_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Crouch_Idle_Loop_Open35_Head35",
+    "source": "Crouch_Idle_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Idle_Talking_Loop_Open35_Head35",
+    "source": "Idle_Talking_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Idle_Torch_Loop_Open35_Head35",
+    "source": "Idle_Torch_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Jump_Loop_Open35_Head35",
+    "source": "Jump_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Jump_Land_Open35_Head35",
+    "source": "Jump_Land",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Jump_Start_Open35_Head35",
+    "source": "Jump_Start",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Roll_Open35_Head35",
+    "source": "Roll",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "pelvis"
+  },
+  {
+    "action": "Walk_Formal_Loop_Open35_Head35",
+    "source": "Walk_Formal_Loop",
+    "arms": {},
+    "turn": 35,
+    "head_compensation": 0,
+    "axis": "world"
+  },
+  {
+    "action": "Death01_SideScroller",
+    "source": "Death01",
+    "arms": {},
+    "turn": 35,
+    "head_turn": 35,
+    "axis": "pelvis"
+  },
+  {
+    "action": "Hit_Chest_SideScroller",
+    "source": "Hit_Chest",
+    "arms": {},
+    "turn": 35,
+    "head_turn": 35,
+    "axis": "world"
+  },
+  {
+    "action": "Hit_Head_SideScroller",
+    "source": "Hit_Head",
+    "arms": {},
+    "turn": 35,
+    "head_turn": 35,
+    "axis": "world"
+  },
+  {
+    "action": "Pistol_Aim_Down_SideScroller",
+    "source": "Pistol_Aim_Down",
+    "arms": {},
+    "turn": 0,
+    "head_turn": 25,
+    "axis": "world"
+  },
+  {
+    "action": "Pistol_Aim_Neutral_SideScroller",
+    "source": "Pistol_Aim_Neutral",
+    "arms": {},
+    "turn": 0,
+    "head_turn": 25,
+    "axis": "world"
+  },
+  {
+    "action": "Pistol_Aim_Up_SideScroller",
+    "source": "Pistol_Aim_Up",
+    "arms": {},
+    "turn": 0,
+    "head_turn": 25,
+    "axis": "world"
+  },
+  {
+    "action": "Pistol_Idle_Loop_SideScroller",
+    "source": "Pistol_Idle_Loop",
+    "arms": {},
+    "turn": 0,
+    "head_turn": 25,
+    "axis": "world"
+  },
+  {
+    "action": "Pistol_Reload_SideScroller",
+    "source": "Pistol_Reload",
+    "arms": {},
+    "turn": 0,
+    "head_turn": [
+      [
+        0,
+        25
+      ],
+      [
+        0.3,
+        0
+      ],
+      [
+        0.7,
+        0
+      ],
+      [
+        1,
+        25
+      ]
+    ],
+    "axis": "world"
+  },
+  {
+    "action": "Pistol_Shoot_SideScroller",
+    "source": "Pistol_Shoot",
+    "arms": {},
+    "turn": 0,
+    "head_turn": 25,
+    "axis": "world"
+  },
+  {
+    "action": "Punch_Cross_SideScroller",
+    "source": "Punch_Cross",
+    "arms": {},
+    "turn": [
+      [
+        0,
+        35
+      ],
+      [
+        0.2,
+        0
+      ],
+      [
+        0.7,
+        0
+      ],
+      [
+        1,
+        35
+      ]
+    ],
+    "head_turn": 35,
+    "axis": "world"
+  },
+  {
+    "action": "Punch_Jab_SideScroller",
+    "source": "Punch_Jab",
+    "arms": {},
+    "turn": [
+      [
+        0,
+        35
+      ],
+      [
+        0.2,
+        0
+      ],
+      [
+        0.7,
+        0
+      ],
+      [
+        1,
+        35
+      ]
+    ],
+    "head_turn": 35,
+    "axis": "world"
+  },
+  {
+    "action": "Sword_Attack_SideScroller",
+    "source": "Sword_Attack",
+    "arms": {},
+    "turn": 0,
+    "head_turn": 25,
+    "axis": "world"
+  },
+  {
+    "action": "Sword_Idle_SideScroller",
+    "source": "Sword_Idle",
+    "arms": {},
+    "turn": 0,
+    "head_turn": 25,
+    "axis": "world"
+  },
+  {
+    "action": "Spell_Simple_Enter_SideScroller",
+    "source": "Spell_Simple_Enter",
+    "arms": {},
+    "turn": [
+      [
+        0.0,
+        35
+      ],
+      [
+        0.125,
+        29.491
+      ],
+      [
+        0.25,
+        19.022
+      ],
+      [
+        0.375,
+        11.279
+      ],
+      [
+        0.5,
+        5.35
+      ],
+      [
+        0.625,
+        1.021
+      ],
+      [
+        0.75,
+        -0.922
+      ],
+      [
+        0.875,
+        -0.391
+      ],
+      [
+        1.0,
+        0
+      ]
+    ],
+    "head_turn": 35,
+    "axis": "world"
+  },
+  {
+    "action": "Spell_Simple_Exit_SideScroller",
+    "source": "Spell_Simple_Exit",
+    "arms": {},
+    "turn": [
+      [
+        0.0,
+        0
+      ],
+      [
+        0.125,
+        -0.391
+      ],
+      [
+        0.25,
+        -1.322
+      ],
+      [
+        0.375,
+        -0.179
+      ],
+      [
+        0.5,
+        3.85
+      ],
+      [
+        0.625,
+        10.079
+      ],
+      [
+        0.75,
+        18.222
+      ],
+      [
+        0.875,
+        29.291
+      ],
+      [
+        1.0,
+        35
+      ]
+    ],
+    "head_turn": 35,
+    "axis": "world"
+  },
+  {
+    "action": "Spell_Simple_Idle_Loop_SideScroller",
+    "source": "Spell_Simple_Idle_Loop",
+    "arms": {},
+    "turn": 0,
+    "head_turn": 35,
+    "axis": "world"
+  },
+  {
+    "action": "Spell_Simple_Shoot_SideScroller",
+    "source": "Spell_Simple_Shoot",
+    "arms": {},
+    "turn": 0,
+    "head_turn": 35,
+    "axis": "world"
+  }
+]

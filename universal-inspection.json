@@ -1,0 +1,1694 @@
+{
+  "character": "assets\\quaternius\\universal\\universal-base-characters\\Universal Base Characters[Standard]\\Base Characters\\Godot - UE\\Superhero_Male_FullBody.gltf",
+  "target": "Armature",
+  "source": "Armature.001",
+  "objects": [
+    {
+      "name": "Armature",
+      "type": "ARMATURE",
+      "dimensions": [
+        1.874311923980713,
+        0.2722826600074768,
+        1.711050271987915
+      ],
+      "materials": [],
+      "parent": null
+    },
+    {
+      "name": "Eyebrows",
+      "type": "MESH",
+      "dimensions": [
+        0.12468113750219345,
+        0.03755628690123558,
+        0.03060781955718994
+      ],
+      "materials": [
+        "MI_Hair_1"
+      ],
+      "parent": "Armature"
+    },
+    {
+      "name": "Eyes",
+      "type": "MESH",
+      "dimensions": [
+        0.0974975973367691,
+        0.029403891414403915,
+        0.0299454927444458
+      ],
+      "materials": [
+        "MI_Eyes"
+      ],
+      "parent": "Armature"
+    },
+    {
+      "name": "SuperHero_Male",
+      "type": "MESH",
+      "dimensions": [
+        1.8588650226593018,
+        0.2914881706237793,
+        1.8195866346359253
+      ],
+      "materials": [
+        "MI_Superhero_Male"
+      ],
+      "parent": "Armature"
+    },
+    {
+      "name": "Armature.001",
+      "type": "ARMATURE",
+      "dimensions": [
+        1.9834153652191162,
+        0.345986008644104,
+        1.680403470993042
+      ],
+      "materials": [],
+      "parent": null
+    },
+    {
+      "name": "Mannequin",
+      "type": "MESH",
+      "dimensions": [
+        1.9444537162780762,
+        0.36959850788116455,
+        1.82871675491333
+      ],
+      "materials": [
+        "M_Main",
+        "M_Joints"
+      ],
+      "parent": "Armature.001"
+    },
+    {
+      "name": "Icosphere",
+      "type": "MESH",
+      "dimensions": [
+        1.9021157026290894,
+        1.9999998807907104,
+        2.0
+      ],
+      "materials": [],
+      "parent": null
+    },
+    {
+      "name": "Icosphere.001",
+      "type": "MESH",
+      "dimensions": [
+        1.9021157026290894,
+        1.9999998807907104,
+        2.0
+      ],
+      "materials": [],
+      "parent": null
+    }
+  ],
+  "target_bones": [
+    "root",
+    "pelvis",
+    "spine_01",
+    "spine_02",
+    "spine_03",
+    "neck_01",
+    "Head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "index_01_l",
+    "index_02_l",
+    "index_03_l",
+    "index_04_leaf_l",
+    "middle_01_l",
+    "middle_02_l",
+    "middle_03_l",
+    "middle_04_leaf_l",
+    "pinky_01_l",
+    "pinky_02_l",
+    "pinky_03_l",
+    "pinky_04_leaf_l",
+    "ring_01_l",
+    "ring_02_l",
+    "ring_03_l",
+    "ring_04_leaf_l",
+    "thumb_01_l",
+    "thumb_02_l",
+    "thumb_03_l",
+    "thumb_04_leaf_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "hand_r",
+    "index_01_r",
+    "index_02_r",
+    "index_03_r",
+    "index_04_leaf_r",
+    "middle_01_r",
+    "middle_02_r",
+    "middle_03_r",
+    "middle_04_leaf_r",
+    "pinky_01_r",
+    "pinky_02_r",
+    "pinky_03_r",
+    "pinky_04_leaf_r",
+    "ring_01_r",
+    "ring_02_r",
+    "ring_03_r",
+    "ring_04_leaf_r",
+    "thumb_01_r",
+    "thumb_02_r",
+    "thumb_03_r",
+    "thumb_04_leaf_r",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "ball_leaf_l",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r",
+    "ball_leaf_r"
+  ],
+  "source_bones": [
+    "root",
+    "pelvis",
+    "spine_01",
+    "spine_02",
+    "spine_03",
+    "neck_01",
+    "Head",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "index_01_l",
+    "index_02_l",
+    "index_03_l",
+    "index_04_leaf_l",
+    "middle_01_l",
+    "middle_02_l",
+    "middle_03_l",
+    "middle_04_leaf_l",
+    "pinky_01_l",
+    "pinky_02_l",
+    "pinky_03_l",
+    "pinky_04_leaf_l",
+    "ring_01_l",
+    "ring_02_l",
+    "ring_03_l",
+    "ring_04_leaf_l",
+    "thumb_01_l",
+    "thumb_02_l",
+    "thumb_03_l",
+    "thumb_04_leaf_l",
+    "clavicle_r",
+    "upperarm_r",
+    "lowerarm_r",
+    "hand_r",
+    "index_01_r",
+    "index_02_r",
+    "index_03_r",
+    "index_04_leaf_r",
+    "middle_01_r",
+    "middle_02_r",
+    "middle_03_r",
+    "middle_04_leaf_r",
+    "pinky_01_r",
+    "pinky_02_r",
+    "pinky_03_r",
+    "pinky_04_leaf_r",
+    "ring_01_r",
+    "ring_02_r",
+    "ring_03_r",
+    "ring_04_leaf_r",
+    "thumb_01_r",
+    "thumb_02_r",
+    "thumb_03_r",
+    "thumb_04_leaf_r",
+    "thigh_l",
+    "calf_l",
+    "foot_l",
+    "ball_l",
+    "ball_leaf_l",
+    "thigh_r",
+    "calf_r",
+    "foot_r",
+    "ball_r",
+    "ball_leaf_r"
+  ],
+  "matrices": {
+    "target": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "source": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "rest": [
+    {
+      "name": "root",
+      "target_head": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_head": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_difference": 0.0
+    },
+    {
+      "name": "pelvis",
+      "target_head": [
+        0.0,
+        0.042999982833862305,
+        0.9490999579429626
+      ],
+      "source_head": [
+        0.0,
+        0.05010002851486206,
+        0.916700005531311
+      ],
+      "rotation_difference": 0.033339664340019226
+    },
+    {
+      "name": "spine_01",
+      "target_head": [
+        0.0,
+        0.006900039967149496,
+        1.0720000267028809
+      ],
+      "source_head": [
+        0.0,
+        0.015600044280290604,
+        1.0505000352859497
+      ],
+      "rotation_difference": 0.02112637460231781
+    },
+    {
+      "name": "spine_02",
+      "target_head": [
+        0.0,
+        -0.003899953793734312,
+        1.1778000593185425
+      ],
+      "source_head": [
+        0.0,
+        0.000400068995077163,
+        1.173600196838379
+      ],
+      "rotation_difference": 0.05439191311597824
+    },
+    {
+      "name": "spine_03",
+      "target_head": [
+        0.0,
+        -0.0068999165669083595,
+        1.310900092124939
+      ],
+      "source_head": [
+        0.0,
+        0.004900109022855759,
+        1.3148002624511719
+      ],
+      "rotation_difference": 0.1940879374742508
+    },
+    {
+      "name": "neck_01",
+      "target_head": [
+        0.0,
+        0.04140008985996246,
+        1.5204999446868896
+      ],
+      "source_head": [
+        0.0,
+        0.01050017960369587,
+        1.487600326538086
+      ],
+      "rotation_difference": 0.10384923964738846
+    },
+    {
+      "name": "Head",
+      "target_head": [
+        0.0,
+        0.01740005426108837,
+        1.5998001098632812
+      ],
+      "source_head": [
+        0.0,
+        -0.005099782720208168,
+        1.5687003135681152
+      ],
+      "rotation_difference": 0.00345267029479146
+    },
+    {
+      "name": "clavicle_l",
+      "target_head": [
+        0.03139999508857727,
+        -0.033499930053949356,
+        1.4953001737594604
+      ],
+      "source_head": [
+        0.01879999041557312,
+        -0.07139985263347626,
+        1.4579004049301147
+      ],
+      "rotation_difference": 0.07544669508934021
+    },
+    {
+      "name": "upperarm_l",
+      "target_head": [
+        0.21201159060001373,
+        0.06540004163980484,
+        1.4555000066757202
+      ],
+      "source_head": [
+        0.19189992547035217,
+        0.06540016084909439,
+        1.4408005475997925
+      ],
+      "rotation_difference": 0.013138328678905964
+    },
+    {
+      "name": "lowerarm_l",
+      "target_head": [
+        0.46301165223121643,
+        0.07300003618001938,
+        1.4555001258850098
+      ],
+      "source_head": [
+        0.4662999212741852,
+        0.07010012120008469,
+        1.4408007860183716
+      ],
+      "rotation_difference": 0.013965213671326637
+    },
+    {
+      "name": "hand_l",
+      "target_head": [
+        0.7064872980117798,
+        0.06540002673864365,
+        1.4555002450942993
+      ],
+      "source_head": [
+        0.7389000058174133,
+        0.06540010124444962,
+        1.440800666809082
+      ],
+      "rotation_difference": 0.0
+    },
+    {
+      "name": "index_01_l",
+      "target_head": [
+        0.8238898515701294,
+        0.02475668489933014,
+        1.4483407735824585
+      ],
+      "source_head": [
+        0.858799934387207,
+        0.034500088542699814,
+        1.4388008117675781
+      ],
+      "rotation_difference": 0.040765609592199326
+    },
+    {
+      "name": "index_02_l",
+      "target_head": [
+        0.8564753532409668,
+        0.0252184197306633,
+        1.4470943212509155
+      ],
+      "source_head": [
+        0.8994999527931213,
+        0.034500088542699814,
+        1.4388006925582886
+      ],
+      "rotation_difference": 0.04114982858300209
+    },
+    {
+      "name": "index_03_l",
+      "target_head": [
+        0.8843631744384766,
+        0.025643344968557358,
+        1.4460276365280151
+      ],
+      "source_head": [
+        0.9342999458312988,
+        0.034500084817409515,
+        1.4388006925582886
+      ],
+      "rotation_difference": 0.04129443317651749
+    },
+    {
+      "name": "index_04_leaf_l",
+      "target_head": [
+        0.9084526896476746,
+        0.026019344106316566,
+        1.4451061487197876
+      ],
+      "source_head": [
+        0.9643999934196472,
+        0.03450008109211922,
+        1.4388006925582886
+      ],
+      "rotation_difference": 0.056075576692819595
+    },
+    {
+      "name": "middle_01_l",
+      "target_head": [
+        0.8219261169433594,
+        0.05028665065765381,
+        1.450817584991455
+      ],
+      "source_head": [
+        0.8604999780654907,
+        0.060200080275535583,
+        1.4412009716033936
+      ],
+      "rotation_difference": 0.04478992894291878
+    },
+    {
+      "name": "middle_02_l",
+      "target_head": [
+        0.8594141602516174,
+        0.051182493567466736,
+        1.4493836164474487
+      ],
+      "source_head": [
+        0.9027999639511108,
+        0.062200091779232025,
+        1.441201090812683
+      ],
+      "rotation_difference": 0.0453612245619297
+    },
+    {
+      "name": "middle_03_l",
+      "target_head": [
+        0.889503002166748,
+        0.051777832210063934,
+        1.448232889175415
+      ],
+      "source_head": [
+        0.9366999864578247,
+        0.06370008736848831,
+        1.441201090812683
+      ],
+      "rotation_difference": 0.04505002498626709
+    },
+    {
+      "name": "middle_04_leaf_l",
+      "target_head": [
+        0.9199925661087036,
+        0.05246778205037117,
+        1.4470664262771606
+      ],
+      "source_head": [
+        0.9710999727249146,
+        0.0653000921010971,
+        1.441201090812683
+      ],
+      "rotation_difference": 0.058240726590156555
+    },
+    {
+      "name": "pinky_01_l",
+      "target_head": [
+        0.8050286769866943,
+        0.10001739114522934,
+        1.4494625329971313
+      ],
+      "source_head": [
+        0.8465997576713562,
+        0.10620006918907166,
+        1.4392009973526
+      ],
+      "rotation_difference": 0.05264086648821831
+    },
+    {
+      "name": "pinky_02_l",
+      "target_head": [
+        0.8366215825080872,
+        0.10099252313375473,
+        1.4482539892196655
+      ],
+      "source_head": [
+        0.8867997527122498,
+        0.10890006273984909,
+        1.4392012357711792
+      ],
+      "rotation_difference": 0.05164395645260811
+    },
+    {
+      "name": "pinky_03_l",
+      "target_head": [
+        0.8640164732933044,
+        0.1019241213798523,
+        1.447205901145935
+      ],
+      "source_head": [
+        0.9143998026847839,
+        0.11080006510019302,
+        1.4392012357711792
+      ],
+      "rotation_difference": 0.05145430937409401
+    },
+    {
+      "name": "pinky_04_leaf_l",
+      "target_head": [
+        0.8855123519897461,
+        0.10263504087924957,
+        1.4463833570480347
+      ],
+      "source_head": [
+        0.9424998164176941,
+        0.11270008236169815,
+        1.4392012357711792
+      ],
+      "rotation_difference": 0.06297384947538376
+    },
+    {
+      "name": "ring_01_l",
+      "target_head": [
+        0.815887987613678,
+        0.07777020335197449,
+        1.450748324394226
+      ],
+      "source_head": [
+        0.8579998016357422,
+        0.08250007778406143,
+        1.4409008026123047
+      ],
+      "rotation_difference": 0.055849749594926834
+    },
+    {
+      "name": "ring_02_l",
+      "target_head": [
+        0.8518622517585754,
+        0.07758630067110062,
+        1.4493721723556519
+      ],
+      "source_head": [
+        0.8972998857498169,
+        0.0839000791311264,
+        1.4409008026123047
+      ],
+      "rotation_difference": 0.05942021682858467
+    },
+    {
+      "name": "ring_03_l",
+      "target_head": [
+        0.8801403045654297,
+        0.07730590552091599,
+        1.4482907056808472
+      ],
+      "source_head": [
+        0.9281999468803406,
+        0.08500008285045624,
+        1.4409010410308838
+      ],
+      "rotation_difference": 0.055943600833415985
+    },
+    {
+      "name": "ring_04_leaf_l",
+      "target_head": [
+        0.9092206358909607,
+        0.07721474766731262,
+        1.4471782445907593
+      ],
+      "source_head": [
+        0.9600000381469727,
+        0.08620009571313858,
+        1.440901279449463
+      ],
+      "rotation_difference": 0.06738954037427902
+    },
+    {
+      "name": "thumb_01_l",
+      "target_head": [
+        0.7403009533882141,
+        0.02433686889708042,
+        1.4280190467834473
+      ],
+      "source_head": [
+        0.7661998867988586,
+        0.03180007264018059,
+        1.4180009365081787
+      ],
+      "rotation_difference": 0.22260402143001556
+    },
+    {
+      "name": "thumb_02_l",
+      "target_head": [
+        0.7714074850082397,
+        0.009322226978838444,
+        1.4088157415390015
+      ],
+      "source_head": [
+        0.8003998398780823,
+        0.01410011574625969,
+        1.3988009691238403
+      ],
+      "rotation_difference": 0.22277246415615082
+    },
+    {
+      "name": "thumb_03_l",
+      "target_head": [
+        0.7993427515029907,
+        -0.004161732271313667,
+        1.3915703296661377
+      ],
+      "source_head": [
+        0.8393998146057129,
+        -0.006099850405007601,
+        1.3769011497497559
+      ],
+      "rotation_difference": 0.22269737720489502
+    },
+    {
+      "name": "thumb_04_leaf_l",
+      "target_head": [
+        0.8265439867973328,
+        -0.017291292548179626,
+        1.374778151512146
+      ],
+      "source_head": [
+        0.8718997836112976,
+        -0.02289983257651329,
+        1.3587011098861694
+      ],
+      "rotation_difference": 0.07883795350790024
+    },
+    {
+      "name": "clavicle_r",
+      "target_head": [
+        -0.03139999508857727,
+        -0.033499930053949356,
+        1.4953001737594604
+      ],
+      "source_head": [
+        -0.01879999041557312,
+        -0.07139985263347626,
+        1.4579004049301147
+      ],
+      "rotation_difference": 0.07544669508934021
+    },
+    {
+      "name": "upperarm_r",
+      "target_head": [
+        -0.21201157569885254,
+        0.06540004909038544,
+        1.4555000066757202
+      ],
+      "source_head": [
+        -0.19189992547035217,
+        0.0654001533985138,
+        1.4408005475997925
+      ],
+      "rotation_difference": 0.013138328678905964
+    },
+    {
+      "name": "lowerarm_r",
+      "target_head": [
+        -0.46301159262657166,
+        0.07300004363059998,
+        1.4555001258850098
+      ],
+      "source_head": [
+        -0.466299831867218,
+        0.07010012865066528,
+        1.4408005475997925
+      ],
+      "rotation_difference": 0.013965213671326637
+    },
+    {
+      "name": "hand_r",
+      "target_head": [
+        -0.706487238407135,
+        0.06540001183748245,
+        1.4555002450942993
+      ],
+      "source_head": [
+        -0.7388997673988342,
+        0.06540004163980484,
+        1.440800428390503
+      ],
+      "rotation_difference": 0.0
+    },
+    {
+      "name": "index_01_r",
+      "target_head": [
+        -0.8238898515701294,
+        0.024756673723459244,
+        1.4483407735824585
+      ],
+      "source_head": [
+        -0.8587995767593384,
+        0.03449998423457146,
+        1.438800573348999
+      ],
+      "rotation_difference": 0.040765609592199326
+    },
+    {
+      "name": "index_02_r",
+      "target_head": [
+        -0.8564752340316772,
+        0.025218408554792404,
+        1.4470943212509155
+      ],
+      "source_head": [
+        -0.8994996547698975,
+        0.03449997678399086,
+        1.438800573348999
+      ],
+      "rotation_difference": 0.04114982858300209
+    },
+    {
+      "name": "index_03_r",
+      "target_head": [
+        -0.884363055229187,
+        0.02564333751797676,
+        1.4460276365280151
+      ],
+      "source_head": [
+        -0.934299647808075,
+        0.03449997305870056,
+        1.4388006925582886
+      ],
+      "rotation_difference": 0.04128865897655487
+    },
+    {
+      "name": "index_04_leaf_r",
+      "target_head": [
+        -0.908452570438385,
+        0.026019340381026268,
+        1.4451061487197876
+      ],
+      "source_head": [
+        -0.9643995761871338,
+        0.03449996933341026,
+        1.4388006925582886
+      ],
+      "rotation_difference": 0.05607132241129875
+    },
+    {
+      "name": "middle_01_r",
+      "target_head": [
+        -0.8219261169433594,
+        0.050286632031202316,
+        1.450817584991455
+      ],
+      "source_head": [
+        -0.8604996800422668,
+        0.06019999086856842,
+        1.441200613975525
+      ],
+      "rotation_difference": 0.04479525238275528
+    },
+    {
+      "name": "middle_02_r",
+      "target_head": [
+        -0.8594141006469727,
+        0.051182471215724945,
+        1.4493836164474487
+      ],
+      "source_head": [
+        -0.9027997255325317,
+        0.06219997629523277,
+        1.4412007331848145
+      ],
+      "rotation_difference": 0.0453612245619297
+    },
+    {
+      "name": "middle_03_r",
+      "target_head": [
+        -0.8895028829574585,
+        0.051777809858322144,
+        1.448232889175415
+      ],
+      "source_head": [
+        -0.9366997480392456,
+        0.06369997560977936,
+        1.441200852394104
+      ],
+      "rotation_difference": 0.045055318623781204
+    },
+    {
+      "name": "middle_04_leaf_r",
+      "target_head": [
+        -0.9199925065040588,
+        0.05246776342391968,
+        1.4470664262771606
+      ],
+      "source_head": [
+        -0.971099853515625,
+        0.06529997289180756,
+        1.441201090812683
+      ],
+      "rotation_difference": 0.058240726590156555
+    },
+    {
+      "name": "pinky_01_r",
+      "target_head": [
+        -0.8050286173820496,
+        0.10001737624406815,
+        1.449462652206421
+      ],
+      "source_head": [
+        -0.8465996384620667,
+        0.10619999468326569,
+        1.4392006397247314
+      ],
+      "rotation_difference": 0.05264086648821831
+    },
+    {
+      "name": "pinky_02_r",
+      "target_head": [
+        -0.8366215229034424,
+        0.10099250823259354,
+        1.448254108428955
+      ],
+      "source_head": [
+        -0.8867995738983154,
+        0.10889998823404312,
+        1.439200758934021
+      ],
+      "rotation_difference": 0.05164395645260811
+    },
+    {
+      "name": "pinky_03_r",
+      "target_head": [
+        -0.8640163540840149,
+        0.1019240990281105,
+        1.4472060203552246
+      ],
+      "source_head": [
+        -0.9143996834754944,
+        0.11079997569322586,
+        1.4392006397247314
+      ],
+      "rotation_difference": 0.05145430937409401
+    },
+    {
+      "name": "pinky_04_leaf_r",
+      "target_head": [
+        -0.8855122923851013,
+        0.10263501107692719,
+        1.4463834762573242
+      ],
+      "source_head": [
+        -0.9424996972084045,
+        0.1126999631524086,
+        1.4392006397247314
+      ],
+      "rotation_difference": 0.06297384947538376
+    },
+    {
+      "name": "ring_01_r",
+      "target_head": [
+        -0.815887987613678,
+        0.0777701810002327,
+        1.450748324394226
+      ],
+      "source_head": [
+        -0.8579995632171631,
+        0.08249999582767487,
+        1.4409003257751465
+      ],
+      "rotation_difference": 0.05585401877760887
+    },
+    {
+      "name": "ring_02_r",
+      "target_head": [
+        -0.8518621325492859,
+        0.07758627831935883,
+        1.4493721723556519
+      ],
+      "source_head": [
+        -0.8972996473312378,
+        0.08389998972415924,
+        1.440900444984436
+      ],
+      "rotation_difference": 0.05941620096564293
+    },
+    {
+      "name": "ring_03_r",
+      "target_head": [
+        -0.8801402449607849,
+        0.07730589061975479,
+        1.4482907056808472
+      ],
+      "source_head": [
+        -0.9281997084617615,
+        0.08499998599290848,
+        1.4409006834030151
+      ],
+      "rotation_difference": 0.055943600833415985
+    },
+    {
+      "name": "ring_04_leaf_r",
+      "target_head": [
+        -0.9092205762863159,
+        0.07721472531557083,
+        1.4471782445907593
+      ],
+      "source_head": [
+        -0.9599997997283936,
+        0.08619998395442963,
+        1.4409008026123047
+      ],
+      "rotation_difference": 0.06739307940006256
+    },
+    {
+      "name": "thumb_01_r",
+      "target_head": [
+        -0.7403008341789246,
+        0.02433689497411251,
+        1.4280190467834473
+      ],
+      "source_head": [
+        -0.7661997079849243,
+        0.03180001303553581,
+        1.4180006980895996
+      ],
+      "rotation_difference": 0.22260402143001556
+    },
+    {
+      "name": "thumb_02_r",
+      "target_head": [
+        -0.7714075446128845,
+        0.009322164580225945,
+        1.408815860748291
+      ],
+      "source_head": [
+        -0.8003997206687927,
+        0.014099976047873497,
+        1.3988004922866821
+      ],
+      "rotation_difference": 0.22277353703975677
+    },
+    {
+      "name": "thumb_03_r",
+      "target_head": [
+        -0.7993429899215698,
+        -0.0041618263348937035,
+        1.3915706872940063
+      ],
+      "source_head": [
+        -0.8393996357917786,
+        -0.0060999589040875435,
+        1.3769006729125977
+      ],
+      "rotation_difference": 0.22269630432128906
+    },
+    {
+      "name": "thumb_04_leaf_r",
+      "target_head": [
+        -0.8265440464019775,
+        -0.017291376367211342,
+        1.374778389930725
+      ],
+      "source_head": [
+        -0.8718996644020081,
+        -0.022899959236383438,
+        1.3587005138397217
+      ],
+      "rotation_difference": 0.07883492857217789
+    },
+    {
+      "name": "thigh_l",
+      "target_head": [
+        0.11430513858795166,
+        0.03600001335144043,
+        0.9711999297142029
+      ],
+      "source_head": [
+        0.08899997919797897,
+        -0.0013999640941619873,
+        0.9321000576019287
+      ],
+      "rotation_difference": 0.006765826605260372
+    },
+    {
+      "name": "calf_l",
+      "target_head": [
+        0.11430513113737106,
+        0.03610016405582428,
+        0.5423998236656189
+      ],
+      "source_head": [
+        0.08899998664855957,
+        0.0013999845832586288,
+        0.5318001508712769
+      ],
+      "rotation_difference": 0.03207860141992569
+    },
+    {
+      "name": "foot_l",
+      "target_head": [
+        0.11430513113737106,
+        0.08750026673078537,
+        0.08649975061416626
+      ],
+      "source_head": [
+        0.08899997174739838,
+        0.03579995408654213,
+        0.10370010137557983
+      ],
+      "rotation_difference": 0.07119911909103394
+    },
+    {
+      "name": "ball_l",
+      "target_head": [
+        0.11430512368679047,
+        -0.054699480533599854,
+        0.015199793502688408
+      ],
+      "source_head": [
+        0.08899999409914017,
+        -0.11320007592439651,
+        0.015200069174170494
+      ],
+      "rotation_difference": 6.2831854820251465
+    },
+    {
+      "name": "ball_leaf_l",
+      "target_head": [
+        0.11430512368679047,
+        -0.13359932601451874,
+        0.015199793502688408
+      ],
+      "source_head": [
+        0.08899999409914017,
+        -0.19210010766983032,
+        0.015200052410364151
+      ],
+      "rotation_difference": 6.2831854820251465
+    },
+    {
+      "name": "thigh_r",
+      "target_head": [
+        -0.11430513858795166,
+        0.03600001335144043,
+        0.9711999297142029
+      ],
+      "source_head": [
+        -0.08899997919797897,
+        -0.0013999640941619873,
+        0.9321000576019287
+      ],
+      "rotation_difference": 0.006765826605260372
+    },
+    {
+      "name": "calf_r",
+      "target_head": [
+        -0.11430513113737106,
+        0.03610016405582428,
+        0.5423998236656189
+      ],
+      "source_head": [
+        -0.08899999409914017,
+        0.0013999848160892725,
+        0.5318000912666321
+      ],
+      "rotation_difference": 0.03207860141992569
+    },
+    {
+      "name": "foot_r",
+      "target_head": [
+        -0.11430513113737106,
+        0.08750026673078537,
+        0.08649975061416626
+      ],
+      "source_head": [
+        -0.08899997919797897,
+        0.03579995036125183,
+        0.10370013117790222
+      ],
+      "rotation_difference": 0.07119911909103394
+    },
+    {
+      "name": "ball_r",
+      "target_head": [
+        -0.11430512368679047,
+        -0.054699480533599854,
+        0.015199793502688408
+      ],
+      "source_head": [
+        -0.08899998664855957,
+        -0.11320007592439651,
+        0.015200098976492882
+      ],
+      "rotation_difference": 6.2831854820251465
+    },
+    {
+      "name": "ball_leaf_r",
+      "target_head": [
+        -0.11430512368679047,
+        -0.13359932601451874,
+        0.015199793502688408
+      ],
+      "source_head": [
+        -0.08899998664855957,
+        -0.19210010766983032,
+        0.015200082212686539
+      ],
+      "rotation_difference": 6.2831854820251465
+    }
+  ],
+  "actions": [
+    {
+      "name": "A_TPose",
+      "range": [
+        0.0,
+        60.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Crouch_Fwd_Loop",
+      "range": [
+        0.0,
+        48.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Crouch_Idle_Loop",
+      "range": [
+        0.0,
+        70.4000015258789
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Dance_Loop",
+      "range": [
+        0.0,
+        24.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Death01",
+      "range": [
+        0.0,
+        57.60000228881836
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Driving_Loop",
+      "range": [
+        0.0,
+        40.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Fixing_Kneeling",
+      "range": [
+        0.0,
+        124.79999542236328
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Hit_Chest",
+      "range": [
+        0.0,
+        8.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Hit_Head",
+      "range": [
+        0.0,
+        10.399999618530273
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Idle_Loop",
+      "range": [
+        0.0,
+        60.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Idle_Talking_Loop",
+      "range": [
+        0.0,
+        70.4000015258789
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Idle_Torch_Loop",
+      "range": [
+        0.0,
+        30.399999618530273
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Interact",
+      "range": [
+        0.0,
+        48.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Jog_Fwd_Loop",
+      "range": [
+        0.0,
+        22.399999618530273
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Jump_Land",
+      "range": [
+        0.0,
+        30.399999618530273
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Jump_Loop",
+      "range": [
+        0.0,
+        60.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Jump_Start",
+      "range": [
+        0.0,
+        32.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "PickUp_Table",
+      "range": [
+        0.0,
+        20.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Pistol_Aim_Down",
+      "range": [
+        0.0,
+        4.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Pistol_Aim_Neutral",
+      "range": [
+        0.0,
+        4.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Pistol_Aim_Up",
+      "range": [
+        0.0,
+        4.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Pistol_Idle_Loop",
+      "range": [
+        0.0,
+        40.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Pistol_Reload",
+      "range": [
+        0.0,
+        40.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Pistol_Shoot",
+      "range": [
+        0.0,
+        15.199999809265137
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Punch_Cross",
+      "range": [
+        0.0,
+        24.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Punch_Jab",
+      "range": [
+        0.0,
+        20.799999237060547
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Push_Loop",
+      "range": [
+        0.0,
+        64.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Roll",
+      "range": [
+        0.0,
+        35.20000076293945
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Sitting_Enter",
+      "range": [
+        0.0,
+        31.19999885559082
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Sitting_Exit",
+      "range": [
+        0.0,
+        24.799999237060547
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Sitting_Idle_Loop",
+      "range": [
+        0.0,
+        40.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Sitting_Talking_Loop",
+      "range": [
+        0.0,
+        70.4000015258789
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Spell_Simple_Enter",
+      "range": [
+        0.0,
+        12.80000114440918
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Spell_Simple_Exit",
+      "range": [
+        0.0,
+        10.399999618530273
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Spell_Simple_Idle_Loop",
+      "range": [
+        0.0,
+        50.39999771118164
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Spell_Simple_Shoot",
+      "range": [
+        0.0,
+        12.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Sprint_Loop",
+      "range": [
+        0.0,
+        16.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Swim_Fwd_Loop",
+      "range": [
+        0.0,
+        32.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Swim_Idle_Loop",
+      "range": [
+        0.0,
+        80.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Sword_Attack",
+      "range": [
+        0.0,
+        36.79999923706055
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Sword_Idle",
+      "range": [
+        0.0,
+        40.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Walk_Formal_Loop",
+      "range": [
+        0.0,
+        32.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    },
+    {
+      "name": "Walk_Loop",
+      "range": [
+        0.0,
+        32.0
+      ],
+      "slots": [
+        "OBArmature.001"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "T_Eye_Brown",
+      "size": [
+        256,
+        256
+      ],
+      "path": "C:\\Users\\rober\\source\\repos\\sprite-renderer\\assets\\quaternius\\universal\\universal-base-characters\\Universal Base Characters[Standard]\\Base Characters\\Godot - UE\\T_Eye_Brown.png"
+    },
+    {
+      "name": "T_Eye_Normal.png",
+      "size": [
+        0,
+        0
+      ],
+      "path": "C:\\Users\\rober\\source\\repos\\sprite-renderer\\assets\\quaternius\\universal\\universal-base-characters\\Universal Base Characters[Standard]\\Base Characters\\Godot - UE\\T_Eye_Normal_png.png"
+    },
+    {
+      "name": "T_Hair_1_BaseColor",
+      "size": [
+        2048,
+        2048
+      ],
+      "path": "C:\\Users\\rober\\source\\repos\\sprite-renderer\\assets\\quaternius\\universal\\universal-base-characters\\Universal Base Characters[Standard]\\Base Characters\\Godot - UE\\T_Hair_1_BaseColor.png"
+    },
+    {
+      "name": "T_Hair_1_Normal.png",
+      "size": [
+        0,
+        0
+      ],
+      "path": "C:\\Users\\rober\\source\\repos\\sprite-renderer\\assets\\quaternius\\universal\\universal-base-characters\\Universal Base Characters[Standard]\\Base Characters\\Godot - UE\\T_Hair_1_Normal_png.png"
+    },
+    {
+      "name": "T_Superhero_Male_Dark",
+      "size": [
+        2048,
+        2048
+      ],
+      "path": "C:\\Users\\rober\\source\\repos\\sprite-renderer\\assets\\quaternius\\universal\\universal-base-characters\\Universal Base Characters[Standard]\\Base Characters\\Godot - UE\\T_Superhero_Male_Dark.png"
+    },
+    {
+      "name": "T_Superhero_Male_Normal",
+      "size": [
+        2048,
+        2048
+      ],
+      "path": "C:\\Users\\rober\\source\\repos\\sprite-renderer\\assets\\quaternius\\universal\\universal-base-characters\\Universal Base Characters[Standard]\\Base Characters\\Godot - UE\\T_Superhero_Male_Normal.png"
+    },
+    {
+      "name": "T_Superhero_Male_Roughness",
+      "size": [
+        2048,
+        2048
+      ],
+      "path": "C:\\Users\\rober\\source\\repos\\sprite-renderer\\assets\\quaternius\\universal\\universal-base-characters\\Universal Base Characters[Standard]\\Base Characters\\Godot - UE\\T_Superhero_Male_Roughness.png"
+    }
+  ]
+}

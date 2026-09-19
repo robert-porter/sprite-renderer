@@ -1,0 +1,95 @@
+{
+  "signature": "ba4dcbd795c6c3cc32c2e7ec2214570226045a77c11521e1e195a98c47d159a9",
+  "sheetSha256": "82827324839a1040bcb1ad0638fec1851e044cb36c61527a21c49e62ee46cbf5",
+  "clip": {
+    "image": "ual2_shield_oneshot_edited.png",
+    "frameCount": 10,
+    "fps": 12.0,
+    "duration": 0.8333333333333334,
+    "loop": false,
+    "label": "UAL2 Shield OneShot \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      4096,
+      1024
+    ],
+    "sourceAction": "UAL2_Shield_OneShot_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.7777777777777777,
+      5.555555555555555,
+      8.333333333333334,
+      11.11111111111111,
+      13.88888888888889,
+      16.666666666666668,
+      19.444444444444443,
+      22.22222222222222,
+      25.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Retain original shield raise at full guard; blend from and back to edited idle.",
+    "variantOf": "ual2_shield_oneshot"
+  }
+}

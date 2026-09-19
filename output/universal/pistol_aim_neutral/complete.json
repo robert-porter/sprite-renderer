@@ -1,0 +1,36 @@
+{
+  "signature": "6d7982c8247102be0728ab6afdda7a5216429b4604e95380bab03a49e4c015cc",
+  "sheetSha256": "18b58a5a81827b4cc737f4455d78ecc6785e314b50f6c66b81cd5f2eb54f2487",
+  "clip": {
+    "image": "pistol_aim_neutral.png",
+    "frameCount": 2,
+    "fps": 12.0,
+    "duration": 0.16666666666666666,
+    "loop": false,
+    "label": "Pistol Aim Neutral",
+    "category": "Combat",
+    "sheetSize": [
+      1024,
+      512
+    ],
+    "sourceAction": "Pistol_Aim_Neutral",
+    "sourceFrames": [
+      0.0,
+      5.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ]
+  }
+}

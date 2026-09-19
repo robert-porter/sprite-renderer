@@ -1,0 +1,39 @@
+{
+  "signature": "1989ad570a1a935350ca5d552c9467de7eba4719ed6f53f63a38dc3d31dada01",
+  "sheetSha256": "5afb2082acad663a809a314752be7ec091e87f2ded29e22379c904b3538a0604",
+  "clip": {
+    "image": "pistol_aim_neutral_edited.png",
+    "frameCount": 2,
+    "fps": 12.0,
+    "duration": 0.16666666666666666,
+    "loop": false,
+    "label": "Pistol Aim Neutral \u00b7 head +25\u00b0 (candidate)",
+    "category": "Candidates",
+    "sheetSize": [
+      1024,
+      512
+    ],
+    "sourceAction": "Pistol_Aim_Neutral_SideScroller",
+    "sourceFrames": [
+      0.0,
+      5.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "variantOf": "pistol_aim_neutral",
+    "reviewStatus": "candidate",
+    "reviewNote": "Original aim and hand motion; head turns an additional 25\u00b0 while retaining source pitch."
+  }
+}

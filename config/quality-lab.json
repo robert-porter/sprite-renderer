@@ -1,0 +1,10 @@
+{
+  "scene": "output/universal/render-scene.blend",
+  "asset": "assets/quaternius/universal/idle-variants.blend",
+  "manifest": "output/universal/review-sprites.json",
+  "clip": "walk_open35_head35",
+  "output": "output/universal/quality-lab",
+  "reference_size": 1024,
+  "output_sizes": [256, 512],
+  "samples": 32
+}

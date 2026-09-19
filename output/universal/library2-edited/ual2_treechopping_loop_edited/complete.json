@@ -1,0 +1,109 @@
+{
+  "signature": "d3d8f20900d6008247498e25109643b4dc01b18feffa08ad967bc47c548dbc99",
+  "sheetSha256": "2ccf4c97d620264ffac8db7a9024e0e82c306b3c2400239689699d0b528be558",
+  "clip": {
+    "image": "ual2_treechopping_loop_edited.png",
+    "frameCount": 12,
+    "fps": 12.413793103448276,
+    "duration": 0.9666666666666667,
+    "loop": true,
+    "label": "UAL2 TreeChopping \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      4096,
+      1024
+    ],
+    "sourceAction": "UAL2_TreeChopping_Loop_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.4166666666666665,
+      4.833333333333333,
+      7.25,
+      9.666666666666666,
+      12.083333333333334,
+      14.5,
+      16.916666666666668,
+      19.333333333333332,
+      21.75,
+      24.166666666666668,
+      26.583333333333332
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Torso already opens in the windup; preserve chopping arc and fade head offset at the strike.",
+    "variantOf": "ual2_treechopping_loop"
+  }
+}

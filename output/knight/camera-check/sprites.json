@@ -1,0 +1,63 @@
+{
+  "character": "KnightCharacter",
+  "frameSize": [
+    256,
+    256
+  ],
+  "facing": "right",
+  "cameraSide": "-X",
+  "projection": "orthographic",
+  "pivot": {
+    "x": 0.5082523100988915,
+    "y": 0.9000455882893204
+  },
+  "source": "assets/quaternius/KnightCharacter.blend",
+  "animations": {
+    "idle": {
+      "image": "idle.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 3.3333333333333335,
+      "loop": true,
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Idle",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "walk": {
+      "image": "walk.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 1.25,
+      "loop": true,
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Walking",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    }
+  }
+}

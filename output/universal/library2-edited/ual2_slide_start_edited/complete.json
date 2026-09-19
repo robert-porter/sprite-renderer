@@ -1,0 +1,95 @@
+{
+  "signature": "0cd28e822302ce30a8ba8c63b505e4de53708ba2b47e38c3586861c0b867eca3",
+  "sheetSha256": "8869318c5ee65d3bb7bd924657db5ae58f9416bc62e56c5334edd1b87586053c",
+  "clip": {
+    "image": "ual2_slide_start_edited.png",
+    "frameCount": 10,
+    "fps": 12.0,
+    "duration": 0.8333333333333334,
+    "loop": false,
+    "label": "UAL2 Slide Start \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      4096,
+      1024
+    ],
+    "sourceAction": "UAL2_Slide_Start_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.7777777777777777,
+      5.555555555555555,
+      8.333333333333334,
+      11.11111111111111,
+      13.88888888888889,
+      16.666666666666668,
+      19.444444444444443,
+      22.22222222222222,
+      25.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Matching +35 degree torso/head correction across all slide phases.",
+    "variantOf": "ual2_slide_start"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "signature": "be310659900ec25b3d6adf7824b267a4cc19db257db7fc401b9505e5a425d304",
+  "sheetSha256": "4f1995fd33eac69555443463397b34a5f4dd2c1995e61ed074e1de654e008aca",
+  "clip": {
+    "image": "pistol_aim_down_edited.png",
+    "frameCount": 2,
+    "fps": 12.0,
+    "duration": 0.16666666666666666,
+    "loop": false,
+    "label": "Pistol Aim Down \u00b7 head +25\u00b0 (candidate)",
+    "category": "Candidates",
+    "sheetSize": [
+      1024,
+      512
+    ],
+    "sourceAction": "Pistol_Aim_Down_SideScroller",
+    "sourceFrames": [
+      0.0,
+      5.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "variantOf": "pistol_aim_down",
+    "reviewStatus": "candidate",
+    "reviewNote": "Original aim and hand motion; head turns an additional 25\u00b0 while retaining source pitch."
+  }
+}

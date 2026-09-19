@@ -1,0 +1,540 @@
+{
+  "character": "Sketch Hero \u00b7 model test",
+  "brand": "SKETCH HERO / MODEL STUDY",
+  "sourceLabel": "Animations \u00b7 Quaternius Universal Library (CC0)",
+  "sourceUrl": "https://quaternius.com/packs/universalanimationlibrary.html",
+  "frameSize": [
+    256,
+    256
+  ],
+  "facing": "right",
+  "cameraSide": "-X",
+  "projection": "orthographic",
+  "pivot": {
+    "x": 0.4714290499687195,
+    "y": 0.8519393354654312
+  },
+  "source": "assets/custom/sketch-hero/sketch-hero.blend",
+  "animations": {
+    "idle": {
+      "image": "idle.png",
+      "frameCount": 1,
+      "fps": 6.0,
+      "duration": 2.5,
+      "loop": true,
+      "label": "Idle",
+      "category": "Movement",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Idle_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "walk": {
+      "image": "walk.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "label": "Walk",
+      "category": "Movement",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Walk_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "sprint": {
+      "image": "sprint.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 0.6666666666666666,
+      "loop": true,
+      "label": "Sprint",
+      "category": "Movement",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Sprint_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "sword_attack": {
+      "image": "sword_attack.png",
+      "frameCount": 1,
+      "fps": 11.739130434782608,
+      "duration": 1.5333333333333334,
+      "loop": false,
+      "label": "Sword Attack",
+      "category": "Combat",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Sword_Attack",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "sword_idle": {
+      "image": "sword_idle.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 1.6666666666666667,
+      "loop": true,
+      "label": "Sword Idle",
+      "category": "Combat",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Sword_Idle",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "spell_simple_idle": {
+      "image": "spell_simple_idle.png",
+      "frameCount": 1,
+      "fps": 11.904762625604212,
+      "duration": 2.0999998728434246,
+      "loop": true,
+      "label": "Spell Simple Idle",
+      "category": "Magic",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Spell_Simple_Idle_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "spell_simple_shoot": {
+      "image": "spell_simple_shoot.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 0.5,
+      "loop": false,
+      "label": "Spell Simple Shoot",
+      "category": "Magic",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Spell_Simple_Shoot",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "jump": {
+      "image": "jump.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 2.5,
+      "loop": true,
+      "label": "Jump",
+      "category": "Movement",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Jump_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "jump_land": {
+      "image": "jump_land.png",
+      "frameCount": 1,
+      "fps": 11.842105263157896,
+      "duration": 1.2666666666666666,
+      "loop": false,
+      "label": "Jump Land",
+      "category": "Movement",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Jump_Land",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "jump_start": {
+      "image": "jump_start.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "label": "Jump Start",
+      "category": "Movement",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Jump_Start",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "idle_open35_head35": {
+      "image": "idle_open35_head35.png",
+      "frameCount": 1,
+      "fps": 6.0,
+      "duration": 2.5,
+      "loop": true,
+      "label": "Idle \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Idle_Open35_Head35",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "idle",
+      "reviewNote": ""
+    },
+    "walk_open35_head35": {
+      "image": "walk_open35_head35.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 1.3333333333333333,
+      "loop": true,
+      "label": "Walk \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Walk_Open35_Head35",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "walk",
+      "reviewNote": ""
+    },
+    "sprint_open35_head35": {
+      "image": "sprint_open35_head35.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 0.6666666666666666,
+      "loop": true,
+      "label": "Sprint \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Sprint_Loop_Open35_Head35",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "sprint",
+      "reviewNote": ""
+    },
+    "jump_open35_head35": {
+      "image": "jump_open35_head35.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 2.5,
+      "loop": true,
+      "label": "Jump \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Jump_Loop_Open35_Head35",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "jump",
+      "reviewNote": ""
+    },
+    "jump_land_open35_head35": {
+      "image": "jump_land_open35_head35.png",
+      "frameCount": 1,
+      "fps": 11.842105263157896,
+      "duration": 1.2666666666666666,
+      "loop": false,
+      "label": "Jump Land \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Jump_Land_Open35_Head35",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "jump_land",
+      "reviewNote": ""
+    },
+    "jump_start_open35_head35": {
+      "image": "jump_start_open35_head35.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 1.3333333333333333,
+      "loop": false,
+      "label": "Jump Start \u00b7 torso + head 35\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Jump_Start_Open35_Head35",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "jump_start",
+      "reviewNote": ""
+    },
+    "sword_attack_edited": {
+      "image": "sword_attack_edited.png",
+      "frameCount": 1,
+      "fps": 11.739130434782608,
+      "duration": 1.5333333333333334,
+      "loop": false,
+      "label": "Sword Attack \u00b7 head +25\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Sword_Attack_SideScroller",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "sword_attack",
+      "reviewNote": "Original torso and sword swing; head turns an additional 25\u00b0."
+    },
+    "sword_idle_edited": {
+      "image": "sword_idle_edited.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 1.6666666666666667,
+      "loop": true,
+      "label": "Sword Idle \u00b7 head +25\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Sword_Idle_SideScroller",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "sword_idle",
+      "reviewNote": "Original torso and sword swing; head turns an additional 25\u00b0."
+    },
+    "spell_simple_idle_edited": {
+      "image": "spell_simple_idle_edited.png",
+      "frameCount": 1,
+      "fps": 11.904762625604212,
+      "duration": 2.0999998728434246,
+      "loop": true,
+      "label": "Spell Simple Idle \u00b7 head +35\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Spell_Simple_Idle_Loop_SideScroller",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "spell_simple_idle",
+      "reviewNote": "Original body and hand motion; head turns 35\u00b0 toward viewer."
+    },
+    "spell_simple_shoot_edited": {
+      "image": "spell_simple_shoot_edited.png",
+      "frameCount": 1,
+      "fps": 12.0,
+      "duration": 0.5,
+      "loop": false,
+      "label": "Spell Simple Shoot \u00b7 head +35\u00b0 (candidate)",
+      "category": "Candidates",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Spell_Simple_Shoot_SideScroller",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ],
+      "variantOf": "spell_simple_shoot",
+      "reviewNote": "Original body and hand motion; head turns 35\u00b0 toward viewer."
+    }
+  }
+}

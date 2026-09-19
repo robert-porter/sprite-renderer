@@ -1,0 +1,20 @@
+{
+  "asset": "assets/quaternius/animatedman/ClothedMan.blend",
+  "output": "output/animatedman",
+  "display_name": "Animated Man",
+  "source_url": "https://quaternius.com/packs/animatedman.html",
+  "armature": "Human Armature",
+  "mesh_objects": ["Human_Mesh"],
+  "material_textures": {"Texture": "assets/quaternius/animatedman/Textures/ClothedLightSkin.png"},
+  "camera_side": "-X",
+  "size": 256,
+  "fps": 12,
+  "source_fps": 24,
+  "padding": 0.1,
+  "samples": 32,
+  "columns": 8,
+  "animations": [
+    {"name": "idle", "action": "Idle", "start": 0, "end": 240},
+    {"name": "walk", "action": "Walk", "start": 0, "end": 24.799991607666016}
+  ]
+}

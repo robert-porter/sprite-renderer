@@ -1,0 +1,314 @@
+{
+  "status": "passed",
+  "manifestSha256": "be876d732637d3ea0b2f121d6ba7d482d5213ad62789bd18635bd8f5d028c041",
+  "results": [
+    {
+      "clip": "sword_idle",
+      "weapon": "steel",
+      "frames": 20,
+      "overlapSwordInFront": 3447,
+      "overlapCharacterInFront": 738
+    },
+    {
+      "clip": "sword_idle",
+      "weapon": "copper",
+      "frames": 20,
+      "overlapSwordInFront": 7318,
+      "overlapCharacterInFront": 738
+    },
+    {
+      "clip": "sword_idle_edited",
+      "weapon": "steel",
+      "frames": 20,
+      "overlapSwordInFront": 3447,
+      "overlapCharacterInFront": 738
+    },
+    {
+      "clip": "sword_idle_edited",
+      "weapon": "copper",
+      "frames": 20,
+      "overlapSwordInFront": 7318,
+      "overlapCharacterInFront": 738
+    },
+    {
+      "clip": "sword_attack",
+      "weapon": "steel",
+      "frames": 18,
+      "overlapSwordInFront": 1778,
+      "overlapCharacterInFront": 1702
+    },
+    {
+      "clip": "sword_attack",
+      "weapon": "copper",
+      "frames": 18,
+      "overlapSwordInFront": 3020,
+      "overlapCharacterInFront": 2160
+    },
+    {
+      "clip": "sword_attack_edited",
+      "weapon": "steel",
+      "frames": 18,
+      "overlapSwordInFront": 1778,
+      "overlapCharacterInFront": 1702
+    },
+    {
+      "clip": "sword_attack_edited",
+      "weapon": "copper",
+      "frames": 18,
+      "overlapSwordInFront": 3022,
+      "overlapCharacterInFront": 2160
+    },
+    {
+      "clip": "ual2_sword_regular_combo",
+      "weapon": "steel",
+      "frames": 36,
+      "overlapSwordInFront": 2682,
+      "overlapCharacterInFront": 2675
+    },
+    {
+      "clip": "ual2_sword_regular_combo",
+      "weapon": "copper",
+      "frames": 36,
+      "overlapSwordInFront": 3492,
+      "overlapCharacterInFront": 3271
+    },
+    {
+      "clip": "ual2_sword_regular_combo_edited",
+      "weapon": "steel",
+      "frames": 36,
+      "overlapSwordInFront": 2682,
+      "overlapCharacterInFront": 2675
+    },
+    {
+      "clip": "ual2_sword_regular_combo_edited",
+      "weapon": "copper",
+      "frames": 36,
+      "overlapSwordInFront": 3492,
+      "overlapCharacterInFront": 3271
+    },
+    {
+      "clip": "ual2_sword_block",
+      "weapon": "steel",
+      "frames": 15,
+      "overlapSwordInFront": 1354,
+      "overlapCharacterInFront": 668
+    },
+    {
+      "clip": "ual2_sword_block",
+      "weapon": "copper",
+      "frames": 15,
+      "overlapSwordInFront": 1678,
+      "overlapCharacterInFront": 668
+    },
+    {
+      "clip": "ual2_sword_block_edited",
+      "weapon": "steel",
+      "frames": 15,
+      "overlapSwordInFront": 1354,
+      "overlapCharacterInFront": 668
+    },
+    {
+      "clip": "ual2_sword_block_edited",
+      "weapon": "copper",
+      "frames": 15,
+      "overlapSwordInFront": 1678,
+      "overlapCharacterInFront": 668
+    },
+    {
+      "clip": "ual2_sword_dash",
+      "weapon": "steel",
+      "frames": 19,
+      "overlapSwordInFront": 2537,
+      "overlapCharacterInFront": 1221
+    },
+    {
+      "clip": "ual2_sword_dash",
+      "weapon": "copper",
+      "frames": 19,
+      "overlapSwordInFront": 3409,
+      "overlapCharacterInFront": 1428
+    },
+    {
+      "clip": "ual2_sword_dash_edited",
+      "weapon": "steel",
+      "frames": 19,
+      "overlapSwordInFront": 2537,
+      "overlapCharacterInFront": 1221
+    },
+    {
+      "clip": "ual2_sword_dash_edited",
+      "weapon": "copper",
+      "frames": 19,
+      "overlapSwordInFront": 3409,
+      "overlapCharacterInFront": 1428
+    },
+    {
+      "clip": "ual2_sword_heavy_combo",
+      "weapon": "steel",
+      "frames": 52,
+      "overlapSwordInFront": 2914,
+      "overlapCharacterInFront": 4357
+    },
+    {
+      "clip": "ual2_sword_heavy_combo",
+      "weapon": "copper",
+      "frames": 52,
+      "overlapSwordInFront": 3612,
+      "overlapCharacterInFront": 4806
+    },
+    {
+      "clip": "ual2_sword_heavy_combo_edited",
+      "weapon": "steel",
+      "frames": 52,
+      "overlapSwordInFront": 2914,
+      "overlapCharacterInFront": 4357
+    },
+    {
+      "clip": "ual2_sword_heavy_combo_edited",
+      "weapon": "copper",
+      "frames": 52,
+      "overlapSwordInFront": 3612,
+      "overlapCharacterInFront": 4806
+    },
+    {
+      "clip": "ual2_sword_regular_a",
+      "weapon": "steel",
+      "frames": 5,
+      "overlapSwordInFront": 608,
+      "overlapCharacterInFront": 144
+    },
+    {
+      "clip": "ual2_sword_regular_a",
+      "weapon": "copper",
+      "frames": 5,
+      "overlapSwordInFront": 907,
+      "overlapCharacterInFront": 144
+    },
+    {
+      "clip": "ual2_sword_regular_a_edited",
+      "weapon": "steel",
+      "frames": 5,
+      "overlapSwordInFront": 608,
+      "overlapCharacterInFront": 144
+    },
+    {
+      "clip": "ual2_sword_regular_a_edited",
+      "weapon": "copper",
+      "frames": 5,
+      "overlapSwordInFront": 907,
+      "overlapCharacterInFront": 144
+    },
+    {
+      "clip": "ual2_sword_regular_a_rec",
+      "weapon": "steel",
+      "frames": 12,
+      "overlapSwordInFront": 1028,
+      "overlapCharacterInFront": 799
+    },
+    {
+      "clip": "ual2_sword_regular_a_rec",
+      "weapon": "copper",
+      "frames": 12,
+      "overlapSwordInFront": 1250,
+      "overlapCharacterInFront": 820
+    },
+    {
+      "clip": "ual2_sword_regular_a_rec_edited",
+      "weapon": "steel",
+      "frames": 12,
+      "overlapSwordInFront": 1028,
+      "overlapCharacterInFront": 801
+    },
+    {
+      "clip": "ual2_sword_regular_a_rec_edited",
+      "weapon": "copper",
+      "frames": 12,
+      "overlapSwordInFront": 1250,
+      "overlapCharacterInFront": 822
+    },
+    {
+      "clip": "ual2_sword_regular_b",
+      "weapon": "steel",
+      "frames": 6,
+      "overlapSwordInFront": 226,
+      "overlapCharacterInFront": 573
+    },
+    {
+      "clip": "ual2_sword_regular_b",
+      "weapon": "copper",
+      "frames": 6,
+      "overlapSwordInFront": 226,
+      "overlapCharacterInFront": 624
+    },
+    {
+      "clip": "ual2_sword_regular_b_edited",
+      "weapon": "steel",
+      "frames": 6,
+      "overlapSwordInFront": 226,
+      "overlapCharacterInFront": 573
+    },
+    {
+      "clip": "ual2_sword_regular_b_edited",
+      "weapon": "copper",
+      "frames": 6,
+      "overlapSwordInFront": 226,
+      "overlapCharacterInFront": 624
+    },
+    {
+      "clip": "ual2_sword_regular_b_rec",
+      "weapon": "steel",
+      "frames": 12,
+      "overlapSwordInFront": 2447,
+      "overlapCharacterInFront": 413
+    },
+    {
+      "clip": "ual2_sword_regular_b_rec",
+      "weapon": "copper",
+      "frames": 12,
+      "overlapSwordInFront": 3491,
+      "overlapCharacterInFront": 413
+    },
+    {
+      "clip": "ual2_sword_regular_b_rec_edited",
+      "weapon": "steel",
+      "frames": 12,
+      "overlapSwordInFront": 2447,
+      "overlapCharacterInFront": 413
+    },
+    {
+      "clip": "ual2_sword_regular_b_rec_edited",
+      "weapon": "copper",
+      "frames": 12,
+      "overlapSwordInFront": 3491,
+      "overlapCharacterInFront": 413
+    },
+    {
+      "clip": "ual2_sword_regular_c",
+      "weapon": "steel",
+      "frames": 24,
+      "overlapSwordInFront": 2053,
+      "overlapCharacterInFront": 2468
+    },
+    {
+      "clip": "ual2_sword_regular_c",
+      "weapon": "copper",
+      "frames": 24,
+      "overlapSwordInFront": 2734,
+      "overlapCharacterInFront": 3322
+    },
+    {
+      "clip": "ual2_sword_regular_c_edited",
+      "weapon": "steel",
+      "frames": 24,
+      "overlapSwordInFront": 2053,
+      "overlapCharacterInFront": 2475
+    },
+    {
+      "clip": "ual2_sword_regular_c_edited",
+      "weapon": "copper",
+      "frames": 24,
+      "overlapSwordInFront": 2734,
+      "overlapCharacterInFront": 3331
+    }
+  ]
+}

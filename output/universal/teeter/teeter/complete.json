@@ -1,0 +1,58 @@
+{
+  "signature": "a0c716cb0309410336e6ff1ec8fc841f88b3a4731a5a234f20a9240dbbd6b6d6",
+  "sheetSha256": "82671149913b9ffc2abdc460e65ac4d6199ac4a5b1750e5f9c5630aa9f5c977e",
+  "clip": {
+    "image": "teeter.png",
+    "frameCount": 4,
+    "fps": 4.0,
+    "duration": 1.0,
+    "loop": true,
+    "label": "Teeter \u00b7 forward edge",
+    "category": "Custom animations",
+    "sheetSize": [
+      2048,
+      512
+    ],
+    "sourceAction": "Teeter_Forward_Loop",
+    "sourceFrames": [
+      0.0,
+      7.5,
+      15.0,
+      22.5
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Quiet 4-frame loop over 1 second. Tiny body and shoulder sway; heels stay fixed with approximately 4 sprite pixels of support at 512px.",
+    "platformEdge": {
+      "x": 0.5594403743743896,
+      "y": 0.5650382936000824,
+      "supportPixels": 4.0
+    },
+    "authored": true
+  }
+}

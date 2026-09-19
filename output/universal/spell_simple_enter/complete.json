@@ -1,0 +1,64 @@
+{
+  "signature": "9eff898697e3d201086599510b2df6e6b01f6a3e54fe916c312f1ac62a529c36",
+  "sheetSha256": "cf8dc0e38df9eee72859e9fa6b9a0b9eb9e568271a677d505ca1cab3be06b780",
+  "clip": {
+    "image": "spell_simple_enter.png",
+    "frameCount": 6,
+    "fps": 11.25,
+    "duration": 0.5333333333333333,
+    "loop": false,
+    "label": "Spell Simple Enter",
+    "category": "Magic",
+    "sheetSize": [
+      3072,
+      512
+    ],
+    "sourceAction": "Spell_Simple_Enter",
+    "sourceFrames": [
+      0.0,
+      3.2,
+      6.4,
+      9.6,
+      12.8,
+      16.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ]
+  }
+}

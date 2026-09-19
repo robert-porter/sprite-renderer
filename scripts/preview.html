@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sprite animation browser</title>
+<style>
+:root{color-scheme:dark;--bg:#141a23;--panel:#1e2835;--edge:#354255;--muted:#aebdd1;--green:#86e0b5}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#f0f5fc;font:15px system-ui,sans-serif}main{max-width:1320px;margin:30px auto;padding:0 24px}.eyebrow{color:var(--green);font-size:11px;letter-spacing:2px}h1{font-size:30px;margin:9px 0}p{color:var(--muted);line-height:1.5}header p{margin:0 0 22px}.layout{display:grid;grid-template-columns:260px minmax(340px,1fr) 280px;gap:18px;align-items:start}.panel{background:var(--panel);border:1px solid var(--edge);border-radius:12px;overflow:hidden}.pad{padding:18px}h2{font-size:16px;margin:0 0 14px}label{display:block;color:var(--muted);font-size:13px;margin:12px 0 6px}button,select,input{font:inherit}button,select,input[type=search]{border:1px solid var(--edge);border-radius:6px;padding:9px 11px;color:#edf4ff;background:#263345}button{cursor:pointer}button:hover{border-color:var(--green)}button.active{background:#294d43;border-color:var(--green);color:var(--green)}button.primary{background:var(--green);color:#15342a;border-color:var(--green);font-weight:650}button:disabled{opacity:.5;cursor:default}select,input[type=search]{width:100%}input{accent-color:var(--green)}.library{max-height:550px;overflow:auto;padding:0 10px 12px}.group{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--muted);padding:15px 5px 7px}.clip-button{display:flex;justify-content:space-between;gap:8px;width:100%;text-align:left;margin:4px 0;font-size:13px}.clip-button small{color:var(--muted);white-space:nowrap}.stage{position:relative;background:conic-gradient(#293443 25%,#25303e 0 50%,#293443 0 75%,#25303e 0) 0 0/32px 32px}canvas{display:block;width:100%;aspect-ratio:1}.stage-status{position:absolute;bottom:12px;left:12px;color:#d0d9e7;background:#17202cdd;padding:5px 9px;border-radius:5px;font-size:12px;pointer-events:none}.stage-title{display:flex;justify-content:space-between;align-items:center;padding:14px 18px}.badge{font-size:11px;text-transform:uppercase;color:var(--green);background:#284039;padding:4px 7px;border-radius:4px}.row{display:flex;gap:8px;align-items:center}.row>*{flex:1}.controls{padding:16px 18px}#scrub{width:100%}.meta{font-variant-numeric:tabular-nums;color:var(--muted);font-size:12px;margin:10px 0}.small{font-size:12px;line-height:1.6}.check{display:flex;align-items:center;gap:8px}.check input{margin:0}.transition{margin:16px 0 0;padding:12px;border:1px solid var(--edge);border-radius:6px;min-height:62px;color:var(--muted);font-size:12px;line-height:1.5}.links{display:flex;gap:18px;font-size:12px;margin-top:14px}a{color:var(--green)}footer{color:var(--muted);font-size:12px;margin-top:22px;line-height:1.6}#load-status{margin-top:12px}.stage-options{display:flex;align-items:center;gap:12px;margin-top:12px}.stage-options label{margin:0}.stage-options select{width:auto}.error{color:#ffb3ab}@media(max-width:1050px){.layout{grid-template-columns:220px 1fr}.sequence-panel{grid-column:1/-1}.sequence-fields{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}}@media(max-width:660px){main{padding:0 12px}.layout{display:flex;flex-direction:column}.layout>.panel{width:100%}.library{max-height:200px}.sequence-fields{display:block}h1{font-size:25px}}
+</style>
+<main>
+<header><div class="eyebrow" id="brand">QUATERNIUS / SPRITE LAB</div><h1>Animation browser</h1><p><span id="character"></span> · facing right · shared scale and ground pivot</p></header>
+<section id="version-panel" class="panel pad" hidden style="margin-bottom:18px">
+<div class="row" style="max-width:340px"><button id="version-base" class="active" aria-pressed="true">Base</button><button id="version-edited" aria-pressed="false">Edited</button></div>
+<p id="version-status" class="small" aria-live="polite" style="margin:10px 0 0"></p>
+<p class="small" style="margin:4px 0 0">Switch at the same point in the animation, including during a sequence. Clips without an edit use their base version. <a id="pose-lab" href="idle-lab/compare.html">Idle pose lab</a></p>
+</section>
+<div class="layout">
+<aside class="panel"><div class="pad"><h2>Animation library <span id="count"></span></h2><label for="search">Find an animation</label><input type="search" id="search" placeholder="Walk, jump, sword…"><label for="switch-mode">Switch animation</label><select id="switch-mode"><option value="now">Immediately</option><option value="end">At the end of this clip</option></select></div><div id="library" class="library"></div></aside>
+<section class="panel"><div class="stage-title"><strong id="clip-name">Loading…</strong><span class="badge" id="clip-type"></span></div><div class="stage"><canvas id="stage" width="768" height="768" aria-label="Animated character preview"></canvas><div id="stage-status" class="stage-status">Loading sprite sheets…</div></div><div class="controls"><div class="row"><button id="pause" class="primary">Pause</button><button id="restart">Restart</button><button id="step" title="Pause and advance one frame">Next frame</button></div><label for="scrub">Frame <span id="frame-number"></span></label><input id="scrub" type="range" min="0" max="1" step="1" value="0"><div id="stats" class="meta"></div><div class="row"><label for="speed">Speed <span id="rate">1×</span><input id="speed" type="range" min="0.25" max="2" step="0.25" value="1"></label><label class="check"><input id="repeat-clip" type="checkbox">Repeat one-shot clips</label></div><div class="stage-options"><label for="zoom">Preview zoom</label><select id="zoom"><option value="1">Fit all poses</option><option value="1.5">1.5×</option><option value="2">2×</option></select><label class="check"><input id="ground" type="checkbox" checked>Ground guide</label></div><div class="links"><a id="sheet" href="#">Current sprite sheet</a><a id="metadata" href="sprites.json">JSON metadata</a></div><div id="load-status" class="small"></div></div></section>
+<aside class="panel sequence-panel"><div class="pad"><h2>Try a transition sequence</h2><p class="small">Each selection plays once, then switches to the next clip at its boundary.</p><label for="preset">Preset</label><select id="preset"><option value="movement">Idle → walk → idle</option><option value="running">Walk → sprint → walk</option><option value="jump">Jump start → airborne → land</option><option value="sitting">Sit down → sitting → stand up</option><option value="punch">Idle → punch → idle</option><option value="spell">Spell enter → shoot → exit</option><option value="spellhold">Spell idle → shoot → idle</option><option value="sword">Sword idle → attack → idle</option><option value="pistol">Pistol idle → shoot → idle</option></select><div class="sequence-fields"><div><label for="seq-a">First</label><select id="seq-a"></select></div><div><label for="seq-b">Next</label><select id="seq-b"></select></div><div><label for="seq-c">Then</label><select id="seq-c"></select></div></div><label class="check"><input id="repeat-sequence" type="checkbox" checked>Repeat sequence</label><button id="play-sequence" class="primary" style="width:100%;margin-top:14px">Play sequence</button><div id="sequence-status" class="small" style="margin-top:12px">No sequence running</div><div id="transition" class="transition" aria-live="polite">Choose another animation to inspect the cut.</div><p class="small">These are direct sprite cuts. Smooth pose blending needs additional rendered transition frames.</p><p id="idle-note" class="small"></p></div></aside>
+</div><footer>All clips use the same camera and ground pivot. Wide poses share the same framing, so standing poses have extra space around them. Preview zoom does not change exported sprites.<br><span id="weapon-note">Weapon and prop animations contain character motion only.</span> <a id="source" href="https://quaternius.com/">Quaternius · CC0</a></footer>
+</main>
+<script>__PLAYER__</script>
+<script>
+const manifest=__MANIFEST__;
+const $=id=>document.getElementById(id);
+const clips=manifest.animations;
+const allNames=Object.keys(clips);
+const sheetUrl=name=>clips[name].image+'?v='+encodeURIComponent(manifest.assetVersion||manifest.frameSize.join('x'));
+const names=allNames.filter(n=>!clips[n].variantOf);
+const edits=Object.fromEntries(allNames.filter(n=>clips[n].variantOf).map(n=>[clips[n].variantOf,n]));
+const baseName=name=>clips[name].variantOf||name;
+let edited=Boolean(manifest.defaultEdited);
+const resolve=name=>edited?(edits[baseName(name)]||baseName(name)):baseName(name);
+if(clips.idle) $('idle-note').textContent=`Idle uses ${clips.idle.frameCount} frames at ${clips.idle.fps.toFixed(1)} fps and lasts ${clips.idle.duration.toFixed(2)} seconds. Lower fps saves frames, with less smooth motion. Each clip is one PNG sheet.`;
+const requested=new URLSearchParams(location.search).get('clip');
+const player=new SpritePlayer(clips,resolve(clips[requested]?requested:(clips.idle?'idle':names[0])));
+const images=new Map(),buttons={};
+let last=null;
+const label=name=>clips[name].label||name.replaceAll('_',' ');
+document.title=manifest.character+' · Animation browser';
+$('character').textContent=manifest.character;$('count').textContent=`(${names.length})`;
+$('source').href=manifest.sourceUrl;$('source').textContent=manifest.sourceLabel||('Quaternius · '+manifest.character+' · CC0');
+$('brand').textContent=manifest.brand||'QUATERNIUS / SPRITE LAB';
+$('pose-lab').hidden=manifest.poseLabUrl===null;
+$('pose-lab').href=manifest.poseLabUrl||'idle-lab/compare.html';
+$('metadata').href=manifest.metadataUrl||'sprites.json';
+if(manifest.qualityLabUrl){const link=document.createElement('a');link.href=manifest.qualityLabUrl;link.textContent='Render quality comparison';$('metadata').parentElement.append(link);}
+$('version-panel').hidden=Object.keys(edits).length===0;
+function version(value){edited=value;player.remapClips(resolve);sync();draw();}
+$('version-base').onclick=()=>version(false);$('version-edited').onclick=()=>version(true);
+function loading(){const cached=[...images.values()],loaded=cached.filter(i=>i.complete&&i.naturalWidth).length,failed=cached.filter(i=>i.failed).length;$('load-status').textContent=`${allNames.length} sprite sheets available · ${loaded} cached · loads on demand${failed?' · '+failed+' failed':''}`;$('load-status').className=failed?'small error':'small';}
+function nextClip(){if(player.pending)return player.pending;if(player.sequence){if(player.sequenceIndex+1<player.sequence.length)return player.sequence[player.sequenceIndex+1];if(player.repeatSequence)return player.sequence[0];}return null;}
+function prepareImages(){
+ const wanted=new Set([player.name,baseName(player.name),edits[baseName(player.name)],nextClip()].filter(Boolean));
+ if(player.sequence)for(let step=1;step<=2;step++){const index=player.sequenceIndex+step;if(index<player.sequence.length||player.repeatSequence)wanted.add(player.sequence[index%player.sequence.length]);}
+ for(const name of wanted){
+  if(images.has(name)){const image=images.get(name);images.delete(name);images.set(name,image);continue;}
+  while(images.size>=8){const oldest=[...images.keys()].find(n=>!wanted.has(n));if(!oldest)break;const image=images.get(oldest);image.onload=image.onerror=null;image.src='';images.delete(oldest);}
+  const image=new Image();images.set(name,image);image.onload=loading;image.onerror=()=>{image.failed=true;loading()};image.src=sheetUrl(name);loading();
+ }
+}
+function library(){
+ $('library').replaceChildren();
+ const query=$('search').value.trim().toLowerCase();
+ const categories=[...new Set(names.map(n=>clips[n].category||'Animations'))];
+ for(const category of categories){
+  const matches=names.filter(n=>(clips[n].category||'Animations')===category&&(label(n)+' '+n).toLowerCase().includes(query));if(!matches.length)continue;
+  const title=document.createElement('div');title.className='group';title.textContent=category;$('library').append(title);
+  for(const name of matches){const b=document.createElement('button');b.className='clip-button';b.dataset.clip=name;b.setAttribute('aria-label',label(name));const title=document.createElement('span');title.textContent=label(name);const small=document.createElement('small');small.textContent=clips[name].duration.toFixed(2)+'s';b.append(title,small);b.onclick=()=>{player.select(resolve(name),$('switch-mode').value==='end');sync()};buttons[name]=b;$('library').append(b);}
+ }
+ if(!$('library').children.length){const empty=document.createElement('p');empty.textContent='No matching animations.';$('library').append(empty);}
+ sync();
+}
+for(const id of ['seq-a','seq-b','seq-c']){for(const name of names){const option=document.createElement('option');option.value=name;option.textContent=label(name);$(id).append(option);}}
+const presets={movement:['idle','walk','idle'],running:['walk','sprint','walk'],jump:['jump_start','jump','jump_land'],sitting:['sitting_enter','sitting_idle','sitting_exit'],punch:['idle','punch_cross','idle'],spell:['spell_simple_enter','spell_simple_shoot','spell_simple_exit'],spellhold:['spell_simple_idle','spell_simple_shoot','spell_simple_idle'],sword:['sword_idle','sword_attack','sword_idle'],pistol:['pistol_idle','pistol_shoot','pistol_idle']};
+for(const [key,title,sequence] of [
+ ['ual2_ninja','UAL2 · ninja jump',['ual2_ninjajump_start','ual2_ninjajump_idle_loop','ual2_ninjajump_land']],
+ ['ual2_slide','UAL2 · slide',['ual2_slide_start','ual2_slide_loop','ual2_slide_exit']],
+ ['ual2_combo','UAL2 · idle / sword combo / idle',['idle','ual2_sword_regular_combo','idle']],
+ ['ual2_hook','UAL2 · hook + recovery',['idle','ual2_melee_hook','ual2_melee_hook_rec']],
+ ['ual2_heavy','UAL2 · idle / heavy combo / idle',['idle','ual2_sword_heavy_combo','idle']],
+ ['ual2_shield','UAL2 · shield dash',['ual2_idle_shield_loop','ual2_shield_dash','ual2_idle_shield_loop']],
+ ['ual2_zombie','UAL2 · zombie idle / walk',['ual2_zombie_idle_loop','ual2_zombie_walk_fwd_loop','ual2_zombie_idle_loop']],
+ ['ual2_farming','UAL2 · plant / water / harvest',['ual2_farm_plantseed','ual2_farm_watering','ual2_farm_harvest']],
+]){presets[key]=sequence;const option=document.createElement('option');option.value=key;option.textContent=title;$('preset').append(option);}
+for(const option of [...$('preset').options]){if(!presets[option.value].every(n=>clips[n]))option.remove();}
+if(!$('preset').value)$('preset').disabled=true;
+function preset(){const selected=(presets[$('preset').value]||[names[0],names[0],names[0]]);['seq-a','seq-b','seq-c'].forEach((id,i)=>$(id).value=clips[selected[i]]?selected[i]:names[0]);}
+$('preset').onchange=preset;preset();
+$('play-sequence').onclick=()=>{player.playSequence(['seq-a','seq-b','seq-c'].map(id=>resolve($(id).value)),$('repeat-sequence').checked);sync()};
+$('pause').onclick=()=>{player.toggle();sync()};$('restart').onclick=()=>{player.select(player.name);sync()};
+$('step').onclick=()=>{player.seek((player.frameIndex+1)%player.clip.frameCount);sync()};
+$('scrub').oninput=e=>{player.seek(Number(e.target.value));sync()};
+$('speed').oninput=e=>$('rate').textContent=e.target.value+'×';
+$('repeat-clip').onchange=e=>player.repeatClip=e.target.checked;
+$('search').oninput=library;
+function sync(){
+ prepareImages();
+ const clip=player.clip;
+ $('version-base').classList.toggle('active',!edited);$('version-base').setAttribute('aria-pressed',String(!edited));
+ $('version-edited').classList.toggle('active',edited);$('version-edited').setAttribute('aria-pressed',String(edited));
+ $('version-status').textContent=edited?(clip.variantOf?'Edited · '+label(player.name):'Edited mode · no edit for '+label(player.name)+'; showing base.'):'Base · original animation. '+Object.keys(edits).length+' edited clip'+(Object.keys(edits).length===1?'':'s')+' available.';
+ if(edited && clip.reviewNote) $('version-status').textContent+=' '+clip.reviewNote;
+ if(clip.authored)$('version-status').textContent='Custom animation · '+clip.reviewNote;
+ $('clip-name').textContent=label(player.name);$('clip-type').textContent=clip.loop?'Loop':'One-shot';
+ $('pause').textContent=player.playing?'Pause':player.finished?'Replay':'Play';
+ $('scrub').max=clip.frameCount-1;$('scrub').value=player.frameIndex;
+ $('frame-number').textContent=`${player.frameIndex+1} / ${clip.frameCount}`;
+ $('stats').textContent=`${clip.frameCount} frames · ${clip.fps.toFixed(1)} fps · ${clip.duration.toFixed(2)} s · ${manifest.frameSize.join(' × ')} px`;
+ $('sheet').href=sheetUrl(player.name);
+ for(const [name,b] of Object.entries(buttons)){b.classList.toggle('active',name===baseName(player.name));b.setAttribute('aria-pressed',String(name===baseName(player.name)));}
+ $('stage-status').textContent=player.pending?'Queued: '+label(player.pending):player.finished?'Finished · holding final pose':player.playing?'Playing':'Paused';
+ $('sequence-status').textContent=player.sequence?`${player.finished?'Finished':'Step '+(player.sequenceIndex+1)+' / '+player.sequence.length}: ${player.sequence.map(label).join(' → ')}`:'No sequence running';
+ if(player.transition){const t=player.transition;$('transition').textContent=`${label(t.from)} → ${label(t.to)} · ${t.reason} (from frame ${t.fromFrame+1})`;}
+}
+const filteringLabel=document.createElement('label');filteringLabel.htmlFor='filtering';filteringLabel.textContent='Filtering';
+const filtering=document.createElement('select');filtering.id='filtering';filtering.style.width='auto';
+for(const [value,text] of [['smooth','Smooth'],['nearest','Pixelated']]){const option=document.createElement('option');option.value=value;option.textContent=text;filtering.append(option);}
+const stageOptions=$('zoom').parentElement;stageOptions.style.flexWrap='wrap';stageOptions.append(filteringLabel,filtering);
+const canvas=$('stage'),ctx=canvas.getContext('2d');
+const swordLab=manifest.swordLab&&typeof SwordDepthPreview!=='undefined'?new SwordDepthPreview(manifest.swordLab,document.querySelector('.sequence-panel'),name=>{player.select(resolve(name));sync();}):null;
+if(swordLab)$('weapon-note').textContent='Use the sword animation picker to explore independently rendered weapons with runtime depth composition. Other weapon and prop clips contain character motion only.';
+function draw(){
+ ctx.clearRect(0,0,canvas.width,canvas.height);const image=images.get(player.name);
+ if(!image.complete||!image.naturalWidth){$('stage-status').textContent=image.complete?'Sprite sheet failed to load':'Loading sprite sheet…';return;}
+ const depthScale=swordLab?.spec.drawScale||1;
+ const zoom=Number($('zoom').value)/depthScale,w=canvas.width*zoom,h=canvas.height*zoom;
+ const pivot=manifest.pivot||{x:.5,y:.9};const dx=canvas.width*pivot.x-w*pivot.x,dy=canvas.height*pivot.y-h*pivot.y;
+ if($('ground').checked){
+  const edge=player.clip.platformEdge;
+  if(edge){
+   const ex=dx+edge.x*w,ey=dy+edge.y*h;
+   ctx.fillStyle='#42516b';ctx.fillRect(0,ey,ex,canvas.height-ey);
+   ctx.strokeStyle='#86e0b5';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(0,ey);ctx.lineTo(ex,ey);ctx.lineTo(ex,canvas.height);ctx.stroke();
+   ctx.fillStyle='#c7d6e8';ctx.font='14px system-ui';ctx.fillText('Platform edge · '+edge.supportPixels+' px heel support',14,ey+28);
+  }else{ctx.strokeStyle='#8fe2ba55';ctx.lineWidth=1;ctx.beginPath();ctx.moveTo(0,canvas.height*pivot.y);ctx.lineTo(canvas.width,canvas.height*pivot.y);ctx.stroke();}
+ }
+ const frame=player.clip.frames[player.frameIndex];ctx.imageSmoothingEnabled=filtering.value==='smooth';ctx.imageSmoothingQuality='high';
+ const composed=swordLab?swordLab.frame(player.name,player.frameIndex):null;
+ if(composed){const pad=(depthScale-1)/2;ctx.drawImage(composed,0,0,composed.width,composed.height,dx-w*pad,dy-h*pad,w*depthScale,h*depthScale);}
+ else ctx.drawImage(image,frame.x,frame.y,frame.w,frame.h,dx,dy,w,h);
+}
+function tick(now){
+ const dt=last===null?0:Math.max(0,Math.min(.1,(now-last)/1000));last=now;prepareImages();
+ const image=images.get(player.name),next=nextClip(),nextImage=images.get(next),step=dt*Number($('speed').value);
+ const crossing=player.time+step>=player.clip.duration;
+ const waiting=next&&crossing&&(!nextImage.complete||!nextImage.naturalWidth);
+ let depthWaiting=false;
+ if(swordLab){
+  depthWaiting=!swordLab.readyAt(player.name,player.frameIndex);
+  if(player.playing&&!depthWaiting){
+   const target=crossing&&next?next:player.name;
+   const time=crossing?(next||player.clip.loop||player.repeatClip?(player.time+step)%player.clip.duration:player.clip.duration):player.time+step;
+   const index=Math.min(clips[target].frameCount-1,Math.floor(time*clips[target].fps+1e-8));
+   depthWaiting=!swordLab.readyAt(target,index);
+  }
+ }
+ if(image.complete&&image.naturalWidth&&!waiting&&!depthWaiting)player.advance(step);
+ sync();draw();
+ if(waiting)$('stage-status').textContent=nextImage.failed?'Next sprite sheet failed to load':'Loading next animation…';
+ else if(depthWaiting)$('stage-status').textContent='Loading sword layers…';
+ requestAnimationFrame(tick);
+}
+library();loading();requestAnimationFrame(tick);
+</script></html>

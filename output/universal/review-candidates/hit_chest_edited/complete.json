@@ -1,0 +1,53 @@
+{
+  "signature": "dead453cc30443365a92b54c9dfec38350a6dffac90db6698fdb7b80778c2979",
+  "sheetSha256": "3291f615265d23322cb845319edb6bedff7598c19ebfc5203c55b6aed65e497d",
+  "clip": {
+    "image": "hit_chest_edited.png",
+    "frameCount": 4,
+    "fps": 12.0,
+    "duration": 0.3333333333333333,
+    "loop": false,
+    "label": "Hit Chest \u00b7 tailored edit (candidate)",
+    "category": "Candidates",
+    "sheetSize": [
+      2048,
+      512
+    ],
+    "sourceAction": "Hit_Chest_SideScroller",
+    "sourceFrames": [
+      0.0,
+      3.3333333333333335,
+      6.666666666666667,
+      10.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "variantOf": "hit_chest",
+    "reviewStatus": "candidate",
+    "reviewNote": "35\u00b0 torso/head correction preserving the original hit reaction."
+  }
+}

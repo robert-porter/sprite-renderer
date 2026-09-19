@@ -1,0 +1,50 @@
+{
+  "signature": "9f7b313b0c26180667c92941670da0cc2a864b678e0e41d14555eaa4dfbbd908",
+  "sheetSha256": "c9a93108d232e1e754f6135495587dc488a896ed7541b913a78b9ec3d8d40c21",
+  "clip": {
+    "image": "hit_chest.png",
+    "frameCount": 4,
+    "fps": 12.0,
+    "duration": 0.3333333333333333,
+    "loop": false,
+    "label": "Hit Chest",
+    "category": "Combat",
+    "sheetSize": [
+      2048,
+      512
+    ],
+    "sourceAction": "Hit_Chest",
+    "sourceFrames": [
+      0.0,
+      3.3333333333333335,
+      6.666666666666667,
+      10.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ]
+  }
+}

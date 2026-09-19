@@ -1,0 +1,109 @@
+{
+  "signature": "8d2d62b565b2f7dd3b7c896ec91ebd437ff89420f7da9b1d2b5a6b67a0fdea8b",
+  "sheetSha256": "3f6830688e92a63e050a9a18008191db1df1c11bd33b0bb91e204c8d9176fca8",
+  "clip": {
+    "image": "ual2_sword_regular_a_rec_edited.png",
+    "frameCount": 12,
+    "fps": 12.413793103448276,
+    "duration": 0.9666666666666667,
+    "loop": false,
+    "label": "UAL2 Sword Regular A Rec \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      4096,
+      1024
+    ],
+    "sourceAction": "UAL2_Sword_Regular_A_Rec_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.6363636363636362,
+      5.2727272727272725,
+      7.909090909090909,
+      10.545454545454545,
+      13.181818181818182,
+      15.818181818181818,
+      18.454545454545453,
+      21.09090909090909,
+      23.727272727272727,
+      26.363636363636363,
+      29.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Match hit A endpoint, then restore +25 degree guard gaze.",
+    "variantOf": "ual2_sword_regular_a_rec"
+  }
+}

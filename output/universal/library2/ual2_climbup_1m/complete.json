@@ -1,0 +1,80 @@
+{
+  "signature": "a2b6391aea896a7c1a4fe67a535e0113a5b99e6f3bf99027dea6dbb05203f339",
+  "sheetSha256": "9019b7af45bd24d38c4007cb434791814adad6a08ef80f0b6cf50b13d7a10d19",
+  "clip": {
+    "image": "ual2_climbup_1m.png",
+    "frameCount": 8,
+    "fps": 12.0,
+    "duration": 0.6666666666666666,
+    "loop": false,
+    "label": "UAL2 ClimbUp 1m",
+    "category": "Library 2",
+    "sheetSize": [
+      4096,
+      512
+    ],
+    "sourceAction": "UAL2_ClimbUp_1m",
+    "sourceFrames": [
+      0.0,
+      2.857142857142857,
+      5.714285714285714,
+      8.571428571428571,
+      11.428571428571429,
+      14.285714285714286,
+      17.142857142857142,
+      20.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Library 2 source pose; no torso or head correction applied."
+  }
+}

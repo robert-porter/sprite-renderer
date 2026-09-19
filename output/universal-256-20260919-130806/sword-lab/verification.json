@@ -1,0 +1,30 @@
+[
+  {
+    "clip": "sword_idle",
+    "weapon": "steel",
+    "frames": 20,
+    "overlapSwordInFront": 3433,
+    "overlapCharacterInFront": 733
+  },
+  {
+    "clip": "sword_idle",
+    "weapon": "copper",
+    "frames": 20,
+    "overlapSwordInFront": 7309,
+    "overlapCharacterInFront": 733
+  },
+  {
+    "clip": "sword_idle_edited",
+    "weapon": "steel",
+    "frames": 20,
+    "overlapSwordInFront": 3433,
+    "overlapCharacterInFront": 733
+  },
+  {
+    "clip": "sword_idle_edited",
+    "weapon": "copper",
+    "frames": 20,
+    "overlapSwordInFront": 7309,
+    "overlapCharacterInFront": 733
+  }
+]

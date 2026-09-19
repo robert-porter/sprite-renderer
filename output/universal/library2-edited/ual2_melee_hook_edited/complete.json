@@ -1,0 +1,67 @@
+{
+  "signature": "5f3227b4ac071a763379d3fe58b9535b0114a514cfea19ce841f1e4843c24205",
+  "sheetSha256": "2f576a9fed550e16e277425d070cb35c0f7052649706b64027bf0d873d3422f9",
+  "clip": {
+    "image": "ual2_melee_hook_edited.png",
+    "frameCount": 6,
+    "fps": 12.857142857142858,
+    "duration": 0.4666666666666667,
+    "loop": false,
+    "label": "UAL2 Melee Hook \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      3072,
+      512
+    ],
+    "sourceAction": "UAL2_Melee_Hook_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.8,
+      5.6,
+      8.4,
+      11.2,
+      14.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Reduce torso twist through the hook to retain the strike direction; head offset also eases down.",
+    "variantOf": "ual2_melee_hook"
+  }
+}

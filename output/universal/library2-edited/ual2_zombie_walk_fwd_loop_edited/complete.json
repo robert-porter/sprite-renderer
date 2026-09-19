@@ -1,0 +1,137 @@
+{
+  "signature": "6d644d10e25e4b411ff734fa0a00095b8dcb20c667ba8b96148402397838252c",
+  "sheetSha256": "bbac99408fda6c0474b805ac43a3a6cad607ee7a6a6e9f8bf23691674c9186d4",
+  "clip": {
+    "image": "ual2_zombie_walk_fwd_loop_edited.png",
+    "frameCount": 16,
+    "fps": 12.0,
+    "duration": 1.3333333333333333,
+    "loop": true,
+    "label": "UAL2 Zombie Walk Fwd \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      4096,
+      1024
+    ],
+    "sourceAction": "UAL2_Zombie_Walk_Fwd_Loop_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.5,
+      5.0,
+      7.5,
+      10.0,
+      12.5,
+      15.0,
+      17.5,
+      20.0,
+      22.5,
+      25.0,
+      27.5,
+      30.0,
+      32.5,
+      35.0,
+      37.5
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Open zombie walk torso/head +35 degrees while retaining the hunched gait.",
+    "variantOf": "ual2_zombie_walk_fwd_loop"
+  }
+}

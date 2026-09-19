@@ -1,0 +1,20 @@
+{
+  "name": "512 supersampled",
+  "status": "visually accepted",
+  "reference": "output/universal/quality-lab/comparison.json",
+  "render_settings": {
+    "size": 512,
+    "supersample": 2,
+    "samples": 32,
+    "render_device": "OPTIX",
+    "denoising_gpu": true
+  },
+  "preview_filtering": "smooth",
+  "preserve": [
+    "camera framing",
+    "normalized pivot",
+    "poses",
+    "animation timing"
+  ],
+  "rollout": "Applied to all main-preview Base and Edited clips; independent study and custom-character exports remain separate."
+}

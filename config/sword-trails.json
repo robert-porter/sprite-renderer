@@ -1,0 +1,12 @@
+{
+  "history_frames": 4.5,
+  "fade_frames": 2.0,
+  "blade_width": 0.55,
+  "supersample": 2,
+  "bands": [[0.0, 0.64, [123, 196, 224, 175]], [0.64, 0.86, [194, 234, 239, 230]], [0.86, 1.0, [255, 250, 213, 255]]],
+  "windows": {
+    "sword_attack": [[10, 15]],
+    "ual2_sword_regular_combo": [[5, 9], [20, 24], [43, 49]],
+    "ual2_sword_heavy_combo": [[11, 18], [31, 37], [52, 58], [69, 79]]
+  }
+}

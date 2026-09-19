@@ -1,0 +1,36 @@
+{
+  "signature": "4bb3d3f11bcda287b59ffb3eaef7b865cc80c02165048932334b0f3585de686c",
+  "sheetSha256": "89e7b3b6201e88049a5d5e06147a1f9679b9095ebd42c06c7370d1fdd05b5491",
+  "clip": {
+    "image": "pistol_aim_down.png",
+    "frameCount": 2,
+    "fps": 12.0,
+    "duration": 0.16666666666666666,
+    "loop": false,
+    "label": "Pistol Aim Down",
+    "category": "Combat",
+    "sheetSize": [
+      1024,
+      512
+    ],
+    "sourceAction": "Pistol_Aim_Down",
+    "sourceFrames": [
+      0.0,
+      5.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ]
+  }
+}

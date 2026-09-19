@@ -1,0 +1,36 @@
+{
+  "signature": "3b084b88630785753732238f61f33fdb7fe1d764ef03fe5470ef1716cdb01355",
+  "sheetSha256": "13349f82b67bc948cd74aab555777d87aaf9a897bde196a610b2c91259ff43f9",
+  "clip": {
+    "image": "pistol_aim_up.png",
+    "frameCount": 2,
+    "fps": 12.0,
+    "duration": 0.16666666666666666,
+    "loop": false,
+    "label": "Pistol Aim Up",
+    "category": "Combat",
+    "sheetSize": [
+      1024,
+      512
+    ],
+    "sourceAction": "Pistol_Aim_Up",
+    "sourceFrames": [
+      0.0,
+      5.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ]
+  }
+}

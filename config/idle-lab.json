@@ -1,0 +1,24 @@
+{
+  "asset": "assets/quaternius/universal/idle-variants.blend",
+  "prepare_script": "scripts/prepare_idle_variants.py",
+  "comparison_template": "scripts/idle-comparison.html",
+  "output": "output/universal/idle-lab",
+  "display_name": "Idle pose study",
+  "source_url": "https://quaternius.com/packs/universalbasecharacters.html",
+  "armature": "UniversalCharacter",
+  "mesh_objects": ["SuperHero_Male", "Eyes", "Eyebrows"],
+  "camera_side": "-X",
+  "size": 256,
+  "fps": 6,
+  "source_fps": 30,
+  "padding": 0.1,
+  "samples": 32,
+  "columns": 8,
+  "animations": [
+    {"name": "idle", "label": "Original idle", "action": "Idle_Loop", "start": 0, "end": 75, "loop": true},
+    {"name": "open20", "label": "Open torso · 20°", "action": "Idle_Open20", "start": 0, "end": 75, "loop": true},
+    {"name": "open35", "label": "Open torso · 35°", "action": "Idle_Open35", "start": 0, "end": 75, "loop": true},
+    {"name": "ready35", "label": "Ready stance · 35°", "action": "Idle_Ready35", "start": 0, "end": 75, "loop": true},
+    {"name": "spell", "label": "Spell idle · reference", "action": "Spell_Simple_Idle_Loop", "start": 0, "end": 62.999996185302734, "loop": true, "fps": 12}
+  ]
+}

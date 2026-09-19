@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Idle pose study</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#141c27;color:#edf4fa;font:15px system-ui,sans-serif}main{max-width:1500px;margin:32px auto;padding:0 24px}.eyebrow{color:#89dfb7;font-size:11px;letter-spacing:2px}h1{font-size:30px;margin:8px 0}p{line-height:1.6;color:#b1c0d3}a{color:#89dfb7}.toolbar{display:flex;gap:20px;align-items:center;flex-wrap:wrap;padding:16px 0}button,select{background:#26394a;border:1px solid #476176;color:#eaf5fb;border-radius:6px;padding:9px 14px;font:inherit;cursor:pointer}button.primary{background:#89dfb7;color:#17382a;border-color:#89dfb7}input{accent-color:#89dfb7}label{display:flex;align-items:center;gap:8px}.grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin:14px 0 24px}.card{background:#202c3a;border:1px solid #3c4e62;border-radius:10px;overflow:hidden}.card h2{font-size:15px;margin:0;padding:16px 12px 5px}.tag{font-size:11px;color:#9db2c9;padding:0 12px 12px;min-height:41px}.card.selected{border-color:#89dfb7;box-shadow:0 0 0 1px #89dfb7}.card canvas{width:100%;aspect-ratio:1;display:block;background:conic-gradient(#2b3a4b 25%,#253444 0 50%,#2b3a4b 0 75%,#253444 0) 0 0/24px 24px}.description{font-size:12px;line-height:1.6;color:#b7c6d8;padding:13px;min-height:105px}.card button{margin:0 12px 15px;font-size:12px;padding:7px 10px;width:calc(100% - 24px)}.focus-panel{display:grid;grid-template-columns:minmax(220px,400px) 1fr;gap:28px;align-items:center;border-top:1px solid #34475a;padding-top:24px}.focus-panel canvas{width:100%;background:#202e3e;image-rendering:pixelated;border-radius:10px}.focus-panel h2{margin-top:0}#scrub{width:180px}#status{font-size:12px;color:#b1c0d3}.note{font-size:13px;max-width:750px}.frame{font-size:11px;color:#90abc2;padding:8px 12px}@media(max-width:1050px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:650px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.focus-panel{grid-template-columns:1fr}main{padding:0 14px}.toolbar{gap:12px}}
+</style>
+<main><div class="eyebrow">SIDE-SCROLLER / POSE STUDY 01</div><h1>A more readable idle</h1><p>Three upper-body variations over the same idle motion. The camera, feet, hips, breathing and duration stay consistent.</p>
+<div class="toolbar"><button id="play" class="primary">Pause all</button><button id="restart">Restart loops</button><label>Speed <select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label><label>Idle cycle <input id="scrub" type="range" min="0" max="2499" value="0"></label><span id="status"></span></div>
+<div id="cards" class="grid"></div>
+<div class="focus-panel"><canvas id="focus" width="768" height="768" aria-label="Enlarged selected idle pose"></canvas><div><div class="eyebrow">CLOSER LOOK</div><h2 id="focus-title"></h2><p id="focus-description"></p><p class="note">The four idle loops each use 15 frames at 6 fps and last 2.5 seconds. Spell idle is the untouched reference and plays at its original duration. Try half speed or pause and scrub to compare silhouettes.</p><p class="note">Selecting a favorite here changes only the enlarged preview. The main animation library still uses the original idle.</p><p><a href="../preview.html">Back to all 42 animations</a> · <a href="preview.html">Open these poses in the switcher</a></p></div></div>
+</main>
+<script>
+const manifest=__MANIFEST__;
+const descriptions={idle:['Baseline','The untouched profile-oriented idle.'],open20:['Subtle chest opening','Turns the upper body 20° toward the camera. The original arm motion stays intact; the neck compensates so the character still looks right.'],open35:['Stronger chest opening','Turns the upper body 35° toward the camera. More of the chest and far arm become visible, while the legs keep their original pose.'],ready35:['Chest + arm adjustment','The 35° torso opening plus small arm adjustments for a more deliberate ready stance. Same lower body and idle timing.'],spell:['Untouched reference','The source spell idle: open chest and extended casting arm. A visual reference for the direction of the pose.']};
+const $=id=>document.getElementById(id);let selected='ready35',playing=true,time=0,last=null,loaded=0;const entries=[];
+for(const [name,clip] of Object.entries(manifest.animations)){
+ const card=document.createElement('article');card.className='card';card.id='card-'+name;
+ const title=document.createElement('h2');title.textContent=clip.label;
+ const tag=document.createElement('div');tag.className='tag';tag.textContent=descriptions[name][0];
+ const canvas=document.createElement('canvas');canvas.width=canvas.height=512;canvas.setAttribute('aria-label',clip.label+' animation');
+ const frame=document.createElement('div');frame.className='frame';
+ const description=document.createElement('div');description.className='description';description.textContent=descriptions[name][1];
+ const button=document.createElement('button');button.textContent='Look closer';button.setAttribute('aria-label','Look closer at '+clip.label);button.onclick=()=>{selected=name;updateSelection()};
+ card.append(title,tag,canvas,frame,description,button);$('cards').append(card);
+ const image=new Image();image.onload=()=>{loaded++};image.onerror=()=>{frame.textContent='Could not load sprite sheet'};image.src=clip.image;
+ entries.push({name,clip,image,canvas,ctx:canvas.getContext('2d'),frame});
+}
+function updateSelection(){for(const e of entries)$('card-'+e.name).classList.toggle('selected',e.name===selected);$('focus-title').textContent=manifest.animations[selected].label;$('focus-description').textContent=descriptions[selected][1];}
+const focus=$('focus'),focusCtx=focus.getContext('2d');
+function draw(entry,ctx,canvas){if(!entry.image.complete||!entry.image.naturalWidth)return;const i=Math.floor(time*entry.clip.fps)%entry.clip.frameCount;const f=entry.clip.frames[i];ctx.clearRect(0,0,canvas.width,canvas.height);ctx.imageSmoothingEnabled=false;ctx.drawImage(entry.image,f.x,f.y,f.w,f.h,0,0,canvas.width,canvas.height);entry.frame.textContent=`Frame ${i+1} / ${entry.clip.frameCount}`;}
+$('play').onclick=()=>{playing=!playing;$('play').textContent=playing?'Pause all':'Play all'};
+$('restart').onclick=()=>{time=0;last=null};
+$('scrub').oninput=e=>{time=Number(e.target.value)/1000;playing=false;$('play').textContent='Play all'};
+function tick(now){const dt=last===null?0:Math.max(0,Math.min(.1,(now-last)/1000));last=now;if(playing&&loaded===entries.length)time+=dt*Number($('speed').value);for(const e of entries)draw(e,e.ctx,e.canvas);draw(entries.find(e=>e.name===selected),focusCtx,focus);$('scrub').value=Math.floor(time%2.5*1000);$('status').textContent=loaded===entries.length?(playing?'Playing in sync':'Paused'):`Loading ${loaded}/${entries.length} sheets`;requestAnimationFrame(tick);}
+updateSelection();requestAnimationFrame(tick);
+</script></html>

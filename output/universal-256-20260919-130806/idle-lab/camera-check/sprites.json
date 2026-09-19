@@ -1,0 +1,143 @@
+{
+  "character": "Idle pose study",
+  "sourceUrl": "https://quaternius.com/packs/universalbasecharacters.html",
+  "frameSize": [
+    256,
+    256
+  ],
+  "facing": "right",
+  "cameraSide": "-X",
+  "projection": "orthographic",
+  "pivot": {
+    "x": 0.41221368312835693,
+    "y": 0.9102818816900253
+  },
+  "source": "assets/quaternius/universal/idle-variants.blend",
+  "animations": {
+    "idle": {
+      "image": "idle.png",
+      "frameCount": 1,
+      "fps": 6.0,
+      "duration": 2.5,
+      "loop": true,
+      "label": "Original idle",
+      "category": "Animations",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Idle_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "open20": {
+      "image": "open20.png",
+      "frameCount": 1,
+      "fps": 6.0,
+      "duration": 2.5,
+      "loop": true,
+      "label": "Open torso \u00b7 20\u00b0",
+      "category": "Animations",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Idle_Open20",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "open35": {
+      "image": "open35.png",
+      "frameCount": 1,
+      "fps": 6.0,
+      "duration": 2.5,
+      "loop": true,
+      "label": "Open torso \u00b7 35\u00b0",
+      "category": "Animations",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Idle_Open35",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "ready35": {
+      "image": "ready35.png",
+      "frameCount": 1,
+      "fps": 6.0,
+      "duration": 2.5,
+      "loop": true,
+      "label": "Ready stance \u00b7 35\u00b0",
+      "category": "Animations",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Idle_Ready35",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    },
+    "spell": {
+      "image": "spell.png",
+      "frameCount": 1,
+      "fps": 11.904762625604212,
+      "duration": 2.0999998728434246,
+      "loop": true,
+      "label": "Spell idle \u00b7 reference",
+      "category": "Animations",
+      "sheetSize": [
+        256,
+        256
+      ],
+      "sourceAction": "Spell_Simple_Idle_Loop",
+      "sourceFrames": [
+        0.0
+      ],
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 256,
+          "h": 256
+        }
+      ]
+    }
+  }
+}

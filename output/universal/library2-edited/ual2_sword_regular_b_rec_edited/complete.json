@@ -1,0 +1,109 @@
+{
+  "signature": "a8ef2a17aadea3bf758ca8c1293eaed253fa8893e985ef7cf4acb4f88a7ea5c3",
+  "sheetSha256": "1617c5f74338a145521cbc465136fb77ad748360ae1e6e7afde9442f3298d981",
+  "clip": {
+    "image": "ual2_sword_regular_b_rec_edited.png",
+    "frameCount": 12,
+    "fps": 11.61290322580645,
+    "duration": 1.0333333333333334,
+    "loop": false,
+    "label": "UAL2 Sword Regular B Rec \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      4096,
+      1024
+    ],
+    "sourceAction": "UAL2_Sword_Regular_B_Rec_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.8181818181818183,
+      5.636363636363637,
+      8.454545454545455,
+      11.272727272727273,
+      14.090909090909092,
+      16.90909090909091,
+      19.727272727272727,
+      22.545454545454547,
+      25.363636363636363,
+      28.181818181818183,
+      31.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Match hit B endpoint and edited guard; body and hands unchanged.",
+    "variantOf": "ual2_sword_regular_b_rec"
+  }
+}

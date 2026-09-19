@@ -1,0 +1,23 @@
+{
+  "output": "output/universal/sword-lab",
+  "baseline": "output/universal",
+  "armature": "UniversalCharacter",
+  "bone": "hand_r",
+  "clip": "sword_idle",
+  "clips": "all_sword",
+  "extra_clips": ["idle"],
+  "page_frames": 16,
+  "action_sources": [
+    "assets/quaternius/universal/idle-variants.blend",
+    "assets/quaternius/universal/with-library2.blend",
+    "assets/quaternius/universal/library2-variants.blend"
+  ],
+  "size": 512,
+  "padding_pixels": 64,
+  "samples": 32,
+  "render_device": "OPTIX",
+  "swords": [
+    {"id": "steel", "label": "Steel sword", "length": 0.72, "width": 0.065, "color": [0.48, 0.65, 0.8]},
+    {"id": "copper", "label": "Copper broadsword", "length": 0.92, "width": 0.13, "color": [0.75, 0.25, 0.07]}
+  ]
+}

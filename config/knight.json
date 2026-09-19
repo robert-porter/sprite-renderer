@@ -1,0 +1,17 @@
+{
+  "asset": "assets/quaternius/KnightCharacter.blend",
+  "output": "output/knight",
+  "armature": "HumanArmature",
+  "mesh_objects": ["Knight"],
+  "camera_side": "-X",
+  "size": 256,
+  "fps": 12,
+  "source_fps": 24,
+  "padding": 0.1,
+  "samples": 32,
+  "columns": 8,
+  "animations": [
+    {"name": "idle", "action": "Idle", "start": 0, "end": 80},
+    {"name": "walk", "action": "Walking", "start": 0, "end": 30}
+  ]
+}

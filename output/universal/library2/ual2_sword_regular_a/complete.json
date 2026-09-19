@@ -1,0 +1,59 @@
+{
+  "signature": "b8169bdd7945e5fc1902655f4f8f60666b92ed2014ada86f051ec2ea6b4177bf",
+  "sheetSha256": "775e49675de8234fcc66fd2c49a6a14292205b7685eee19d0b943cd27a19cba1",
+  "clip": {
+    "image": "ual2_sword_regular_a.png",
+    "frameCount": 5,
+    "fps": 11.538461538461538,
+    "duration": 0.43333333333333335,
+    "loop": false,
+    "label": "UAL2 Sword Regular A",
+    "category": "Library 2",
+    "sheetSize": [
+      2560,
+      512
+    ],
+    "sourceAction": "UAL2_Sword_Regular_A",
+    "sourceFrames": [
+      0.0,
+      3.25,
+      6.5,
+      9.75,
+      13.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Library 2 source pose; no torso or head correction applied."
+  }
+}

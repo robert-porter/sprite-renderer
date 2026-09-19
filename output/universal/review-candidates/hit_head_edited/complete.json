@@ -1,0 +1,60 @@
+{
+  "signature": "1646e0b794556e34cd32a6deb786e3a7fd07889182f8d596a353a561ef50cd56",
+  "sheetSha256": "ccf0771604ace9e6cd8108c9d559ad8ba5d4ae00b9c17e2af7fc8b6da96cf67d",
+  "clip": {
+    "image": "hit_head_edited.png",
+    "frameCount": 5,
+    "fps": 11.538461538461538,
+    "duration": 0.43333333333333335,
+    "loop": false,
+    "label": "Hit Head \u00b7 tailored edit (candidate)",
+    "category": "Candidates",
+    "sheetSize": [
+      2560,
+      512
+    ],
+    "sourceAction": "Hit_Head_SideScroller",
+    "sourceFrames": [
+      0.0,
+      3.25,
+      6.5,
+      9.75,
+      13.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "variantOf": "hit_head",
+    "reviewStatus": "candidate",
+    "reviewNote": "35\u00b0 torso/head correction preserving the original hit reaction."
+  }
+}

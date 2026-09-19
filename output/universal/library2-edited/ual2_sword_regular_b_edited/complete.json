@@ -1,0 +1,67 @@
+{
+  "signature": "4df8c22850831f200400b82856f8d158c328cd46fe6c4bb4653d8adfb4e038e9",
+  "sheetSha256": "23316669c4cde6d063ecf4d5ebd95d6e3465fb598964f00c4a1613f6b1c965b2",
+  "clip": {
+    "image": "ual2_sword_regular_b_edited.png",
+    "frameCount": 6,
+    "fps": 11.25,
+    "duration": 0.5333333333333333,
+    "loop": false,
+    "label": "UAL2 Sword Regular B \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      3072,
+      512
+    ],
+    "sourceAction": "UAL2_Sword_Regular_B_SideScroller",
+    "sourceFrames": [
+      0.0,
+      3.2,
+      6.4,
+      9.6,
+      12.8,
+      16.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Preserve turning entry; head opens to +25 degrees as the hit settles.",
+    "variantOf": "ual2_sword_regular_b"
+  }
+}

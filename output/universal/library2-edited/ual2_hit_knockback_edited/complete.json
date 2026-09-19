@@ -1,0 +1,95 @@
+{
+  "signature": "c1669361b7c85fc9e680c7927c84d5ea78df0c0037912dbaebf031b71e2b3a03",
+  "sheetSha256": "f6c01d93561b7604845367de00079a94df5a887bd64c837f555481a89896197f",
+  "clip": {
+    "image": "ual2_hit_knockback_edited.png",
+    "frameCount": 10,
+    "fps": 12.0,
+    "duration": 0.8333333333333334,
+    "loop": false,
+    "label": "UAL2 Hit Knockback \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      4096,
+      1024
+    ],
+    "sourceAction": "UAL2_Hit_Knockback_SideScroller",
+    "sourceFrames": [
+      0.0,
+      2.7777777777777777,
+      5.555555555555555,
+      8.333333333333334,
+      11.11111111111111,
+      13.88888888888889,
+      16.666666666666668,
+      19.444444444444443,
+      22.22222222222222,
+      25.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3072,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 3584,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 0,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 512,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Small opening in the upright part of knockback; no extra twist on the horizontal entry/end poses.",
+    "variantOf": "ual2_hit_knockback"
+  }
+}

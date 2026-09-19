@@ -1,0 +1,57 @@
+{
+  "signature": "f0f33ed3689a451947146750535a0bd250ce00217c3347f35257eca0008f17ca",
+  "sheetSha256": "10504e8593a8b20ae118964a13ad9d08b8be7d52f016a3402df482b78ff1c53d",
+  "clip": {
+    "image": "hit_head.png",
+    "frameCount": 5,
+    "fps": 11.538461538461538,
+    "duration": 0.43333333333333335,
+    "loop": false,
+    "label": "Hit Head",
+    "category": "Combat",
+    "sheetSize": [
+      2560,
+      512
+    ],
+    "sourceAction": "Hit_Head",
+    "sourceFrames": [
+      0.0,
+      3.25,
+      6.5,
+      9.75,
+      13.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ]
+  }
+}

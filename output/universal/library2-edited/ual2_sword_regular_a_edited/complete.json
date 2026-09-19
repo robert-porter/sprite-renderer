@@ -1,0 +1,60 @@
+{
+  "signature": "b78a55b1155d4fd738b74ce5eba14bfe9c001794a1fc801742242f201f43ee23",
+  "sheetSha256": "8d6a927251a1a90bfdfa7fdb326082f9773785b6cc072fc198397ad15c77dc77",
+  "clip": {
+    "image": "ual2_sword_regular_a_edited.png",
+    "frameCount": 5,
+    "fps": 11.538461538461538,
+    "duration": 0.43333333333333335,
+    "loop": false,
+    "label": "UAL2 Sword Regular A \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      2560,
+      512
+    ],
+    "sourceAction": "UAL2_Sword_Regular_A_SideScroller",
+    "sourceFrames": [
+      0.0,
+      3.25,
+      6.5,
+      9.75,
+      13.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Preserve full sword swing; fade head correction out through the turn.",
+    "variantOf": "ual2_sword_regular_a"
+  }
+}

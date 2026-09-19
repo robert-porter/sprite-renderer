@@ -1,0 +1,67 @@
+{
+  "signature": "264abae971639fb8e680071aabac4e3d392ced18c918520715352a3715d54d61",
+  "sheetSha256": "43ab802d6b0b30f285075d08dcd7e6fafa343c1d54f2b5cc168e7a2b0c247d6e",
+  "clip": {
+    "image": "ual2_slide_exit_edited.png",
+    "frameCount": 6,
+    "fps": 12.0,
+    "duration": 0.5,
+    "loop": false,
+    "label": "UAL2 Slide Exit \u00b7 edited",
+    "category": "Candidates",
+    "sheetSize": [
+      3072,
+      512
+    ],
+    "sourceAction": "UAL2_Slide_Exit_SideScroller",
+    "sourceFrames": [
+      0.0,
+      3.0,
+      6.0,
+      9.0,
+      12.0,
+      15.0
+    ],
+    "frames": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 512,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1024,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 1536,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2048,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      },
+      {
+        "x": 2560,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    ],
+    "reviewStatus": "candidate",
+    "reviewNote": "Matching +35 degree torso/head correction across all slide phases.",
+    "variantOf": "ual2_slide_exit"
+  }
+}

@@ -1,0 +1,15 @@
+# Keep source art and rendered sprite snapshots in Git.
+# Exclude disposable caches, backup scenes, downloads and render intermediates.
+*.log
+*.tmp
+*.blend1
+*.blend2
+*.download
+__pycache__/
+*.pyc
+*.zip
+*.exr
+*.db
+.env
+.env.*
+!.env.example
